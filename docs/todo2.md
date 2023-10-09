@@ -1,0 +1,45 @@
+
+- [x] Ambassador
+- [x] Anti-corruption Layer
+- [ ] Asynchronous Request-Reply
+- [x] Backends for Frontends
+- [x] **Bulkhead** ✅ 2023-08-28
+- [ ] Cache-Aside
+- [ ] Choreography
+- [x] **Circuit Breaker** ✅ 2023-08-28
+- [ ] Claim Check
+- [ ] Compensating Transaction
+- [ ] Competing Consumers
+- [x] Compute Resource Consolidation
+- [x] CQRS
+- [ ] Deployment Stamps
+- [ ] Edge Workload Configuration
+- [ ] Event Sourcing
+- [x] External Configuration Store
+- [x] Federated Identity
+- [x] Gatekeeper
+- [x] Gateway Aggregation
+- [x] Gateway Offloading
+- [x] Gateway Routing
+- [ ] Geode
+- [ ] Health Endpoint Monitoring
+- [ ] Index Table
+- [x] Leader Election
+- [ ] Materialized View
+- [ ] Pipes and Filters
+- [ ] Priority Queue
+- [ ] Publisher/Subscriber
+- [ ] **Queue-Based Load Leveling**
+- [ ] Rate Limiting
+- [x] **Retry** ✅ 2023-09-03
+- [ ] Saga
+- [ ] Scheduler Agent Supervisor
+- [ ] Sequential Convoy
+- [ ] Sharding
+- [x] Sidecar
+- [ ] Static Content Hosting
+- [x] Strangler Fig
+- [ ] **Throttling**
+- [ ] Valet Key
+
+
