@@ -18,7 +18,7 @@
 - [x] Retry
 - [x] Gatekeeper pattern
 - [x] External Configuration Store
-
+- [x] Cache-Aside
 
 #doing
 
@@ -28,7 +28,6 @@
 
 
 - [ ] Asynchronous Request-Reply
-- [ ] Cache-Aside
 - [ ] Choreography
 - [ ] Claim Check
 - [ ] Compensating Transaction
