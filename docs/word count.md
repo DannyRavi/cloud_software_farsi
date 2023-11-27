@@ -34,7 +34,7 @@
 | [Retry](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry)                                                   | 2265  | 105      | x     |
 | [Saga](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga)                                 | 1574  | 90       |       |
 | [Scheduler Agent Supervisor](https://learn.microsoft.com/en-us/azure/architecture/patterns/scheduler-agent-supervisor)         | 3486  | 157      |       |
-| [Sequential Convoy](https://learn.microsoft.com/en-us/azure/architecture/patterns/sequential-convoy)                           | 905   | 41       |       |
+| [Sequential Convoy](https://learn.microsoft.com/en-us/azure/architecture/patterns/sequential-convoy)                           | 905   | 41       |   x    |
 | [Sharding](https://learn.microsoft.com/en-us/azure/architecture/patterns/sharding)                                             | 4000  | 177      |       |
 | [Sidecar](https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar)                                               | 1155  | 64       | x     |
 | [Static Content Hosting](https://learn.microsoft.com/en-us/azure/architecture/patterns/static-content-hosting)                 | 1245  | 51       |       |

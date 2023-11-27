@@ -34,7 +34,7 @@
 - [x] **Retry** ✅ 2023-09-03
 - [ ] Saga
 - [ ] Scheduler Agent Supervisor
-- [ ] Sequential Convoy
+- [x] Sequential Convoy
 - [ ] Sharding
 - [x] Sidecar
 - [ ] Static Content Hosting

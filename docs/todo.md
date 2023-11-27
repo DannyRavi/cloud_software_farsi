@@ -19,15 +19,18 @@
 - [x] Gatekeeper pattern
 - [x] External Configuration Store
 - [x] Cache-Aside
+- [x] Sequential Convoy
+- [x] Asynchronous Request-Reply
 
 #doing
 
-- [ ] Sequential Convoy
+
+
 
 #todo
 
 
-- [ ] Asynchronous Request-Reply
+
 - [ ] Choreography
 - [ ] Claim Check
 - [ ] Compensating Transaction
