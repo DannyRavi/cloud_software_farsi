@@ -4,7 +4,7 @@
 - [ ] Asynchronous Request-Reply
 - [x] Backends for Frontends
 - [x] **Bulkhead** ✅ 2023-08-28
-- [ ] Cache-Aside
+- [x] Cache-Aside
 - [ ] Choreography
 - [x] **Circuit Breaker** ✅ 2023-08-28
 - [ ] Claim Check
@@ -39,7 +39,7 @@
 - [x] Sidecar
 - [ ] Static Content Hosting
 - [x] Strangler Fig
-- [ ] **Throttling**
+- [x] **Throttling**
 - [ ] Valet Key
 
 

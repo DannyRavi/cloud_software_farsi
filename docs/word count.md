@@ -39,5 +39,5 @@
 | [Sidecar](https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar)                                               | 1155  | 64       | x     |
 | [Static Content Hosting](https://learn.microsoft.com/en-us/azure/architecture/patterns/static-content-hosting)                 | 1245  | 51       |       |
 | [Strangler Fig](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig)                                   | 602   | 28       |    x   |
-| [Throttling](https://learn.microsoft.com/en-us/azure/architecture/patterns/throttling)                                         | 2050  | 96       |       |
+| [Throttling](https://learn.microsoft.com/en-us/azure/architecture/patterns/throttling)                                         | 2050  | 96       |  x   |
 | [Valet Key](https://learn.microsoft.com/en-us/azure/architecture/patterns/valet-key)                                           | 2729  | 110      |       |
