@@ -21,14 +21,21 @@
 - [x] Cache-Aside
 - [x] Sequential Convoy
 - [x] Asynchronous Request-Reply
+- [x] Event Sourcing pattern
+- [x] Throttling
+- [x] Valet Key
+- [x] Queue-Based Load Leveling
+- [x] Rate Limit Pattern
+- [x] Saga
 
 #doing
 
-
-
+- [ ] Index Table
+- [ ] Gatekeeper
+- [ ] Pipes and Filters
+- [ ] Geodes
 
 #todo
-
 
 
 - [ ] Choreography
@@ -38,18 +45,11 @@
 - [ ] Compute Resource Consolidation
 - [ ] Deployment Stamps
 - [ ] Edge Workload Configuration
-- [ ] Gatekeeper
-- [ ] Geodes
 - [ ] Health Endpoint Monitoring
-- [ ] Index Table
 - [ ] Materialized View
 - [ ] Pipes and Filters
 - [ ] Priority Queue
 - [ ] Publisher/Subscriber
-- [ ] Queue-Based Load Leveling
-- [ ] Rate Limit Pattern
-- [ ] Saga
 - [ ] Scheduler Agent Supervisor
 - [ ] Sharding
-- [ ] Throttling
-- [ ] Valet Key
+

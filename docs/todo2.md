@@ -14,7 +14,7 @@
 - [x] CQRS
 - [ ] Deployment Stamps
 - [ ] Edge Workload Configuration
-- [ ] Event Sourcing
+- [x] Event Sourcing
 - [x] External Configuration Store
 - [x] Federated Identity
 - [x] Gatekeeper
@@ -29,10 +29,10 @@
 - [ ] Pipes and Filters
 - [ ] Priority Queue
 - [ ] Publisher/Subscriber
-- [ ] **Queue-Based Load Leveling**
-- [ ] Rate Limiting
+- [x] **Queue-Based Load Leveling**
+- [x] Rate Limiting
 - [x] **Retry** ✅ 2023-09-03
-- [ ] Saga
+- [x] Saga
 - [ ] Scheduler Agent Supervisor
 - [x] Sequential Convoy
 - [ ] Sharding
@@ -40,6 +40,6 @@
 - [ ] Static Content Hosting
 - [x] Strangler Fig
 - [x] **Throttling**
-- [ ] Valet Key
+- [x] Valet Key
 
 
