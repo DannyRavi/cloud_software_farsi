@@ -26,7 +26,7 @@
 | [Index Table](https://learn.microsoft.com/en-us/azure/architecture/patterns/index-table)                                       | 2165  | 91       |       |
 | [Leader Election](https://learn.microsoft.com/en-us/azure/architecture/patterns/leader-election)                               | 2324  | 102      | x     |
 | [Materialized View](https://learn.microsoft.com/en-us/azure/architecture/patterns/materialized-view)                           | 1642  | 70       |       |
-| [Pipes and Filters](https://learn.microsoft.com/en-us/azure/architecture/patterns/pipes-and-filters)                           | 2588  | 124      |       |
+| [Pipes and Filters](https://learn.microsoft.com/en-us/azure/architecture/patterns/pipes-and-filters)                           | 2588  | 124      |  x     |
 | [Priority Queue](https://learn.microsoft.com/en-us/azure/architecture/patterns/priority-queue)                                 | 2064  | 92       |       |
 | [Publisher/Subscriber](https://learn.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber)                     | 1485  | 90       |       |
 | [Queue-Based Load Leveling](https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling)           | 1383  | 58       |       |

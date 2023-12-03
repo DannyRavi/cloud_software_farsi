@@ -23,7 +23,7 @@
 - [x] Gateway Routing
 - [ ] Geode
 - [ ] Health Endpoint Monitoring
-- [ ] Index Table
+- [x] Index Table
 - [x] Leader Election
 - [ ] Materialized View
 - [ ] Pipes and Filters

@@ -27,28 +27,30 @@
 - [x] Queue-Based Load Leveling
 - [x] Rate Limit Pattern
 - [x] Saga
+- [x] Index Table
+- [x] Gatekeeper
+- [x] Pipes and Filters
+- [x] Geodes
+- [x] Choreography
+- [x] Claim Check
+- [x] Compensating Transaction
+- [x] Competing Consumers
+- [x] Compute Resource Consolidation
+- [x] Deployment Stamps
+
 
 #doing
 
-- [ ] Index Table
-- [ ] Gatekeeper
-- [ ] Pipes and Filters
-- [ ] Geodes
+
+- [ ] Edge Workload Configuration
+- [ ] Health Endpoint Monitoring
+- [ ] Materialized View
+- [ ] Priority Queue
+
 
 #todo
 
 
-- [ ] Choreography
-- [ ] Claim Check
-- [ ] Compensating Transaction
-- [ ] Competing Consumers
-- [ ] Compute Resource Consolidation
-- [ ] Deployment Stamps
-- [ ] Edge Workload Configuration
-- [ ] Health Endpoint Monitoring
-- [ ] Materialized View
-- [ ] Pipes and Filters
-- [ ] Priority Queue
 - [ ] Publisher/Subscriber
 - [ ] Scheduler Agent Supervisor
 - [ ] Sharding
