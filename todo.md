@@ -49,9 +49,10 @@
 
 #doing
 
+- [x] Asynchronous Request-Reply pattern
 ## under edit
 
-- [ ] Asynchronous Request-Reply pattern
+
 - [ ] Choreography pattern
 - [ ] Claim-Check pattern
 - [ ] Compensating Transaction pattern
