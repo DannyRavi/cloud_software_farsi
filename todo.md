@@ -50,11 +50,13 @@
 #doing
 
 - [x] Asynchronous Request-Reply pattern
+- [x]  Choreography pattern
+- [ ] Claim-Check pattern
 ## under edit
 
 
-- [ ] Choreography pattern
-- [ ] Claim-Check pattern
+
+
 - [ ] Compensating Transaction pattern
 - [ ] Competing Consumers pattern
 - [ ] Compute Resource Consolidation pattern
