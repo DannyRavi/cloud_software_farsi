@@ -51,7 +51,7 @@
 
 - [x] Asynchronous Request-Reply pattern
 - [x]  Choreography pattern
-- [ ] Claim-Check pattern
+- [x] Claim-Check pattern
 ## under edit
 
 
