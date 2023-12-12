@@ -52,12 +52,13 @@
 - [x] Asynchronous Request-Reply pattern
 - [x]  Choreography pattern
 - [x] Claim-Check pattern
+- [x] Compensating Transaction pattern
 ## under edit
 
 
 
 
-- [ ] Compensating Transaction pattern
+
 - [ ] Competing Consumers pattern
 - [ ] Compute Resource Consolidation pattern
 - [ ] Deployment Stamps pattern
