@@ -53,14 +53,16 @@
 - [x]  Choreography pattern
 - [x] Claim-Check pattern
 - [x] Compensating Transaction pattern
+- [x] Competing Consumers pattern
+- [ ]  Compute Resource Consolidation pattern
 ## under edit
 
 
 
 
 
-- [ ] Competing Consumers pattern
-- [ ] Compute Resource Consolidation pattern
+
+
 - [ ] Deployment Stamps pattern
 - [ ] Edge Workload Configuration pattern
 - [ ] Event Sourcing pattern
