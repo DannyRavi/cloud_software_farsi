@@ -54,7 +54,11 @@
 - [x] Claim-Check pattern
 - [x] Compensating Transaction pattern
 - [x] Competing Consumers pattern
-- [ ]  Compute Resource Consolidation pattern
+- [x]  Compute Resource Consolidation pattern
+- [ ] Deployment Stamps pattern
+
+
+
 ## under edit
 
 
@@ -63,7 +67,7 @@
 
 
 
-- [ ] Deployment Stamps pattern
+
 - [ ] Edge Workload Configuration pattern
 - [ ] Event Sourcing pattern
 - [ ] Geode pattern
