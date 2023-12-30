@@ -41,3 +41,13 @@
 | [Strangler Fig](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig)                                   | 602   | 28       |    x   |
 | [Throttling](https://learn.microsoft.com/en-us/azure/architecture/patterns/throttling)                                         | 2050  | 96       |  x   |
 | [Valet Key](https://learn.microsoft.com/en-us/azure/architecture/patterns/valet-key)                                           | 2729  | 110      |  x    |
+ambassador
+anti-corruption layer 
+backends for frontends
+retry
+ circuit breaker
+ bulkhead
+ dead letter queue
+choreography
+ Outbox Pattern
+ Saga Pattern

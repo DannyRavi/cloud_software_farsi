@@ -67,20 +67,20 @@
 
 
 
-
-- [ ] Edge Workload Configuration pattern
-- [ ] Event Sourcing pattern
-- [ ] Geode pattern
-- [ ] Health Endpoint Monitoring pattern
+- [ ] Publisher-Subscriber pattern
 - [ ] Index Table pattern
 - [ ] Materialized View pattern
 - [ ] Pipes and Filters pattern
+
+- [x] Edge Workload Configuration pattern
+- [ ] Event Sourcing pattern
+- [x] Geode pattern
+- [ ] Health Endpoint Monitoring pattern
 - [ ] Priority Queue pattern
-- [ ] Publisher-Subscriber pattern
-- [ ] Queue-Based Load Leveling pattern
+- [x] Queue-Based Load Leveling pattern
 - [ ] Rate Limiting pattern
 - [ ] SAGA
 - [ ] Scheduler Agent Supervisor pattern
 - [ ] Sharding pattern
-- [ ] Throttling pattern
+- [x] Throttling pattern
 - [ ] Valet Key pattern
