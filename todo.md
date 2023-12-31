@@ -67,7 +67,7 @@
 
 
 
-- [ ] Publisher-Subscriber pattern
+- [x] Publisher-Subscriber pattern
 - [ ] Index Table pattern
 - [ ] Materialized View pattern
 - [ ] Pipes and Filters pattern
