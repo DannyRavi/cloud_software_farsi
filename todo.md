@@ -55,7 +55,7 @@
 - [x] Compensating Transaction pattern
 - [x] Competing Consumers pattern
 - [x]  Compute Resource Consolidation pattern
-- [ ] Deployment Stamps pattern
+- [x] Deployment Stamps pattern
 
 
 
