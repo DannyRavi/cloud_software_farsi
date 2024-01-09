@@ -56,8 +56,13 @@
 - [x] Competing Consumers pattern
 - [x]  Compute Resource Consolidation pattern
 - [x] Deployment Stamps pattern
-
-
+- [x] Publisher-Subscriber pattern
+- [x] Index Table pattern
+- [x] Geode pattern
+- [x] Edge Workload Configuration pattern
+- [x] Queue-Based Load Leveling pattern
+- [x] Throttling pattern
+- [x] Materialized View pattern
 
 ## under edit
 
@@ -67,20 +72,15 @@
 
 
 
-- [x] Publisher-Subscriber pattern
-- [ ] Index Table pattern
-- [ ] Materialized View pattern
-- [ ] Pipes and Filters pattern
 
-- [x] Edge Workload Configuration pattern
-- [ ] Event Sourcing pattern
-- [x] Geode pattern
-- [ ] Health Endpoint Monitoring pattern
-- [ ] Priority Queue pattern
-- [x] Queue-Based Load Leveling pattern
-- [ ] Rate Limiting pattern
-- [ ] SAGA
-- [ ] Scheduler Agent Supervisor pattern
-- [ ] Sharding pattern
-- [x] Throttling pattern
-- [ ] Valet Key pattern
+
+- [ ] Pipes and Filters pattern -2500
+- [ ] SAGA - 1500
+
+- [ ] Priority Queue pattern - 2064
+- [ ] Rate Limiting pattern - 2335
+- [ ] Health Endpoint Monitoring pattern - 2482
+- [ ] Valet Key pattern - 2729
+- [ ] Event Sourcing pattern - 3092
+- [ ] Scheduler Agent Supervisor pattern - 3486
+- [ ] Sharding pattern - 4000 
