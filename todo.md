@@ -62,6 +62,7 @@
 - [x] Edge Workload Configuration pattern
 - [x] Queue-Based Load Leveling pattern
 - [x] Throttling pattern
+- [x] Materialized View pattern
 
 ## under edit
 
@@ -72,14 +73,14 @@
 
 
 
-- [ ] Materialized View pattern
-- [ ] Pipes and Filters pattern
 
-- [ ] Event Sourcing pattern
-- [ ] Health Endpoint Monitoring pattern
-- [ ] Priority Queue pattern
-- [ ] Rate Limiting pattern
-- [ ] SAGA
-- [ ] Scheduler Agent Supervisor pattern
-- [ ] Sharding pattern
-- [ ] Valet Key pattern
+- [ ] Pipes and Filters pattern -2500
+- [ ] SAGA - 1500
+
+- [ ] Priority Queue pattern - 2064
+- [ ] Rate Limiting pattern - 2335
+- [ ] Health Endpoint Monitoring pattern - 2482
+- [ ] Valet Key pattern - 2729
+- [ ] Event Sourcing pattern - 3092
+- [ ] Scheduler Agent Supervisor pattern - 3486
+- [ ] Sharding pattern - 4000 
