@@ -63,24 +63,18 @@
 - [x] Queue-Based Load Leveling pattern
 - [x] Throttling pattern
 - [x] Materialized View pattern
+- [x] Pipes and Filters pattern -2500
+- [x] SAGA - 1500
+
 
 ## under edit
 
-
-
-
-
-
-
-
-
-- [ ] Pipes and Filters pattern -2500
-- [ ] SAGA - 1500
-
-- [ ] Priority Queue pattern - 2064
-- [ ] Rate Limiting pattern - 2335
-- [ ] Health Endpoint Monitoring pattern - 2482
-- [ ] Valet Key pattern - 2729
 - [ ] Event Sourcing pattern - 3092
+- [ ] Health Endpoint Monitoring pattern - 2482
+- [ ] Rate Limiting pattern - 2335
+- [ ] Priority Queue pattern - 2064
 - [ ] Scheduler Agent Supervisor pattern - 3486
 - [ ] Sharding pattern - 4000 
+- [ ] Valet Key pattern - 2729
+
+
