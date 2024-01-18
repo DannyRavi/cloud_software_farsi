@@ -65,12 +65,13 @@
 - [x] Materialized View pattern
 - [x] Pipes and Filters pattern -2500
 - [x] SAGA - 1500
-
+- [x] Event Sourcing pattern - 3092
+- [x] Health Endpoint Monitoring pattern - 2482
 
 ## under edit
 
-- [ ] Event Sourcing pattern - 3092
-- [ ] Health Endpoint Monitoring pattern - 2482
+
+
 - [ ] Rate Limiting pattern - 2335
 - [ ] Priority Queue pattern - 2064
 - [ ] Scheduler Agent Supervisor pattern - 3486
