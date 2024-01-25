@@ -3,3 +3,6 @@ In the on-premises model, your organization acquires and installs the software o
 
 
 throttling
+
+https://learn.microsoft.com/en-us/rest/api/storageservices/lease-blob?tabs=microsoft-entra-id
+

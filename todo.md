@@ -67,12 +67,13 @@
 - [x] SAGA - 1500
 - [x] Event Sourcing pattern - 3092
 - [x] Health Endpoint Monitoring pattern - 2482
+- [x] Rate Limiting pattern - 2335
 
 ## under edit
 
 
 
-- [ ] Rate Limiting pattern - 2335
+
 - [ ] Priority Queue pattern - 2064
 - [ ] Scheduler Agent Supervisor pattern - 3486
 - [ ] Sharding pattern - 4000 
