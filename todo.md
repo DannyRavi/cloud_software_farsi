@@ -68,15 +68,15 @@
 - [x] Event Sourcing pattern - 3092
 - [x] Health Endpoint Monitoring pattern - 2482
 - [x] Rate Limiting pattern - 2335
-
+- [x] Priority Queue pattern - 2064
 ## under edit
 
 
 
 
-- [ ] Priority Queue pattern - 2064
+- [ ] Valet Key pattern - 2729
 - [ ] Scheduler Agent Supervisor pattern - 3486
 - [ ] Sharding pattern - 4000 
-- [ ] Valet Key pattern - 2729
+
 
 
