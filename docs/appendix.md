@@ -6,3 +6,6 @@ throttling
 
 https://learn.microsoft.com/en-us/rest/api/storageservices/lease-blob?tabs=microsoft-entra-id
 
+data store
+ذخیره‌گاه داده
+
