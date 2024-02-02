@@ -8,4 +8,4 @@ https://learn.microsoft.com/en-us/rest/api/storageservices/lease-blob?tabs=micro
 
 data store
 ذخیره‌گاه داده
-
+ذخیره‌ساز داده

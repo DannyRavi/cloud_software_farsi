@@ -70,12 +70,12 @@
 - [x] Rate Limiting pattern - 2335
 - [x] Priority Queue pattern - 2064
 - [x] Valet Key pattern - 2729
-
+- [x] Scheduler Agent Supervisor pattern - 3486
 
 ## under edit
 
 
-- [ ] Scheduler Agent Supervisor pattern - 3486
+
 - [ ] Sharding pattern - 4000 
 
 
