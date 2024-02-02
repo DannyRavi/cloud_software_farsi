@@ -69,12 +69,12 @@
 - [x] Health Endpoint Monitoring pattern - 2482
 - [x] Rate Limiting pattern - 2335
 - [x] Priority Queue pattern - 2064
+- [x] Valet Key pattern - 2729
+
+
 ## under edit
 
 
-
-
-- [ ] Valet Key pattern - 2729
 - [ ] Scheduler Agent Supervisor pattern - 3486
 - [ ] Sharding pattern - 4000 
 
