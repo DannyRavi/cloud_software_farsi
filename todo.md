@@ -74,9 +74,21 @@
 - [x] Sharding pattern - 4000 
 ## under edit
 
+- [ ]  Static Content Hosting
+- [ ] Messaging Bridge
 
 finish
 
+----------
+Sidecar pattern
+ Leader Election
+gateway-routing
+gateway-offloading
+gateway-aggregation
+compute-resource-consolidation   twice :()
+CQRS
+Backends for Frontends pattern
 
-
-
+--------------------------
+ Static Content Hosting
+Messaging Bridge

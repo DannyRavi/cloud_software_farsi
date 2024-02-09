@@ -1,8 +1,4 @@
 
-Implement a façade or adapter layer between different subsystems that don't share the same semantics. This layer translates requests that one subsystem makes to the other subsystem. Use this pattern to ensure that an application's design is not limited by dependencies on outside subsystems. This pattern was first described by Eric Evans in _Domain-Driven Design_.
-
-[](https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer#context-and-problem)
-
 یک لایه نما(façade) یا آداپتور بین subsystem های مختلف که معنایی یکسانی ندارند پیاده سازی کنید. این لایه request های یک subsystem را برای subsystem دگیر تفسیر و ترجمه می کند. از این الگو زمانی استفاده کنید تا اطمینان حاصل کنید که طراحی یک برنامه توسط وابستگی به زیرسیستم های خارجی محدود نمی شود. این الگو برای اولین بار توسط اریک ایوانز در _Domain-Driven Design_ توصیف شد.
 ## Context and problem
 
