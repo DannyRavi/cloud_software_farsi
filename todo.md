@@ -71,12 +71,12 @@
 - [x] Priority Queue pattern - 2064
 - [x] Valet Key pattern - 2729
 - [x] Scheduler Agent Supervisor pattern - 3486
-
+- [x] Sharding pattern - 4000 
 ## under edit
 
 
+finish
 
-- [ ] Sharding pattern - 4000 
 
 
 
