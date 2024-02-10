@@ -8,6 +8,11 @@ https://learn.microsoft.com/en-us/azure/architecture/guide/
 
 https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing
 
+https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices
+
+https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/web-queue-worker
+
+
 
 -----------------------------
 on-premises:
@@ -93,7 +98,8 @@ shard
 ---------------------
 پرس و جوهایی
 
-
+---------------------------------------
+دسترس بودن
 
 
 ------------------------------------------
