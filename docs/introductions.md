@@ -8,6 +8,7 @@ https://learn.microsoft.com/en-us/azure/architecture/guide/
 
 https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing
 
+
 -----------------------------
 on-premises:
 
