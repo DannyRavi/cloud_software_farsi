@@ -75,7 +75,7 @@
 ## under edit
 
 - [x]  Static Content Hosting
-- [ ] Messaging Bridge
+- [x] Messaging Bridge
 
 finish
 
