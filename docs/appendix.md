@@ -20,3 +20,14 @@ replica
 پرس و جوهایی
 
 یکپارچگی احتمالی (eventual consistency) 
+
+deployment
+
+  endpoint
+  
+ storage account
+
+
+container
+
+timestamp

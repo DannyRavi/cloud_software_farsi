@@ -74,7 +74,7 @@
 - [x] Sharding pattern - 4000 
 ## under edit
 
-- [ ]  Static Content Hosting
+- [x]  Static Content Hosting
 - [ ] Messaging Bridge
 
 finish
