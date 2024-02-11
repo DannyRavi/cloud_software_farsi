@@ -144,7 +144,7 @@ queue
 cache
 
 https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching
-
+https://en.wikipedia.org/wiki/Cache_(computing)
 
 ----------------------------------------------------
 
