@@ -44,7 +44,8 @@
 - [x] Publisher/Subscriber
 - [x] Scheduler Agent Supervisor
 - [x] Sharding
-
+- [x]  Static Content Hosting
+- [x] Messaging Bridge
 
 
 #doing
@@ -74,8 +75,6 @@
 - [x] Sharding pattern - 4000 
 ## under edit
 
-- [x]  Static Content Hosting
-- [x] Messaging Bridge
 
 finish
 
@@ -90,5 +89,50 @@ CQRS
 Backends for Frontends pattern
 
 --------------------------
- Static Content Hosting
-Messaging Bridge
+
+### review
+
+- [x] Ambassador pattern.md
+- [x] Anti-corruption Layer pattern.md
+- [ ] Asynchronous Request-Reply pattern.md
+- [ ] Backends for Frontends.md
+- [ ] Bulkhead pattern.md
+- [x] Cache-Aside pattern.md
+- [ ] Choreography pattern.md
+- [x] Circuit Breaker pattern.md
+- [ ] Claim-Check pattern.md
+- [x] Compensating Transaction pattern .md
+- [ ] Competing Consumers pattern.md
+- [ ] Compute Resource Consolidation pattern.md
+- [ ] CQRS.md
+- [ ] Deployment Stamps pattern.md
+- [ ] Edge Workload Configuration pattern.md
+- [ ] Event Sourcing pattern.md
+- [ ] External Configuration Store pattern.md
+- [ ] Federated Identity pattern.md
+- [ ] Gatekeeper pattern.md
+- [ ] Gateway Aggregation pattern.md
+- [ ] Gateway Offloading pattern.md
+- [ ] Gateway Routing pattern.md
+- [ ] Geode pattern.md
+- [ ] Health Endpoint Monitoring pattern.md
+- [ ] Index Table pattern.md
+- [ ] introductions.md
+- [ ] Leader Election pattern.md
+- [ ] Materialized View pattern.md
+- [ ] Messaging Bridge.md
+- [ ] Pipes and Filters pattern.md
+- [ ] Priority Queue pattern.md
+- [ ] Publisher-Subscriber pattern.md
+- [ ] Queue-Based Load Leveling pattern.md
+- [ ] Rate Limiting pattern.md
+- [ ] Retry.md
+- [ ] SAGA.md
+- [ ] Scheduler Agent Supervisor pattern.md
+- [ ] Sequential Convoy pattern.md
+- [ ] Sharding pattern.md
+- [ ] Sidecar pattern.md
+- [ ] Static Content Hosting pattern.md
+- [ ] Strangler Fig pattern.md
+- [ ] Throttling pattern.md
+- [ ] Valet Key pattern.md
