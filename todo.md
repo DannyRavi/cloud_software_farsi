@@ -72,10 +72,10 @@
 - [x] Valet Key pattern - 2729
 - [x] Scheduler Agent Supervisor pattern - 3486
 - [x] Sharding pattern - 4000 
-## under edit
-
 - [x]  Static Content Hosting
 - [x] Messaging Bridge
+
+## under edit
 
 finish
 
@@ -90,5 +90,55 @@ CQRS
 Backends for Frontends pattern
 
 --------------------------
- Static Content Hosting
-Messaging Bridge
+ ## review
+- [x] Bulkhead
+- [x] Cache-Aside pattern
+Circuit Breaker Pattern
+Compensating Transaction Pattern
+Competing Consumers Pattern
+Compute Resource Consolidation Pattern
+Command and Query Responsibility  (CQRS)
+Event Sourcing Pattern
+External Configuration Store Pattern
+Federated Identity Pattern
+Gatekeeper Pattern
+Health Endpoint Monitoring Pattern
+Index Table Pattern
+Leader Election Pattern
+Materialized View Pattern
+Pipes and Filters Pattern
+Priority Queue Pattern
+Queue-Based Load Leveling Pattern
+Retry Pattern
+Runtime Reconfiguration Pattern
+Scheduler Agent Supervisor Pattern
+Sharding Pattern
+Static Content Hosting Pattern
+Throttling Pattern
+Valet Key Pattern
+
+
+------------------------
+
+
+
+Asynchronous Messaging Primer
+
+Autoscaling Guidance
+
+Caching Guidance
+
+Compute Partitioning Guidance
+
+Data Consistency Primer
+
+Data Partitioning Guidance
+
+Data Replication and Synchronization Guidance
+
+Instrumentation and Telemetry Guidance
+
+Multiple Datacenter Deployment Guidance
+
+Service Metering Guidance
+
