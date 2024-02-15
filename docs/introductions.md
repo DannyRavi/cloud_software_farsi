@@ -159,13 +159,26 @@ https://learn.microsoft.com/en-us/azure/architecture/performance/
 
 -------------------------------------------------------
 
+expose
+
+----------------------------------------------------------
+
+endpoint
+
+------------------------------------------------
 
 
 
 
-
-
-
+vocab
+--------------------
+circuit breaker - قطع کننده مدار
+request - درخواست
+shards - قطعه
+expose
+endpoint
+سازگاری(eventual consistency)؟
+تراکنش جبرانی (Compensating Transaction)
 
 
 
