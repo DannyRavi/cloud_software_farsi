@@ -2,9 +2,9 @@
 - [x] Cache-Aside pattern.md
 - [x] Circuit Breaker pattern.md
 - [x] Compensating Transaction pattern .md
-- [ ] Competing Consumers pattern.md
-- [ ] Compute Resource Consolidation pattern.md
-- [ ] CQRS.md
+- [x] Competing Consumers pattern.md
+- [x] Compute Resource Consolidation pattern.md
+- [x] CQRS.md
 - [ ] Event Sourcing pattern.md
 - [ ] External Configuration Store pattern.md
 - [ ] Federated Identity pattern.md
@@ -23,7 +23,6 @@
 - [ ] Static Content Hosting pattern.md
 - [ ] Throttling pattern.md
 - [ ] Valet Key pattern.md
-
 - [x] Ambassador pattern.md
 - [x] Anti-corruption Layer pattern.md
 - [ ] Asynchronous Request-Reply pattern.md
