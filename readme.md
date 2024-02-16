@@ -6,10 +6,10 @@
 - [x] Compute Resource Consolidation pattern.md
 - [x] CQRS.md
 - [ ] Event Sourcing pattern.md
-- [ ] External Configuration Store pattern.md
-- [ ] Federated Identity pattern.md
-- [ ] Gatekeeper pattern.md
-- [ ] Health Endpoint Monitoring pattern.md
+- [x] External Configuration Store pattern.md
+- [x] Federated Identity pattern.md
+- [x] Gatekeeper pattern.md
+- [x] Health Endpoint Monitoring pattern.md
 - [ ] Index Table pattern.md
 - [ ] Leader Election pattern.md
 - [ ] Materialized View pattern.md
