@@ -308,10 +308,50 @@ event storage
 Backing store
 **Backing store** به معنای هر حافظه‌ای است که داده‌ها در آن ذخیره می‌شوند، اما اجرا نمی‌شوند. به عبارت دیگر، دیسک به عنوان **بک‌آپ** حافظه‌ی RAM عمل می‌کند. در واقع، دیسک یک **مخزن پشتیبان** برای حافظه‌ی سریع‌تر و کوچک‌تر RAM است. این ممکن است در ابتدا به نظر بیاید که این موضوع مشکلات عملکرد بزرگی را ایجاد می‌کند، زیرا در نهایت درایوهای دیسک نسبت به RAM خیلی کندتر هستند. اگرچه این موضوع درست است، اما می‌توان از رفتار دسترسی متوالی و محلی برنامه‌ها بهره برد و اکثر تأثیرات عملکرد استفاده از درایوهای دیسک به عنوان حافظه‌ی پشتیبان برای RAM را از بین ببریم. این کار با ساختاردهی زیرسیستم حافظه‌ی مجازی انجام می‌شود تا تلاش کند که قسمت‌هایی از برنامه که در حال حاضر نیاز دارند یا احتمالاً در آینده نزدیک نیاز خواهند داشت، تنها تا زمانی که واقعاً نیاز دارند در RAM نگه داشته شوند. [از نظر بسیاری این مشابه رابطه‌ی بین حافظه‌ی نهان (cache) و RAM است: ایجاد مقدار کمی از حافظه‌ی سریع همراه با مقدار زیادی از حافظه‌ی کند به نحوی که مانند یک مقدار زیادی از حافظه‌ی سریع عمل کند](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/introduction_to_system_administration/s2-memory-virt-where)[1](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/introduction_to_system_administration/s2-memory-virt-where)[2](https://www.computerhope.com/jargon/b/backing-storage.htm).
 
+----------------
+**Third party** در نرم‌افزار به برنامه‌ها یا سرویس‌هایی اشاره دارد که نه شما آن‌ها را ساخته‌اید و نه شرکتی که نرم‌افزار را تولید کرده است. [به عبارت دیگر، **third party** برنامه‌ها توسط افراد یا شرکت‌های دیگری نوشته می‌شوند](https://camelcase.ir/%d8%aa%d9%88%d8%b6%db%8c%d8%ad-%d8%b3%db%8c%d8%b3%d8%aa%d9%85-%db%8c%d8%a7-third-party/)[1](https://camelcase.ir/%D8%AA%D9%88%D8%B6%DB%8C%D8%AD-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%DB%8C%D8%A7-third-party/)[2](https://bing.com/search?q=third+party+%D8%AF%D8%B1+%D9%86%D8%B1%D9%85+%D8%A7%D9%81%D8%B2%D8%A7%D8%B1+%DA%86%DB%8C%D8%B3%D8%AA%D8%9F)[3](https://bit-and.com/blog/%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-third-party-%DA%86%DB%8C%D8%B3%D8%AA%D8%9F/). [این نرم‌افزارها می‌توانند به عنوان پلاگین‌ها یا افزونه‌ها به نرم‌افزار‌های اصلی اضافه شوند و قابلیت‌های جدیدی را به آن‌ها اضافه کنند](https://camelcase.ir/%d8%aa%d9%88%d8%b6%db%8c%d8%ad-%d8%b3%db%8c%d8%b3%d8%aa%d9%85-%db%8c%d8%a7-third-party/)[1](https://camelcase.ir/%D8%AA%D9%88%D8%B6%DB%8C%D8%AD-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%DB%8C%D8%A7-third-party/). [به عنوان مثال، در نرم‌افزار‌های مرورگر و برنامه‌های چندرسانه‌ای، افزونه‌ها و پلاگین‌های third party می‌توانند تجربه کاربری را بهبود بخشند](https://camelcase.ir/%d8%aa%d9%88%d8%b6%db%8c%d8%ad-%d8%b3%db%8c%d8%b3%d8%aa%d9%85-%db%8c%d8%a7-third-party/)[1](https://camelcase.ir/%D8%AA%D9%88%D8%B6%DB%8C%D8%AD-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%DB%8C%D8%A7-third-party/)[4](http://mathpc.ir/fa/department-of-computer/computer-trick/517-Third-Party-%DB%8C%D8%B9%D9%86%DB%8C-%DA%86%D9%87). [از طرفی، نرم‌افزارهای third party ممکن است از منابع خارجی دانلود شوند و نیاز به تنظیمات امنیتی داشته باشند تا بتوانید آن‌ها را نصب کنید](https://camelcase.ir/%d8%aa%d9%88%d8%b6%db%8c%d8%ad-%d8%b3%db%8c%d8%b3%d8%aa%d9%85-%db%8c%d8%a7-third-party/)[3](https://bit-and.com/blog/%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-third-party-%DA%86%DB%8C%D8%B3%D8%AA%D8%9F/).
 
 --------------
  load balancin
 ----------------
+[**Polling** یک تکنیک ساده اما قدرتمند است که به شما امکان می‌دهد به طور دوره‌ای جدیدترین مقادیر داده‌ها را بررسی کرده و از ارائه درخواست‌های اضافی تا زمانی که به حالت مطلوب نرسیده است جلوگیری کنید](https://blog.faradars.org/polling-in-javascript/)[1](https://blog.faradars.org/polling-in-javascript/). در واقع، با استفاده از Polling، ما در یک بازه زمانی معین، با ارسال درخواست‌های API به یک سرور، داده‌های تازه را بررسی می‌کنیم. این تکنیک معمولاً در مواردی که نیاز به بررسی دوره‌ای داده‌ها داریم، مورد استفاده قرار می‌گیرد.
+
+**زمان‌هایی که می‌توان از Polling استفاده کرد:**
+
+- **احراز هویت کاربران**: مثلاً در فرآیند ثبت نام کاربران، می‌توانیم از Polling برای ارتباط با ارائه‌دهنده‌های شخص ثالثِ خدمات احراز هویت مانند Firebase یا Auth 0 استفاده کنیم. در این حالت، کلاینت منتظر تایید احراز هویت و ایجاد کاربر در سمت سرور می‌ماند.
+- [**ردگیری مکان**: مثلاً در نقشه‌های ردگیری مکان مانند Uber، می‌توانیم با Polling نزدیک شدن راننده را به طور مکرر بررسی کنیم تا همیشه داده‌ها به‌روز باشند](https://blog.faradars.org/polling-in-javascript/)[1](https://blog.faradars.org/polling-in-javascript/).
+
+در ادامه، یک تابع `poll` را در جاوا اسکریپت پیاده‌سازی می‌کنیم. این تابع با استفاده از Promise‌ها، داده‌ها را بررسی می‌کند و تا زمانی که به حالت مطلوب نرسیده است، درخواست‌های API را ارسال می‌کند:
+
+```javascript
+const poll = async ({ fn, validate, interval, maxAttempts }) => {
+  let attempts = 0;
+
+  const executePoll = async (resolve, reject) => {
+    const result = await fn();
+    attempts++;
+
+    if (validate(result)) {
+      return resolve(result);
+    } else if (maxAttempts && attempts === maxAttempts) {
+      return reject(new Error('Exceeded max attempts'));
+    } else {
+      setTimeout(executePoll, interval, resolve, reject);
+    }
+  };
+
+  return new Promise(executePoll);
+};
+```
+
+این تابع `poll` یک تابع مرتبه بالا است که تابع دیگری به نام `executePoll` را بازگشت می‌دهد. تابع `executePoll` یک Promise بازگشت می‌دهد و به طور بازگشتی تا زمانی که شرطی محقق شود، اجرا می‌شود. تابع `poll` چهار متغیر به عنوان آرگومان می‌گیرد:
+
+- `fn`: تابعی که در طی یک بازه مفروض اجرا می‌شود (معمولاً یک درخواست API
+
+---------------------
+**وب هوک (Webhook)** یک پیام خودکاری است که در صورت وقوع یک رویداد، به وسیله‌ی اپلیکیشن‌ها ارسال می‌شود. این روش در برنامه‌نویسی وب کاربرد دارد. وب هوک حاوی یک بسته‌ی اطلاعاتی (Payload) است که به یک آدرس منحصربفرد (URL) ارسال می‌شود. از وب هوک معمولاً به عنوان روش بهتری نسبت به سرکشی کردن (Polling) استفاده می‌شود. [این روش بسیار شبیه به نوتیفیکیشن پیامک عمل می‌کند](https://blog.faradars.org/%D9%88%D8%A8-%D9%87%D9%88%DA%A9-webhook-%DA%86%DB%8C%D8%B3%D8%AA%D8%9F/)[1](https://blog.faradars.org/%D9%88%D8%A8-%D9%87%D9%88%DA%A9-webhook-%DA%86%DB%8C%D8%B3%D8%AA%D8%9F/)[2](https://bing.com/search?q=webhook+%D8%AF%D8%B1+%D9%86%D8%B1%D9%85+%D8%A7%D9%81%D8%B2%D8%A7%D8%B1+%DA%86%DB%8C%D8%B3%D8%AA%D8%9F). اگر بخواهید داده‌ها را به برنامه‌های دیگر تحویل دهید، وب هوک به شما این امکان را می‌دهد که فوراً داده‌ها را دریافت کنید.
+
+------------
 
 vocab
 --------------------

@@ -25,7 +25,7 @@
 - [ ] Valet Key pattern.md
 - [x] Ambassador pattern.md
 - [x] Anti-corruption Layer pattern.md
-- [ ] Asynchronous Request-Reply pattern.md
+- [x] Asynchronous Request-Reply pattern.md
 - [ ] Backends for Frontends.md
 - [ ] Bulkhead pattern.md
 - [ ] Choreography pattern.md
