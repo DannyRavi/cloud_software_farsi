@@ -26,7 +26,7 @@
 - [x] Ambassador pattern.md
 - [x] Anti-corruption Layer pattern.md
 - [x] Asynchronous Request-Reply pattern.md
-- [ ] Backends for Frontends.md
+- [x] Backends for Frontends.md
 - [ ] Bulkhead pattern.md
 - [ ] Choreography pattern.md
 - [ ] Claim-Check pattern.md
