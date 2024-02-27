@@ -353,6 +353,11 @@ const poll = async ({ fn, validate, interval, maxAttempts }) => {
 
 ------------
 index table جدول شاخص
+
+-------------------
+sharded data داده خرد شده
+
+
 -----------
 
 vocab

@@ -10,7 +10,7 @@
 - [x] Federated Identity pattern.md
 - [x] Gatekeeper pattern.md
 - [x] Health Endpoint Monitoring pattern.md
-- [ ] Index Table pattern.md
+- [x] Index Table pattern.md
 - [ ] Leader Election pattern.md
 - [ ] Materialized View pattern.md
 - [ ] Pipes and Filters pattern.md
