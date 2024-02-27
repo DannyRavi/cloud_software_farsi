@@ -25,6 +25,13 @@
   
 * زمانی که درخواست ها به سیستم back-end قابل رهگیری نباشد.  
 * برای سیستم های کوچکتر که پیچیدگی تعویض به سیستم جدید بیسار کم است.
-## Next steps
+## قدم بعدی
 
-- Martin Fowler's blog post on [StranglerFigApplication](https://martinfowler.com/bliki/StranglerFigApplication.html)
+- [Pattern: Backends For Frontends](https://samnewman.io/patterns/architectural/bff/)
+
+
+## منابع مرتبطت
+
+- [Gateway Aggregation pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-aggregation)
+- [Gateway Offloading pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-offloading)
+- [Gateway Routing pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-routing)
