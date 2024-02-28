@@ -13,9 +13,9 @@
 - [x] Index Table pattern.md
 - [ ] Leader Election pattern.md? hfz
 - [ ] Materialized View pattern.md? hfz
-- [ ] Pipes and Filters pattern.md
-- [ ] Priority Queue pattern.md
-- [ ] Queue-Based Load Leveling pattern.md
+- [x] Pipes and Filters pattern.md
+- [x] Priority Queue pattern.md
+- [x] Queue-Based Load Leveling pattern.md
 - [ ] Retry.md
 - [ ] Runtime Reconfiguration Pattern?
 - [ ] Scheduler Agent Supervisor pattern.md
