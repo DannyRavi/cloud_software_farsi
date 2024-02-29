@@ -38,9 +38,9 @@
 - [ ] Geode pattern.md
 - [ ] introductions.md
 - [ ] Messaging Bridge.md
-- [ ] Publisher-Subscriber pattern.md
+- [x] Publisher-Subscriber pattern.md
 - [ ] Rate Limiting pattern.md
-- [ ] SAGA.md
+- [x] SAGA.md
 - [ ] Sequential Convoy pattern.md
-- [ ] Sidecar pattern.md
+- [x] Sidecar pattern.md
 - [ ] Strangler Fig pattern.md
