@@ -16,7 +16,7 @@
 - [x] Pipes and Filters pattern.md
 - [x] Priority Queue pattern.md
 - [x] Queue-Based Load Leveling pattern.md
-- [ ] Retry.md
+- [x] Retry.md
 - [ ] Runtime Reconfiguration Pattern?
 - [ ] Scheduler Agent Supervisor pattern.md
 - [ ] Sharding pattern.md
