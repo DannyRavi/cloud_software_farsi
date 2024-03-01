@@ -32,15 +32,15 @@
 - [ ] Claim-Check pattern.md
 - [ ] Deployment Stamps pattern.md
 - [ ] Edge Workload Configuration pattern.md
-- [ ] Gateway Aggregation pattern.md
-- [ ] Gateway Offloading pattern.md
-- [ ] Gateway Routing pattern.md
-- [ ] Geode pattern.md
+- [x] Gateway Aggregation pattern.md
+- [x] Gateway Offloading pattern.md
+- [x] Gateway Routing pattern.md
+- [x] Geode pattern.md
 - [ ] introductions.md
 - [ ] Messaging Bridge.md
 - [x] Publisher-Subscriber pattern.md
 - [ ] Rate Limiting pattern.md
 - [x] SAGA.md
-- [ ] Sequential Convoy pattern.md
+- [x] Sequential Convoy pattern.md
 - [x] Sidecar pattern.md
-- [ ] Strangler Fig pattern.md
+- [x] Strangler Fig pattern.md

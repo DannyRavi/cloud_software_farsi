@@ -363,6 +363,27 @@ elasticity
 
 
 -----------
+workflows
+wildcard
+eventual consistency
+container
+daemon
+roll back
+Expose 
+remote
+replication backplane
+MapReduce
+big data
+split tcp -> https://learn.microsoft.com/en-us/azure/frontdoor/front-door-traffic-acceleration?pivots=front-door-standard-premium
+Anycast   -> [Anycast routing](https://en.wikipedia.org/wiki/Anycast) 
+Serverless -> Serverless computing
+pay as you go -> https://en.wikipedia.org/wiki/Pay_as_you_go
+granular control  کنترل دانه
+load balancers
+session -> https://en.wikipedia.org/wiki/Session_(computer_science)
+daemon -> https://en.wikipedia.org/wiki/Daemon_(computing)
+
+
 
 vocab
 --------------------
