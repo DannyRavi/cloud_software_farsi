@@ -382,7 +382,14 @@ granular control  کنترل دانه
 load balancers
 session -> https://en.wikipedia.org/wiki/Session_(computer_science)
 daemon -> https://en.wikipedia.org/wiki/Daemon_(computing)
-
+façade -> https://en.wikipedia.org/wiki/Facade_pattern
+migrate -> https://en.wikipedia.org/wiki/Data_migration
+connection pool -> https://en.wikipedia.org/wiki/Connection_pool
+thread pool -> https://en.wikipedia.org/wiki/Thread_pool
+tenant -> https://en.wikipedia.org/wiki/Multitenancy
+Kubernetes ->wiki
+pod -> https://kubernetes.io/docs/concepts/workloads/pods/
+blob storage -> [blob storage](https://en.wikipedia.org/wiki/Object_storage)
 
 
 vocab

@@ -20,16 +20,16 @@
 - [ ] Runtime Reconfiguration Pattern?
 - [ ] Scheduler Agent Supervisor pattern.md
 - [ ] Sharding pattern.md
-- [ ] Static Content Hosting pattern.md
+- [x] Static Content Hosting pattern.md
 - [ ] Throttling pattern.md
 - [ ] Valet Key pattern.md
 - [x] Ambassador pattern.md
 - [x] Anti-corruption Layer pattern.md
 - [x] Asynchronous Request-Reply pattern.md
 - [x] Backends for Frontends.md
-- [ ] Bulkhead pattern.md
-- [ ] Choreography pattern.md
-- [ ] Claim-Check pattern.md
+- [x] Bulkhead pattern.md
+- [x] Choreography pattern.md
+- [x] Claim-Check pattern.md
 - [ ] Deployment Stamps pattern.md
 - [ ] Edge Workload Configuration pattern.md
 - [x] Gateway Aggregation pattern.md
