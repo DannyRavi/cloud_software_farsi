@@ -11,8 +11,8 @@
 - [x] Gatekeeper pattern.md
 - [x] Health Endpoint Monitoring pattern.md
 - [x] Index Table pattern.md
-- [ ] Leader Election pattern.md? hfz
-- [ ] Materialized View pattern.md? hfz
+- [x] Leader Election pattern.md  
+- [ ] Materialized View pattern.md ! 
 - [x] Pipes and Filters pattern.md
 - [x] Priority Queue pattern.md
 - [x] Queue-Based Load Leveling pattern.md
