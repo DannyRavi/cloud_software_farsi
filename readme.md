@@ -5,7 +5,7 @@
 - [x] Competing Consumers pattern.md
 - [x] Compute Resource Consolidation pattern.md
 - [x] CQRS.md
-- [ ] Event Sourcing pattern.md
+- [ ] Event Sourcing pattern.md !
 - [x] External Configuration Store pattern.md
 - [x] Federated Identity pattern.md
 - [x] Gatekeeper pattern.md
@@ -37,7 +37,7 @@
 - [x] Gateway Routing pattern.md
 - [x] Geode pattern.md
 - [ ] introductions.md
-- [ ] Messaging Bridge.md
+- [x] Messaging Bridge.md
 - [x] Publisher-Subscriber pattern.md
 - [ ] Rate Limiting pattern.md
 - [x] SAGA.md
