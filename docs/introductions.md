@@ -390,7 +390,9 @@ tenant -> https://en.wikipedia.org/wiki/Multitenancy
 Kubernetes ->wiki
 pod -> https://kubernetes.io/docs/concepts/workloads/pods/
 blob storage -> [blob storage](https://en.wikipedia.org/wiki/Object_storage)
-
+rollback
+scaling out
+Edge
 
 vocab
 --------------------
