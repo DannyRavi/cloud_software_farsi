@@ -21,7 +21,7 @@
 - [ ] Scheduler Agent Supervisor pattern.md
 - [ ] Sharding pattern.md
 - [x] Static Content Hosting pattern.md
-- [ ] Throttling pattern.md
+- [x] Throttling pattern.md
 - [ ] Valet Key pattern.md
 - [x] Ambassador pattern.md
 - [x] Anti-corruption Layer pattern.md
@@ -31,7 +31,7 @@
 - [x] Choreography pattern.md
 - [x] Claim-Check pattern.md
 - [ ] Deployment Stamps pattern.md
-- [ ] Edge Workload Configuration pattern.md
+- [x] Edge Workload Configuration pattern.md
 - [x] Gateway Aggregation pattern.md
 - [x] Gateway Offloading pattern.md
 - [x] Gateway Routing pattern.md
