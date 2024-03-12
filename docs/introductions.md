@@ -410,11 +410,11 @@ endpoint
 
 
 
+![[Pasted image 20240312232952.png]]
 
 
 
-
-
+https://roadmap.sh/system-design
 
   
 
