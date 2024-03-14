@@ -405,7 +405,7 @@ expose
 endpoint
 سازگاری(eventual consistency)؟
 تراکنش جبرانی (Compensating Transaction)
-
+granular
 
 
 

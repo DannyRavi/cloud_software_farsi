@@ -91,58 +91,58 @@
 * **‏مسیر یابی**. همانطور که در بالا توضیح داده شد، مسیریابی ترافیکی به stamp صحیح برای یک درخواست معین می‌تواند به یک مؤلفه اضافی برای حل و فصل tenantها به stampها نیاز داشته باشد. این مؤلفه، به نوبه خود، ممکن است نیاز داشته باشد که به شدت قابل دسترس (highly available) باشد.  
 * **اجزای مشترک(Shared components).** ممکن است اجزایی داشته باشید که بتوان آنها را در stampها به اشتراک گذاشت. به عنوان مثال، اگر یک برنامه تک صفحه ای مشترک(shared single-page app) برای همه tenantها دارید، آن را در یک منطقه deploy کنید و از  [Azure CDN](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website) برای تکرار آن در سطح جهانی استفاده کنید.
 
-## تا ینجااااااااااااااااااااااا
-## When to use this pattern
+
+## **چه زمانی از این الگو استفاده کنیم؟**
 
 این الگو زمانی مفید است که:  
   
-* **محدودیت های طبیعی در مقیاس پذیری(scalability).** به عنوان مثال، اگر برخی از مؤلفه‌ها نمی‌توانند یا نباید از تعداد معینی مشتری یا درخواست scale شوند، با استفاده از stampها گزینه scaling out نظر بگیرید.  
-* الزامی برای جداسازی برخی tenantها از دیگران. اگر مشتریانی دارید که به دلیل نگرانی‌های امنیتی نمی‌توانند در یک stamp چند tenant ای با مشتریان دیگر deploy شوند، می‌توانند روی stamp جدا شده خودشان deploy شوند.  
+* **محدودیت های طبیعی در مقیاس پذیری.** به عنوان مثال، اگر برخی از مؤلفه‌ها نمی‌توانند یا نباید از تعداد معینی مشتری یا درخواست به مقدار بیشتری scale شوند پس بهتر است با استفاده از stampها گزینه scaling out را در نظر بگیرید.  
+* **الزامی برای جداسازی برخی tenantها از دیگران**. اگر مشتریانی دارید که به دلیل نگرانی‌های امنیتی نمی‌توانند در یک stamp چند tenant ای با مشتریان دیگر مستقر شوند، می‌توانند روی stamp جدا شده خودشان مستقر شوند.  
 * نیاز به داشتن چند tenant در نسخه های مختلف، به طور همزمان.  
-* برنامه های چند منطقه ای که در آن داده ها و ترافیک هر tenant باید به یک منطقه خاص هدایت شود.  
-* دستیابی به انعطاف پذیری در هنگام خاموشی یا قطع برق (outages). از آنجایی که stampها مستقل از یکدیگر هستند، اگر قطعی یک stamp را تحت تأثیر قرار دهد، tenantها که در stampهای دیگر deploy شده اند نباید تحت تأثیر قرار گیرند. این جداسازی به مهار «شعاع انفجار(blast radius)» یک حادثه یا قطعی برق/خاموشی کمک می کند.  
+* برنامه های با قابلیت اجرای چند منطقه ای که در آن داده ها و ترافیک هر tenant باید به یک منطقه خاص هدایت شود.  
+* دستیابی به انعطاف پذیری در هنگام خاموشی یا قطع برق (outages). از آنجایی که stampها مستقل از یکدیگر هستند، اگر قطعی یک stamp را تحت تأثیر قرار دهد، tenantها که در stampهای دیگر deploy شده‌اند نباید تحت تأثیر قرار گیرند. این جداسازی به مهار «شعاع انفجار(blast radius)» یک حادثه یا قطعی برق/خاموشی کمک می کند.  
 
 این الگو برای موارد زیر مناسب نیست:  
   
-* راه حل های ساده ای که نیازی به مقیاس بندی در درجه بالایی ندارند.  
-* سیستم هایی که می توانند به راحتی در یک نمونه کوچک یا بزرگ شوند، مانند افزایش اندازه لایه برنامه یا با افزایش ظرفیت رزرو شده برای پایگاه های داده و لایه ذخیره سازی.  
-* راه حل هایی که در آن داده ها باید در تمام نمونه های deploy شده تکرار شوند. الگوی  [geode](https://learn.microsoft.com/en-us/azure/architecture/patterns/geodes) را برای این سناریو در نظر بگیرید.  
-* راه حل هایی که در آنها فقط برخی از مؤلفه ها باید مقیاس شوند، اما برخی دیگر نه. برای مثال، در نظر بگیرید که آیا راه‌حل شما می‌تواند با تقسیم کردن ذخیره‌گاه داده( [sharding the data store](https://learn.microsoft.com/en-us/azure/architecture/patterns/sharding)) به جای deployment یک کپی جدید از همه اجزای راه‌حل، مقیاس‌پذیر شود یا خیر.  
-* راه حل ها صرفاً از محتوای ثابت، مانند یک برنامه JavaScript از نوع front-end تشکیل شده اند. ذخیره چنین محتوایی در یک [storage account](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website) و استفاده از [Azure CDN](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website) را در نظر بگیرید.
+* راه حل های ساده ای که نیازی به مقیاس‌دهی یا scale در درجه بالایی ندارند.  
+* سیستم هایی که می توانند به راحتی در یک نمونه ساده scaled out یا  scaled up شوند، مانند افزایش اندازه لایه برنامه یا با افزایش ظرفیت رزرو شده برای پایگاه های داده و لایه ذخیره سازی.  
+* راه حل هایی که در آن داده ها باید در تمام نمونه های مستقر شده تکرار شوند. الگوی  [geode](https://learn.microsoft.com/en-us/azure/architecture/patterns/geodes) را برای این سناریو در نظر بگیرید.  
+* راه حل هایی که در آنها فقط برخی از مؤلفه ها باید scale شوند، اما برخی دیگر نه. به عنوان مثال، در نظر بگیرید که آیا راه‌حل شما می‌تواند با  [sharding data store](https://learn.microsoft.com/en-us/azure/architecture/patterns/sharding) به جای استقرار یک کپی جدید از تمام اجزای راه حل، مقیاس‌دهی شود.  
+* راه حل‌های موجود برای محتوای استاتیک یا ثابت، مانند یک برنامه JavaScript از نوع front-end تشکیل شده‌اند. برای ذخیره چنین محتوایی در یک [storage account](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website) و استفاده از [Azure CDN](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website) را در نظر بگیرید.
 
-## Supporting technologies
+## تکنولوژی‌ های مورد استفاده
 
-* زیرساخت به عنوان کد(Infrastructure as code) به عنوان مثال، Resource Manager templates Bicep،  Manager، Azure CLI، Terraform، PowerShell، Bash.  
-* ‏Azure Front Door، که می تواند ترافیک را به یک stamp خاص یا به یک سرویس مسیریابی ترافیک هدایت کند.
+* به عنوان مثال Infrastructure as code  مواردی مثلResource Manager templates Bicep، Manager، Azure CLI، Terraform، PowerShell، Bash را می‌توان استفاده کرد.  
+* ‏Azure Front Door که می تواند ترافیک را به یک stamp خاص یا به یک سرویس مسیریابی ترافیک هدایت کند.
 
-## Example
+## مثال
 
-مثال زیر چندین stamp از یک راه حل ساده PaaS را با یک سرویس app و یک پایگاه داده SQL در هر  stamp ،‏ deploy می کند. در حالی که stampها را می توان در هر منطقه ای پیکربندی کرد که از سرویس‌های deploy شده در الگوی مورد نظر پشتیبانی می کند، به منظور  تصور بهتر، این الگو دو stamp را در منطقه West US 2 و یک stamp دیگر را در منطقه غرب اروپا deploy می کند. در داخل یک stamp، سرویس برنامه نام میزبان DNS عمومی خود را دریافت می کند و می تواند اتصالات را مستقل از سایر stampها دریافت کند.
+مثال زیر چندین stamp از یک راه حل ساده PaaS را با یک سرویس app و یک پایگاه داده SQL در هر stamp ،‏ مستقر می کند. در حالی که stampها را می توان در هر منطقه ای پیکربندی کرد که از سرویس‌های مستقر شده در الگوی مورد نظر پشتیبانی می کند. به منظور  تصور بهتر، این الگو دو stamp را در منطقه 2 در غرب آمریکا و یک stamp دیگر را در منطقه غرب اروپا مستقر می‌کند. در داخل یک stamp، سرویس برنامه نام میزبان DNS عمومی خود را دریافت می کند و می تواند اتصالات را مستقل از سایر stampها دریافت کند.
 
 ```
 هشدار  
   
-مثال زیر از SQL Server administrator account استفاده می کند. به طور کلی استفاده از یک حساب کاربری مدیریتی از برنامه شما کار خوبی نیست. برای یک برنامه واقعی، از یک هویت مدیریت شده برای اتصال از برنامه خود به پایگاه داده SQL استفاده کنید یا از یک حساب با حداقل دسترسی استفاده کنید.
+مثال زیر از SQL Server administrator account استفاده می کند. به طور کلی استفاده از یک حساب کاربری مدیریتی از برنامه شما کار خوبی نیست. برای یک برنامه واقعی، از یک احراز هویت مدیریت شده برای اتصال از برنامه خود به [پایگاه داده SQL استفاده]([database](https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-connect-msi)) کرده یا از یک حساب با حداقل دسترسی استفاده کنید.
 ```
 
-برای deployment راه حل روی لینک زیر کلیک کنید.
+برای deployment این راه حل روی لینک زیر کلیک کنید.
 [![Deploy to Azure](https://learn.microsoft.com/en-us/azure/architecture/_images/deploy-to-azure.svg)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmspnp%2Fsolution-architectures%2Fmaster%2Fapps%2Fdeployment-stamp%2Fdeployment-stamp.json)
 
 
 ```
 توجه داشته باشید  
   
-روش‌های جایگزینی برای deployment stampها با الگوی Resource Manager وجود دارد، از جمله استفاده از الگوهای تودرتو یا الگوهای پیوندی برای جدا کردن تعریف هر stamp از تکرار مورد نیاز برای deployment چندین نسخه.
+روش‌های جایگزینی برای deployment stampها با الگوی Resource Manager وجود دارد، از جمله استفاده از [الگوهای تودرتو]([nested templates](https://learn.microsoft.com/en-us/azure/azure-resource-manager/resource-group-linked-templates#nested-template)) یا [الگوهای پیوندی](https://learn.microsoft.com/en-us/azure/azure-resource-manager/resource-group-linked-templates#linked-template) برای جدا کردن مشخصات هر stamp از تکرار مورد نیاز برای مستقر کردن چندین نسخه از برنامه استفاده کنید.
 ```
 
 ### Example traffic routing approach
 
-مثال زیر پیاده سازی راه حل مسیریابی ترافیک(traffic routing) را به کار می گیرد که می تواند با مجموعه ای از stampهای deployment برای یک برنامه API فرضی استفاده شود. برای اجازه دادن به توزیع جغرافیایی درخواست‌های دریافتی، Front Door در کنار چندین نمونه از API Management در لایه مربوط به مصرف کننده deploy می‌شود. هر نمونه API Management شناسه tenant را از request URL می خواند و سپس stamp مربوط به request را از یک Azure Cosmos DB data store با توزیع جغرافیایی جستجو می کند. سپس درخواست به stamp پشتیبان مربوطه ارسال می شود.  
+مثال زیر پیاده سازی راه حل مسیریابی ترافیک (traffic routing) را به کار می گیرد که می تواند با مجموعه ای از stampهای مستقر شده برای یک برنامه API فرضی استفاده شود. برای اجازه دادن به توزیع جغرافیایی درخواست‌های دریافتی، سرویس Front Door در کنار چندین نمونه از API Management در لایه مربوط به مصرف کننده deploy می‌شود. هر نمونه API Management شناسه tenant را از request URL می خواند و سپس stamp مربوط به request را از یک Azure Cosmos DB data store با توزیع جغرافیایی جستجو می کند. سپس درخواست به stamp پشتیبان مربوطه ارسال می شود.  
   
 برای deployment راه حل بالا روی لینک زیر کلیک کنید.
 [![Deploy to Azure](https://learn.microsoft.com/en-us/azure/architecture/_images/deploy-to-azure.svg)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmspnp%2Fsolution-architectures%2Fmaster%2Fapps%2Fdeployment-stamp%2Ftraffic-routing.json)
 
-## Contributors
+## مشارکت کنندگان
 
 این مقاله توسط مایکروسافت نگهداری می شود. در اصل توسط مشارکت کنندگان زیر نوشته شده است.
 
@@ -159,7 +159,8 @@ Other contributors:
 
 _To see non-public LinkedIn profiles, sign in to LinkedIn._
 
-## Related resources
+## منابع مرتبط 
 
-* ‏Sharding می تواند به عنوان یک روش ساده تر دیگر برای کاهش سطح داده های شما استفاده شود. stampها به طور ضمنی داده های خود را خرد می کنند، اما اشتراک گذاری نیازی به Deployment Stamp ندارد. برای اطلاعات بیشتر، الگوی Sharding را ببینید.  
+* الگوی ‏Sharding می تواند به عنوان یک روش ساده برای scale out لایه مربوط به داده‌های شما استفاده شود. stampها به طور ضمنی داده های خود را shard می کنند، هر چند الگوی Sharding  نیازی به الگوی Deployment Stamp ندارد. برای اطلاعات بیشتر، الگوی Sharding را ببینید. 
+
 * اگر یک سرویس مسیریابی ترافیک deploy شود، الگوهای [Gateway Routing](https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-routing) و [Gateway Offloading](https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-offloading) می توانند با هم استفاده شوند تا بهترین استفاده را از این مؤلفه داشته باشند.
