@@ -15,6 +15,8 @@ https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/w
 
 
 
+
+
 -----------------------------
 on-premises:
 
@@ -393,7 +395,7 @@ blob storage -> [blob storage](https://en.wikipedia.org/wiki/Object_storage)
 rollback
 scaling out
 Edge
-
+ Serverless computing
 vocab
 --------------------
 circuit breaker - قطع کننده مدار
