@@ -41,5 +41,5 @@
 - [x] Scheduler Agent Supervisor pattern.md
 - [x] Deployment Stamps pattern.md
 - [x] Valet Key pattern.md
-- [ ] Sharding pattern.md
+- [x] Sharding pattern.md
 - [ ] introductions.md

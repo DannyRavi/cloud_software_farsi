@@ -407,7 +407,7 @@ endpoint
 تراکنش جبرانی (Compensating Transaction)
 granular
 
-
+replica
 
 
 
