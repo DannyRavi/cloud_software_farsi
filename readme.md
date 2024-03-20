@@ -36,8 +36,8 @@
 - [x] Strangler Fig pattern.md
 - [x] SAGA.md
 - [x] Sequential Convoy pattern.md
-- [!] Materialized View pattern.md !
-- [!] Event Sourcing pattern.md
+- [x] Materialized View pattern.md
+- [x] Event Sourcing pattern.md
 - [x] Scheduler Agent Supervisor pattern.md
 - [x] Deployment Stamps pattern.md
 - [x] Valet Key pattern.md
