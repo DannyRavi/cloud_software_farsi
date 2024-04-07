@@ -43,3 +43,8 @@
 - [x] Valet Key pattern.md
 - [x] Sharding pattern.md
 - [ ] introductions.md
+--------------------------
+change
+- [ ] valet key
+- [ ] sharding
+- [ ] pipes

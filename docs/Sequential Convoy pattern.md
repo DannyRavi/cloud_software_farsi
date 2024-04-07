@@ -13,10 +13,13 @@
 پیام‌های مرتبط را به دسته‌هایی در  سیستم نوبت دهی Push کنید و از  صف شنود (queue (listeners بخواهید که فقط از یک دسته، یک پیام در یک زمان، انتخاب و قفل  و pull کند.  
   
 در اینجا الگوی عمومی  Sequential Convoy pattern به نظر می رسد:
-![[Pasted image 20240301165308.png]]
+
+![sequential-convoy-overall](../assets/messaging/sequential-convoy-overall.png)
 
 همانطور که در نمودار زیر نشان داده شده است، در صف، پیام‌های دسته‌های مختلف در نهایت ممکن است به هم متصل شوند:
-![[Pasted image 20240301165339.png]]
+
+![sequential-convoy-queuemessages](../assets/messaging/sequential-convoy-queuemessages.png)
+
 ## مسائل و ملاحظات:
 
 هنگام تصمیم گیری در مورد نحوه اجرای این الگو، نکات زیر را در نظر بگیرید:
@@ -49,7 +52,7 @@
   
  معمولا "پردازشگر دفتر کل" (ledger processor) با استفاده از محتوای هر پیام در اولین صف، پیام ها را پشت سر می گذارد و پردازش میکنند:
 
-![[Pasted image 20240301165945.png]]
+![sequential-convoy-examplearch](../assets/messaging/sequential-convoy-examplearch.png)
 
 پردازشگر دفتر کل (ledger processor)  به موارد زیر رسیدگی می‌کند:  
   

@@ -57,7 +57,7 @@
 
 ‏ Azure Storage از ارائه محتوای استاتیک مستقیماً از یک کانتینر ذخیره سازی پشتیبانی می کند و فایل ها از طریق درخواست‌های دسترسی ناشناس ارائه می شوند. به طور پیش‌فرض، فایل‌ها یک URL در زیر دامنه  `core.windows.net` مانند `https://contoso.z4.web.core.windows.net/image.png`  دارند. می توانید یک نام دامنه سفارشی را پیکربندی کنید و از Azure CDN برای دسترسی به فایل ها از طریق HTTPS استفاده کنید. برای اطلاعات بیشتر،  [Static website hosting in Azure Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website) را ببینید.
 
-![[Pasted image 20240210131251.png]]
+![static-content-hosting-pattern](../assets/dataManagement/static-content-hosting-pattern.png)
 
  وب سایت استاتیک معمولا فایل ها را برای کاربران ناشناس در دسترس قرار می دهد. اگر می‌خواهید کنترل کنید چه کسی می‌تواند به فایل‌ها دسترسی داشته باشد، می‌توانید فایل‌ها را در حافظه Azure blob ذخیره کنید و سپس برای محدود کردن دسترسی، امضاهای دسترسی مشترک ([shared access signatures](https://learn.microsoft.com/en-us/azure/storage/common/storage-dotnet-shared-access-signature-part-1)) را ایجاد کنید.  
   
