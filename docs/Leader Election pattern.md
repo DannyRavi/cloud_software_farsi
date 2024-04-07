@@ -167,7 +167,8 @@ private async Task RunTaskWhenBlobLeaseAcquired(
 
 متد `KeepRenewingLease` یکی دیگر از روش های کمکی است که از شی `BlobLeaseManager` برای تمدید lease استفاده می کند. متد `CancelAllWhenAnyCompletes` وظایف مشخص شده به عنوان دو پارامتر اول را لغو می کند. نمودار زیر استفاده از کلاس `BlobDistributedMutex` را برای انتخاب leader و اجرای task ای که عملیات را هماهنگ می کند، نشان می دهد.
 
-![[Pasted image 20240209175344.png]]
+![](../assets/design_implementation/leader-election-diagram.png)
+
 
 مثال کد زیر نحوه استفاده از کلاس `BlobDistributedMutex` را در نقش worker نشان می دهد. این کد بر روی bolb به نام `MyLeaderCoordinatorTask` در lease's container در development storage، مجوز می‌گیرد و مشخص می‌کند که اگر role instance به عنوان leader انتخاب شود، کد تعریف‌شده در متد `MyLeaderCoordinatorTask` باید اجرا شود.
 

@@ -27,7 +27,7 @@
 
 نمودار زیر اجزای منطقی این الگو را نشان می دهد:
 
-![[Pasted image 20231205113912.png]]
+![publish-subscribe](../assets/messaging/publish-subscribe.png)
 
 پیام‌رسانی Pub/sub مزایای زیر را دارد:  
   
@@ -102,7 +102,7 @@
 
 نمودار زیر یک معماری یکپارچه سازی سازمانی را نشان می دهد که از Service Bus برای هماهنگ کردن workflowها و شبکه رویداد (Event Grid) برای اطلاع رسانی به سیستم های فرعی از رویدادهای رخ داده استفاده می کند. برای اطلاعات بیشتر،  [Enterprise integration on Azure using message queues and events](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/integration/queues-events) را ببینید.
 
-![[Pasted image 20231205114153.png]]
+![](../assets/messaging/enterprise-integration-queues-events.png)
 
 ## قدم بعدی
 
