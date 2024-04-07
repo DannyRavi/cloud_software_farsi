@@ -26,8 +26,7 @@
 
 
 
-
-![[Pasted image 20231015223850.png]]
+![external-configuration-store-overview](../assets/design_implementation/external-configuration-store-overview.png)
 شکل 1
 
 ### مسائل و ملاحظات:

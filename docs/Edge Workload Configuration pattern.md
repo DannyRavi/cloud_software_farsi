@@ -15,7 +15,8 @@
 * cloud tenant
 * edge location
 
-![[Pasted image 20231205104835.png]]
+![](../assets/design_implementation/edge-workload-configuration-1.png)
+
 
 * لایه های مختلف می تواند توسط افراد مختلف به روزرسانی شود.  
 * مهم نیست که چگونه پیکربندی‌ها به روزرسانی می شوند، آن‌ها باید به دقت ردیابی و ممیزی شوند.  
@@ -55,8 +56,8 @@
 
 ### تغییر کنترلر پیکربندی خارجی
 
+![](../assets/design_implementation/edge-workload-configuration-2.png)
 
-![[Pasted image 20231205105157.png]]
 
 این تغییرات دارای یک کنترلر پیکربندی است که خارج از workload است. نقش مؤلفه کنترلر پیکربندی ابری این است که ویرایش ها را از ذخیره‌گاه داده (datastore) ابری به workload از طریق کنترلر پیکربندی لبه هدایت کند. لبه همچنین حاوی یک ذخیره‌سازی اطلاعات است تا سیستم حتی در صورت قطع ارتباط با ابر کار کند.  
   
@@ -73,7 +74,8 @@
 
 ### تنوع ارائه دهنده پیکربندی داخلی
 
-![[Pasted image 20231205105249.png]]
+![edge-workload-configuration-3](../assets/design_implementation/edge-workload-configuration-3.png)
+
 
 در تغییرات ارائه‌دهنده پیکربندی داخلی، workload پیکربندی‌ها را از یک ارائه‌دهنده پیکربندی pull‌ می‌کند. برای مثال مورد پیاده سازی، به [Implement a custom configuration provider in .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/custom-configuration-provider). مراجعه کنید. این مثال از سی شارپ استفاده می کند، اما می توان از زبان های دیگر نیز استفاده کرد.
   
@@ -88,7 +90,8 @@
 
 ### راه حلی مبتنی بر IoT Edge
 
-![[Pasted image 20231205105353.png]]
+![edge-workload-configuration-4](../assets/design_implementation/edge-workload-configuration-4.png)
+
 
 مؤلفه ابری پیاده‌سازی مرجع IoT Edge شامل یک هاب اینترنت اشیا است که به عنوان کنترل‌کننده پیکربندی ابر عمل می‌کند. عملکرد ماژول دوقلو [Azure IoT Hub](https://azure.microsoft.com/services/iot-hub)  تغییرات پیکربندی و اطلاعات مربوط به پیکربندی اعمال شده در حال حاضر را با استفاده از ویژگی‌های مورد نظر و گزارش شده ماژول منتشر می‌کند. سرویس  مدیریت پیکربندی که به عنوان منبع پیکربندی‌ها عمل می کند. همچنین می‌تواند از یک رابط کاربری برای مدیریت پیکربندی‌ها یا یک build system یا سایر ابزارهایی  که برای ساخت پیکربندی  workloadها استفاده کنند.  
   

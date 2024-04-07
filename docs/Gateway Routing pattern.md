@@ -20,13 +20,15 @@
 
 ### روش Multiple disparate services (چندین سرویس نامساوی)
 
-![[Pasted image 20240209175721.png]]
+![gateway-multiple-services](../assets/design_implementation/gateway-multiple-services.png)
+
 
 در روش چندین سرویس نابرابر (Multiple disparate services) الگوی gateway routing در این سناریو که یک client از چندین سرویس را استفاده می کند مناسب است. اگر یک سرویس یکپارچه، تجزیه یا جایگزین شود، client لزوماً نیازی به به‌روزرسانی ندارد و می‌تواند به requestهایی روی gateway ادامه دهد و فقط مسیردهی(routing) تغییر می‌کند.
 
 یک gateway همچنین این امکان را می دهد که backend service را از کلاینت ها abstract کنید و به شما این امکان را می دهد که فراخوانی‌های client را ساده نگه دارید و در عین حال تغییرات را در سرویس های backend در پشت gateway کنترل کنید. فراخوانی‌های client را می‌توان به هر سرویس یا سرویسی که برای مدیریت رفتار مورد انتظار client نیاز دارد هدایت کرد و این امکان را می‌دهد که سرویس را در پشت gateway بدون تغییر در سمت client به راحتی؛ اضافه، تقسیم و سازماندهی مجدد کنید.
 
-![[Pasted image 20240209175731.png]]
+
+![](../assets/design_implementation/gateway-multiple-regions.png)
 
 ### Multiple instances of the same service (چندین نمونه از سرویس‌های مشابه)
 
@@ -36,7 +38,7 @@
 
 ###  Multiple versions of the same service (چندین نسخه از سرویس‌های مشابه)
 
-![[Pasted image 20240209175742.png]]
+![](../assets/design_implementation/gateway-multiple-versions.png)
 
 این الگو را می توان برای deployment استفاده کرد و این امکان را می دهد که نحوه به روز رسانی به کاربران را مدیریت کنید. هنگامی که یک نسخه جدید از سرویس شما مستقر می شود، می توان آن را به موازات نسخه موجود مستقر کرد. مسیریابی به شما امکان می‌دهد تا کنترل کنید چه نسخه‌ای از سرویس به مشتریان ارائه می‌شود، و به شما این امکان را می‌دهد که از استراتژی‌های انتشار مختلف استفاده کنید، چه به‌روزرسانی‌های incremental، parallel یا complete rollouts. هر مشکلی که پس از استقرار سرویس جدید مشاهده شود، می‌تواند به سرعت با ایجاد یک تغییر پیکربندی در gateway، بدون تأثیر بر کلاینت‌ها، بازگردانده شود.
 

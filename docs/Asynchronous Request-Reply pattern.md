@@ -46,8 +46,8 @@
   
 نمودار زیر یک حالت معمولی از پردازش مورد نظر را نشان می دهد:
 
+![async-request](../assets/messaging/async-request.png)
 
-![[Pasted image 20231127163543.png]]
 
 1 - client یک درخواست ارسال می کند و یک پاسخ HTTP 202 (Accepted) دریافت می کند.  
 2- client یک درخواست HTTP GET را به status endpoint ارسال می کند. کار هنوز در انتظار است، بنابراین این فراخوانی مقدار HTTP 200 را برمی گرداند.  
@@ -108,7 +108,7 @@
 * The status endpoint. 
 * یک function Backend که آیتم های کاری و تسک ها در صف را می گیرد و آنها را اجرا می کند.
 
-![[Pasted image 20231127165352.png]]
+![async-request-fn](../assets/messaging/async-request-fn.png)
 این نمونه در  [GitHub](https://github.com/mspnp/cloud-design-patterns/tree/master/async-request-reply) موجود است.
 
 ### AsyncProcessingWorkAcceptor function

@@ -30,8 +30,8 @@
 
 شکل زیر یک نمای کلی از این الگو را نشان می‌دهد، از جمله برخی از گزینه‌های مورد استفاده برای جریان رویداد یا event stream  (یک جریان رویداد یک دنباله مرتب از رویدادها است)  مواردی مانند:  ایجاد materialized view، ادغام رویدادها با برنامه‌ها و سیستم‌های خارجی و پخش مجدد رویدادها برای ایجاد پیش‌بینی وضعیت فعلی موجودیت‌های خاص است.
 
+![event-sourcing-bounded-context](../assets/dataManagement/event-sourcing-bounded-context.png)
 
-![[Pasted image 20231201231623.png]]
 
 الگوی  Event Sourcing مزایای زیر را ارائه می دهد:
 
@@ -129,7 +129,8 @@
 
 نمودار زیر نشان می دهد که چگونه می توان زیرسیستم رزرو صندلی سیستم مدیریت کنفرانس را با استفاده از  Event Sourcing پیاده سازی کرد.
 
-![[Pasted image 20231201232220.png]]
+![event-sourcing-overview](../assets/dataManagement/event-sourcing-overview.png)
+
 
 ترتیب اقدامات برای رزرو دو صندلی به شرح زیر است:
 

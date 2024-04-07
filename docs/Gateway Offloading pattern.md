@@ -14,7 +14,8 @@
 
 نمودار زیر gateway ای را نشان می دهد که اتصالات SSL ورودی را خاتمه می دهد. داده‌ها را از طرف درخواست‌کننده اصلی از هر سرور HTTP بالادست gateway درخواست می‌کند.
 
-![[Pasted image 20240209180210.png]]
+![gateway-offload](../assets/design_implementation/gateway-offload.png)
+
 
 مزایای این الگو عبارتند از:
 
