@@ -406,9 +406,9 @@ endpoint
 سازگاری(eventual consistency)؟
 تراکنش جبرانی (Compensating Transaction)
 granular
-
+journal
 replica
-
+payload
 
 
 

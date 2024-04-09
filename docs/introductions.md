@@ -79,3 +79,10 @@ Serverless computing can simplify the process of [deploying code](https://en.wik
 https://en.wikipedia.org/wiki/Serverless_computing
 
 -----------------
+blob storage - object storage
+
+**Object storage** (also known as **object-based storage**[[1]](https://en.wikipedia.org/wiki/Object_storage#cite_note-1) or **blob storage**) is a [computer data storage](https://en.wikipedia.org/wiki/Computer_data_storage "Computer data storage") approach that manages data as "blobs" or "objects", as opposed to other storage architectures like [file systems](https://en.wikipedia.org/wiki/File_systems "File systems") which manages data as a file hierarchy, and [block storage](https://en.wikipedia.org/wiki/Block_storage "Block storage") which manages data as blocks within sectors and tracks.[[2]](https://en.wikipedia.org/wiki/Object_storage#cite_note-2) Each object is typically associated with a variable amount of [metadata](https://en.wikipedia.org/wiki/Metadata "Metadata"), and a [globally unique identifier](https://en.wikipedia.org/wiki/Globally_unique_identifier "Globally unique identifier"). Object storage can be implemented at multiple levels, including the device level (object-storage device), the system level, and the interface level. In each case, object storage seeks to enable capabilities not addressed by other storage architectures, like interfaces that are directly programmable by the application, a namespace that can span multiple instances of physical hardware, and data-management functions like [data replication](https://en.wikipedia.org/wiki/Data_replication "Data replication") and data distribution at object-level granularity.
+
+
+-----------------
+
