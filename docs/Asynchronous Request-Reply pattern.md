@@ -27,7 +27,7 @@
 
 با این حال، در برخی از سناریوها، کار انجام شده توسط Backend ممکن است مدت طولانی طول بکشند، مثلا از  چند ثانیه گرفته تا حتی یک فرآیند پس‌زمینه‌ای که در چند دقیقه یا حتی ساعت‌ها اجرا می‌شود. در آن صورت، انتظار برای تکمیل کار قبل از response به request، امکان پذیر نیست. این وضعیت یک مشکل جدی برای هر الگوی synchronous request-reply است.
 
-برخی از معماری‌ها با استفاده از یک message broker برای جداسازی مراحل request و response این مشکل را حل می‌کنند. این جداسازی اغلب با استفاده از [Queue-Based Load Leveling pattern](obsidian://open?vault=cloud_softwares&file=docs%2FQueue-Based%20Load%20Leveling%20pattern) حاصل می‌شود. این جداسازی می‌تواند به client process و backend API  اجازه دهد تا به طور مستقل مقیاس‌دهی شوند. اما این جداسازی همچنین پیچیدگی بیشتری را در زمانی که client به اعلان موفقیت نیازمند است را به همراه دارد زیرا این مرحله باید ناهمزمان (asynchronous) شود.
+برخی از معماری‌ها با استفاده از یک message broker برای جداسازی مراحل request و response این مشکل را حل می‌کنند. این جداسازی اغلب با استفاده از [Queue-Based Load Leveling pattern](./Queue-Based%20Load%20Leveling%20pattern.md) حاصل می‌شود. این جداسازی می‌تواند به client process و backend API  اجازه دهد تا به طور مستقل مقیاس‌دهی شوند. اما این جداسازی همچنین پیچیدگی بیشتری را در زمانی که client به اعلان موفقیت نیازمند است را به همراه دارد زیرا این مرحله باید ناهمزمان (asynchronous) شود.
 
 بسیاری از ملاحظات مشابهی که برای برنامه‌های کلاینت مطرح شد، برای فراخوانی‌های REST API در حالت server-to-server در سیستم‌های توزیع‌شده نیز اعمال می‌شود -‏ به عنوان مثال، در معماری میکروسرویس‌ها.
 
@@ -313,6 +313,6 @@ public enum OnPendingEnum
 
 -‏  برای یافتن بهترین روش‌های اصولی در هنگام طراحی وب API، به [Web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design). مراجعه کنید.
 
-##   Related resources
+##   موضوعات مرتبط
 
--‏ [Backends for Frontends pattern](obsidian://open?vault=cloud_softwares&file=docs%2FBackends%20for%20Frontends)
+-‏ [Backends for Frontends pattern](./Backends%20for%20Frontends.md)

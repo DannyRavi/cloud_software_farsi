@@ -380,7 +380,7 @@ split tcp -> https://learn.microsoft.com/en-us/azure/frontdoor/front-door-traffi
 Anycast   -> [Anycast routing](https://en.wikipedia.org/wiki/Anycast) 
 Serverless -> Serverless computing
 pay as you go -> https://en.wikipedia.org/wiki/Pay_as_you_go
-granular control  کنترل دانه
+granular control  کنترل دانه (مهم)
 load balancers
 session -> https://en.wikipedia.org/wiki/Session_(computer_science)
 daemon -> https://en.wikipedia.org/wiki/Daemon_(computing)

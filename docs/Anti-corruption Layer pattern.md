@@ -51,7 +51,7 @@
 اگر تفاوت مفهومی قابل توجهی بین سیستم های جدید و قدیمی وجود نداشته باشد، ممکن است این الگو مناسب نباشد.
 
 
-## منابع مرتبطت
+## منابع مرتبط
 
-- [Strangler Fig pattern](obsidian://open?vault=cloud_softwares&file=docs%2FStrangler%20Fig%20pattern)
-- [Messaging Bridge pattern](obsidian://open?vault=cloud_softwares&file=docs%2FMessaging%20Bridge)
+- [Strangler Fig pattern](./Strangler%20Fig%20pattern.md)
+- [Messaging Bridge pattern](./Messaging%20Bridge.md)
