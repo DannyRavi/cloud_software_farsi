@@ -1,50 +1,70 @@
-### review
-- [x] Cache-Aside pattern.md
-- [x] Circuit Breaker pattern.md
-- [x] Compensating Transaction pattern .md
-- [x] Competing Consumers pattern.md
-- [x] Compute Resource Consolidation pattern.md
-- [x] CQRS.md
-- [x] External Configuration Store pattern.md
-- [x] Federated Identity pattern.md
-- [x] Gatekeeper pattern.md
-- [x] Health Endpoint Monitoring pattern.md
-- [x] Index Table pattern.md
-- [x] Leader Election pattern.md  
-- [x] Pipes and Filters pattern.md
-- [x] Priority Queue pattern.md
-- [x] Queue-Based Load Leveling pattern.md
-- [x] Retry.md
-- [x] Static Content Hosting pattern.md
-- [x] Throttling pattern.md
-- [x] Ambassador pattern.md
-- [x] Anti-corruption Layer pattern.md
-- [x] Asynchronous Request-Reply pattern.md
-- [x] Backends for Frontends.md
-- [x] Bulkhead pattern.md
-- [x] Choreography pattern.md
-- [x] Claim-Check pattern.md
-- [x] Edge Workload Configuration pattern.md
-- [x] Gateway Aggregation pattern.md
-- [x] Gateway Offloading pattern.md
-- [x] Gateway Routing pattern.md
-- [x] Geode pattern.md
-- [x] Messaging Bridge.md
-- [x] Publisher-Subscriber pattern.md
-- [x] Rate Limiting pattern.md
-- [x] Sidecar pattern.md
-- [x] Strangler Fig pattern.md
-- [x] SAGA.md
-- [x] Sequential Convoy pattern.md
-- [x] Materialized View pattern.md
-- [x] Event Sourcing pattern.md
-- [x] Scheduler Agent Supervisor pattern.md
-- [x] Deployment Stamps pattern.md
-- [x] Valet Key pattern.md
-- [x] Sharding pattern.md
-- [ ] introductions.md
---------------------------
-change
-- [ ] valet key
-- [ ] sharding
-- [ ] pipes
+
+
+## الگوهای طراحی ابری
+
+
+
+به طور کلی الگوهای طراحی در محیط ابری به سه دسته زیر تقسیم می‌شوند:
+
+- الگوهای مدیریت داده
+-  طراحی و استفاده
+- پیام رسانی
+
+مدیریت داده عنصر کلیدی در اپلیکیشن‌های ابری است و بیشتر ویژگی‌های کیفی را تحت تأثیر قرار می‌دهد. داده‌ها معمولاً در مکان‌های مختلف و در چندین سرور به دلایلی مانند عملکرد، مقیاس پذیری یا در دسترس بودن میزبانی می شوند و این می تواند طیف وسیعی از چالش ها را ایجاد کند. به عنوان مثال، سازگاری داده‌ها باید حفظ شود و داده‌ها معمولاً باید در مکان های مختلف همگام شوند.  
+  
+علاوه بر این، داده‌ها باید در حالت بدون استفاده یا در حین جابه‌جایی و از طریق مکانیسم‌های دسترسی مجاز برای حفظ تضمین‌های امنیتی محرمانگی، یکپارچگی و در دسترس بودن محافظت شوند.
+
+در زیر الگوهای کاربردی جهت مدیریت داده در فضای ابری به طور خلاصه معرفی شده است.
+
+###  الگوهای مدیریت داده
+
+| الگو                   | خلاصه                                                                                                                                                                                                                                                       |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Cache-Aside](./docs/Cache-Aside%20pattern.md)            | داده ها را در صورت نیاز در حافظه کَش از یک ذخیره‌گاه داده بارگیری کنید                                                                                                                                                                                      |
+| [CQRS](./docs/CQRS.md)                   | برای جداسازی عملیات خواندن داده از عملیات به‌روزرسانی و نوشتن داده، از رابط‌های کاربری (interfaces) جداگانه استفاده کنید.                                                                                                                                   |
+| [Event Sourcing](./docs/Event%20Sourcing%20pattern.md)         | از یک ذخیرگاه‌ برای ثبت کل توالی رخدادهایی که بیانگر اعمال انجام‌ برای ثبت کل توالی رخدادهایی که بیانگر اعمال انجام‌شده روی داده در یک دامنه (domain) هستند، از یک ذخیره‌ساز صرفا الحاقی (append-only store) استفاده کنید."append-only store) استفاده کنید. |
+| [Index Table](./docs/Index%20Table%20pattern.md)            | برای بهبود کارایی کوئری‌ها، روی فیلدهایی در مخزن‌های داده که اغلب اوقات در کوئری ارجاع داده می‌شوند، ایندکس ایجاد کنید.                                                                                                                                     |
+| [Materialized View](./docs/Materialized%20View%20pattern.md)      | برای بهبود کارایی پرس و جوها (queries) زمانی که داده در یکی یا چند مخزن داده به شکل بهینه برای عملیات مورد نیاز فرمت‌بندی نشده است، از نماهای از پیش پرشده (prepopulated views) بر روی این داده‌ها استفاده کنید.‌                                           |
+| [Sharding](./docs/Sharding%20pattern.md)           | یک مخزن داده را به مجموعه‌ای از پارتیشن‌های افقی یا شارد (shard) تقسیم کنید.                                                                                                                                                                                |
+| [Static Content Hosting](./docs/Static%20Content%20Hosting%20pattern.md) | محتوای استاتیک را در یک سرویس ذخیره سازی مبتنی بر ابر مستقر کنید که می تواند آنها را مستقیماً به کاربر تحویل دهد.                                                                                                                                           |
+| [Valet Key](./docs/Valet%20Key%20pattern.md)              | از رمز(token) یا کلیدی استفاده کنید که دسترسی مستقیم محدودی به یک منبع یا سرویس خاص را برای کاربرها فراهم می‌کند.                                                                                                                                           |
+
+یک طراحی خوب شامل عواملی مانند **یکنواختی و انسجام** در طراحی و استقرار اجزا، **نگهداری‌پذیری** برای ساده‌سازی مدیریت و توسعه، و **قابلیت استفاده مجدد** برای استفاده از اجزا و زیرسامانه‌ها در دیگر برنامه‌ها و سناریوها می‌شود. تصمیماتی که در فاز طراحی و پیاده‌سازی گرفته می‌شوند، تاثیر بسیار زیادی بر کیفیت و **هزینه کل مالکیت** (TCO) برای برنامه‌ها و سرویس‌های ابری میزبانی‌شده دارند.
+
+### طراحی و استفاده
+
+| الگو                                                                                                                           | خلاصه                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Ambassador](./docs/Ambassador%20pattern.md)                                         | یک سرویس جانبی که به جای سرویس مصرف کننده (consumer) یا برنامه، درخواست های شبکه ای ارسال می کند.                                                                                      |
+| [Anti-Corruption Layer](./docs/Anti-corruption%20Layer%20pattern.md)                   | پیاده سازی یک لایه نمایشی یا آداپتور بین یک برنامه مدرن و یک سیستم قدیمی.                                                                                                              |
+| [Backends for Frontends](./docs/Backends%20for%20Frontends.md)                 | ایجاد سرویس های پشتیبان مجزا که توسط اپلیکیشن یا رابط های کاربری خاصی مصرف می شوند.                                                                                                    |
+| [CQRS](./docs/CQRS.md)                                                     | جداسازی عملیات خواندن داده از عملیات به روزرسانی داده با استفاده از رابط های جداگانه. (Command Query Responsibility Segregation)                                                       |
+| [Compute Resource Consolidation](./docs/Compute%20Resource%20Consolidation%20pattern.md) | ادغام چندین کار یا عملیات در یک واحد محاسباتی واحد.                                                                                                                                    |
+| [Edge Workload Configuration](./docs/Edge%20Workload%20Configuration%20pattern.md)       | تنوع زیاد سیستم ها و دستگاه ها در محل تولید می‌تواند پیکربندی بار کاری را به یک مشکل دشوار تبدیل کند.                                                                                  |
+| [External Configuration Store](./docs/External%20Configuration%20Store%20pattern.md)     | انتقال اطلاعات پیکربندی از بسته استقرار برنامه به یک مکان مرکزی.                                                                                                                       |
+| [Gateway Aggregation](./docs/Gateway%20Aggregation%20pattern.md)                       | استفاده از یک درگاه برای جمع آوری چندین درخواست جداگانه به یک درخواست واحد.                                                                                                            |
+| [Gateway Offloading](./docs/Gateway%20Offloading%20pattern.md)                         | واگذاری عملکرد سرویس مشترک یا خاص به یک درگاه پروکسی                                                                                                                                   |
+| [Gateway Routing](./docs/Gateway%20Routing%20pattern.md)                               | مسیریابی درخواست‌ها به سرویس‌های مختلف با استفاده از یک نقطه انتهایی واحد.                                                                                                             |
+| [Leader Election](./docs/Leader%20Election%20pattern.md)                               | هماهنگ سازی اقدامات انجام شده توسط مجموعه ای از نمونه‌های تسک همکاری کننده در یک برنامه توزیع شده با انتخاب یک نمونه به عنوان رهبر که مسئولیت مدیریت سایر نمونه ها را بر عهده می‌گیرد. |
+| [Pipes and Filters](./docs/Pipes%20and%20Filters%20pattern.md)                           | تجزیه یک کار که پردازش پیچیده ای را انجام می دهد به مجموعه ای از عناصر جداگانه که قابل استفاده مجدد هستند.                                                                             |
+| [Sidecar](./docs/Sidecar%20pattern.md)                                               | استقرار اجزای یک برنامه در یک فرآیند یا ظرف جداگانه برای ارائه جداسازی و کپسوله سازی.                                                                                                  |
+| [Static Content Hosting](./docs/Static%20Content%20Hosting%20pattern.md)                 | استقرار محتوای استاتیک در یک سرویس ذخیره سازی ابری که می‌تواند آنها را مستقیماً به کاربر تحویل دهد.                                                                                    |
+| [Strangler Fig](./docs/Strangler%20Fig%20pattern.md)                                   | مهاجرت تدریجی یک سیستم قدیمی با جایگزینی تدریجی قطعات خاصی از قابلیت ها با برنامه ها و سرویس های جدید.                                                                                 |
+
+### پیام رسانی
+
+طبیعت توزیع‌شده‌ی برنامه‌های ابری، زیرساختی برای پیام‌رسانی را طلب می‌کند که اجزا و سرویس‌ها را به هم متصل نماید. در حالت ایده‌آل، این اتصال باید با اتکا کم (loose coupling) برقرار شود تا حداکثر مقیاس‌پذیری را به دست آورد. پیام‌رسانی ناهمزمان (Asynchronous messaging) به طور گسترده مورد استفاده قرار می‌گیرد و مزایای زیادی را به همراه دارد، اما در عین حال چالش‌هایی را نیز به وجود می‌آورد، مانند ترتیب پیام‌ها، مدیریت پیام‌های سمی (poison message)، ایدم‌پوتنسی (idempotency) و موارد دیگر.
+
+| الگو                                                                                                                   | خلاصه                                                                                                                                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Asynchronous Request-Reply](./docs/Asynchronous%20Request-Reply%20pattern.md)        | جداسازی پردازش بک‌اند از یک host فرانت‌اند، جایی که پردازش بک‌اند نیاز به ناهمزمان بودن دارد، اما فرانت‌اند همچنان به یک پاسخ واضح نیاز دارد.                                                                   |
+| [Claim Check](./docs/Claim-Check%20pattern.md)                               | تقسیم یک پیام بزرگ به یک **Claim Check** و یک محموله (payload) برای جلوگیری از تحت‌الشعاع قرار دادن یک باس پیام‌رسانی (message bus).                                                                            |
+| [Choreography](./docs/Choreography%20pattern.md)                             | مشارکت هر مؤلفه سیستم در فرآیند تصمیم‌گیری در مورد گردش کار تراکنش تجاری، به جای تکیه بر یک نقطه کنترل مرکزی.                                                                                                   |
+| [Competing Consumers](./docs/Competing%20Consumers%20pattern.md)               | اجازه دادن به چندین مصرف‌کننده همزمان برای پردازش پیام‌های دریافتی در همان کانال پیام‌رسانی.                                                                                                                    |
+| [Pipes and Filters](./docs/Pipes%20and%20Filters%20pattern.md)                   | اجازه دادن به چندین مصرف‌کننده همزمان برای پردازش پیام‌های دریافتی در همان کانال پیام‌رسانی.                                                                                                                    |
+| [Priority Queue](./docs/Priority%20Queue%20pattern.md)                         | اولویت‌بندی درخواست‌هایی که به سرویس‌ها ارسال می‌شوند به گونه‌ای که درخواست‌های با اولویت بالاتر سریع‌تر از درخواست‌های با اولویت پایین‌تر دریافت و پردازش شوند.                                                |
+| [Publisher-Subscriber](./docs/Publisher-Subscriber%20pattern.md)             | این امکان را به یک برنامه می‌دهد که به‌طور ناهمزمان رویدادها را به چندین مصرف‌کننده علاقه‌مند اعلام کند، بدون اینکه فرستنده‌ها را به گیرنده‌ها متصل کند.                                                        |
+| [Queue-Based Load Leveling](./docs/Queue-Based%20Load%20Leveling%20pattern.md)   | استفاده از یک صف که به عنوان یک بافر بین یک تسک و سرویسی که فراخوانی می‌کند عمل می‌کند تا بارهای سنگین متناوب را تحمل کند.                                                                                      |
+| [Saga](./docs/Saga%20distributed%20transactions%20pattern.md)                         | مدیریت انسجام داده در سراسر میکروسرویس‌ها در سناریوهای تراکنش توزیع‌شده. saga توالی از تراکنش‌هایی است که هر سرویس را به‌روزرسانی می‌کند و یک پیام یا رویداد را برای راه‌اندازی مرحله بعدی تراکنش منتشر می‌کند. |
+| [Scheduler Agent Supervisor](./docs/Scheduler%20Agent%20Supervisor%20pattern.md) | هماهنگی مجموعه‌ای از اقدامات در سراسر مجموعه‌ای توزیع‌شده از سرویس‌ها و سایر منابع از راه دور.                                                                                                                  |
+| [Sequential Convoy](./docs/Sequential%20Convoy%20pattern.md)                   | پردازش مجموعه‌ای از پیام‌های مرتبط به ترتیب تعریف‌شده، بدون مسدود کردن پردازش گروه‌های دیگر پیام‌ها.                                                                                                            |
