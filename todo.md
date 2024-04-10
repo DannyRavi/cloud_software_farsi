@@ -50,3 +50,4 @@ change
 - [ ] valet key
 - [ ] sharding
 - [ ] pipes
+- [ ] choreography

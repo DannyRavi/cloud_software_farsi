@@ -56,9 +56,9 @@
 
 
 ## مثال
-### مثال عوض شده
+توجه این مثال در مستندات مایکروسافت عوض شده است.
 
-<mark style="background: #FF5582A6;">این مثال الگوی choreography را با برنامه تحویل هواپیما‌های بدون سرنشین( [Drone Delivery app](https://github.com/mspnp/microservices-reference-implementation)) نشان می‌دهد. وقتی کلاینت درخواست مورد نظر را خود را انتخاب می‌کند ، برنامه یک هواپیمای بدون سرنشین را به اون اختصاص می‌دهد و به کلاینت اطلاع می‌دهد.  </mark>
+این مثال الگوی choreography را با برنامه تحویل هواپیما‌های بدون سرنشین( [Drone Delivery app](https://github.com/mspnp/microservices-reference-implementation)) نشان می‌دهد. وقتی کلاینت درخواست مورد نظر را خود را انتخاب می‌کند ، برنامه یک هواپیمای بدون سرنشین را به اون اختصاص می‌دهد و به کلاینت اطلاع می‌دهد.  
   
 نمونه ‌ای از این الگوی در [GitHub](https://github.com/mspnp/cloud-design-patterns/tree/master/choreography) موجود است.
 

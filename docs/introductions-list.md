@@ -216,7 +216,7 @@ endpoint
 [در کل، امنیت انتها با استفاده از فرآیندها، خدمات و راه‌حل‌‌های مختلف، دستگاه‌ها را در برابر تهدیدات سایبری محافظت می‌کند](https://www.microsoft.com/en-us/security/business/security-101/what-is-an-endpoint)[1](https://www.microsoft.com/en-us/security/business/security-101/what-is-an-endpoint).
 ------------------------------------------------
 materialized view
-یک نمای مادی ([materialized view](https://learn.microsoft.com/en-us/azure/architecture/patterns/materialized-view)) یک جدول شامل داده‌ها است که نتیجه یک پرس و جو را در خود ذخیره می‌کند. این روش باعث می‌شود که دسترسی به داده‌ها سریع‌تر و کارآمدتر شود، اما به قیمت اشغال فضای بیشتر و احتمال عدم به‌روز بودن برخی از داده‌ها.
+یک نمای مادی ([materialized view](https://learn.microsoft.com/en-us/azure/architecture/patterns/materialized-view)) یک جدول شامل داده‌ها است که نتیجه یک کوئری را در خود ذخیره می‌کند. این روش باعث می‌شود که دسترسی به داده‌ها سریع‌تر و کارآمدتر شود، اما به قیمت اشغال فضای بیشتر و احتمال عدم به‌روز بودن برخی از داده‌ها.
 
 ---------------------
  event store
