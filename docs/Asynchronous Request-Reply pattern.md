@@ -1,10 +1,10 @@
 پردازش مربوط به سرویس backend را از یک میزبان مربوط به frontend جدا کنید، جایی که پردازش backend باید ناهمزمان یا asynchronous باشد، اما frontend  به response/پاسخ واضحی نیاز دارد.
 
-### **طرح صورت مسئله:**
+### **زمینه و مشکل**
 
-در توسعه اپلیکیشن‌های مدرن، طبیعی است که برنامه‌های کلاینت -‏ اغلب کدهایی که در یک سرویس  web-client (browser) اجرا می‌شوند -‏ به APIها برای ارائه business logic و ساختارهای  اجرایی وابسته باشند. این APIها ممکن است مستقیماً با برنامه مرتبط باشند یا ممکن است ارائه سرویس‌ها توسط شخص ثالث/third partyها باشند. معمولاً این فراخوانی‌های API روی پروتکل HTTP(S) انجام می‌شوند و از ساختار REST پیروی می‌کنند.
+در توسعه اپلیکیشن‌‌های مدرن، طبیعی است که برنامه‌‌های کلاینت -‏ اغلب کد‌هایی که در یک سرویس  web-client (browser) اجرا می‌شوند -‏ به APIها برای ارائه business logic و ساختار‌های  اجرایی وابسته باشند. این APIها ممکن است مستقیماً با برنامه مرتبط باشند یا ممکن است ارائه سرویس‌ها توسط شخص ثالث/third partyها باشند. معمولاً این فراخوانی‌‌های API روی پروتکل HTTP(S) انجام می‌شوند و از ساختار REST پیروی می‌کنند.
 
-در بیشتر موارد، APIهای یک client application به گونه ای طراحی شده اند که به سرعت، در حدود 100 میلی ثانیه یا کمتر پاسخ دهند. عوامل زیادی می‌توانند بر تأخیر پاسخ (response latency) تأثیر بگذارند، از جمله موارد زیر:
+در بیشتر موارد، API‌های یک client application به گونه ‌ای طراحی شده اند که به سرعت، در حدود 100 میلی ثانیه یا کمتر پاسخ دهند. عوامل زیادی می‌توانند بر تأخیر پاسخ (response latency) تأثیر بگذارند، از جمله موارد زیر:
 
 -‏  hosting stack برنامه 
 
@@ -29,11 +29,11 @@
 
 برخی از معماری‌ها با استفاده از یک message broker برای جداسازی مراحل request و response این مشکل را حل می‌کنند. این جداسازی اغلب با استفاده از [Queue-Based Load Leveling pattern](./Queue-Based%20Load%20Leveling%20pattern.md) حاصل می‌شود. این جداسازی می‌تواند به client process و backend API  اجازه دهد تا به طور مستقل مقیاس‌دهی شوند. اما این جداسازی همچنین پیچیدگی بیشتری را در زمانی که client به اعلان موفقیت نیازمند است را به همراه دارد زیرا این مرحله باید ناهمزمان (asynchronous) شود.
 
-بسیاری از ملاحظات مشابهی که برای برنامه‌های کلاینت مطرح شد، برای فراخوانی‌های REST API در حالت server-to-server در سیستم‌های توزیع‌شده نیز اعمال می‌شود -‏ به عنوان مثال، در معماری میکروسرویس‌ها.
+بسیاری از ملاحظات مشابهی که برای برنامه‌‌های کلاینت مطرح شد، برای فراخوانی‌‌های REST API در حالت server-to-server در سیستم‌‌های توزیع‌شده نیز اعمال می‌شود -‏ به عنوان مثال، در معماری میکروسرویس‌ها.
 
 ## راه حل
 
-یکی از راه حلهای این مشکل استفاده از HTTP polling است. polling برای کد سمت کلاینت بسیار مفید است، زیرا ارائه call-back endpoints یا استفاده از اتصال در حال پرادزش طولانی مدت (long running process) می‌تواند دشوار باشد. حتی زمانی که  callbackها مقدور هستند، کتابخانه‌ها و سرویس‌های اضافی مورد نیاز گاهی اوقات می‌توانند پیچیدگی بیشتری را اضافه کنند.
+یکی از راه حل‌های این مشکل استفاده از HTTP polling است. polling برای کد سمت کلاینت بسیار مفید است، زیرا ارائه call-back endpoints یا استفاده از اتصال در حال پرادزش طولانی مدت (long running process) می‌تواند دشوار باشد. حتی زمانی که  callbackها مقدور هستند، کتابخانه‌ها و سرویس‌‌های اضافی مورد نیاز گاهی اوقات می‌توانند پیچیدگی بیشتری را اضافه کنند.
 
 -‏ یک  client application  درواقع یک فراخوانی همزمان (synchronous call) با API برقرار می‌کند و یک عملیات پردازشی طولانی مدت در سرویس backend را راه اندازی می‌کند.
 
@@ -64,9 +64,9 @@
 
 ## مسائل و ملاحظات:
 
--‏ چندین راه مختلف برای پیاده سازی این الگو بر روی HTTP وجود دارد و همه سرویسهای upstream فوق معنایی یکسان ندارند. به عنوان مثال، بیشتر سرویس‌ها پاسخ HTTP 202 را از روش GET برنمی‌گردانند به خصوص زمانی که یک فرآیند remote تمام نشده باشد. با توجه به ساختار REST، آنها باید مقدار HTTP 404 (Not Found) را برگردانند. زمانی که فکر می‌کنید نتیجه تماس هنوز هم وجود ندارد، این پاسخ منطقی است.  
+-‏ چندین راه مختلف برای پیاده سازی این الگو بر روی HTTP وجود دارد و همه سرویس‌های upstream فوق معنایی یکسان ندارند. به عنوان مثال، بیشتر سرویس‌ها پاسخ HTTP 202 را از روش GET برنمی‌گردانند به خصوص زمانی که یک فرآیند remote تمام نشده باشد. با توجه به ساختار REST، آنها باید مقدار HTTP 404 (Not Found) را برگردانند. زمانی که فکر می‌کنید نتیجه تماس هنوز هم وجود ندارد، این پاسخ منطقی است.  
   
--‏ یک پاسخ HTTP 202 باید موقعیت و تناوبی  را که client باید برای پاسخ رای گیری(poll) کند را نشان دهد. در نتیجه باید هدرهای اضافی زیر را داشته باشد:
+-‏ یک پاسخ HTTP 202 باید موقعیت و تناوبی  را که client باید برای پاسخ رای گیری(poll) کند را نشان دهد. در نتیجه باید هدر‌های اضافی زیر را داشته باشد:
 
 |Header|Description|Notes|
 |---|---|---|
@@ -74,17 +74,17 @@
 |Retry-After|An estimate of when processing will complete|This header is designed to prevent polling clients from overwhelming the back-end with retries.|
 
 
-* ممکن است لازم باشد از یک processing proxy یا [Facade](https://en.wikipedia.org/wiki/Facade_pattern "Facade pattern") (نما) برای دستکاری response headerها یا payloadها با توجه به سرویس‌های مورد استفاده شده را به کار ببرید.
+* ممکن است لازم باشد از یک processing proxy یا [Facade](https://en.wikipedia.org/wiki/Facade_pattern "Facade pattern") (نما) برای دستکاری response headerها یا payloadها با توجه به سرویس‌‌های مورد استفاده شده را به کار ببرید.
 
-* اگر status endpoint پس از تکمیل فرآیند مورد نظر  باید redirect شود، با توجه به ساختار دقیقی که پشتیبانی می‌کنید، معمولا کدهای بازگشتی مناسب برای این قسمت که مقدارهای [HTTP 302](https://tools.ietf.org/html/rfc7231#section-6.4.3)  یا [HTTP 303](https://tools.ietf.org/html/rfc7231#section-6.4.4)  هستند را مورد استفاده قرار دهید.
+* اگر status endpoint پس از تکمیل فرآیند مورد نظر  باید redirect شود، با توجه به ساختار دقیقی که پشتیبانی می‌کنید، معمولا کد‌های بازگشتی مناسب برای این قسمت که مقدار‌های [HTTP 302](https://tools.ietf.org/html/rfc7231#section-6.4.3)  یا [HTTP 303](https://tools.ietf.org/html/rfc7231#section-6.4.4)  هستند را مورد استفاده قرار دهید.
 
 * پس از پردازش موفقیت آمیز، منبع مشخص شده توسط  Location header باید کد پاسخ HTTP مناسب مانند 200 (OK), 201 (Created)  یا 204 (No Content) را برگرداند.
 
 * اگر در حین پردازش خطایی رخ داد، خطا را در URL منبع توضیح داده شده در Location header توضیح دهید و در حالت ایده آل یک کد پاسخ مناسب را از آن منبع(resource) به client برگردانید (4xx code)).
 
-* همه راه حلها این الگو را به یک شکل پیاده سازی نمی‌کنند و برخی از سرویسها شامل headerهای اضافی یا جایگزین می‌شوند. به عنوان مثال، Azure Resource Manager از یک نوع تغییر یافته از این الگو استفاده می‌کند. برای اطلاعات بیشتر، [Azure Resource Manager Async Operations](https://learn.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-async-operations). را ببینید.
+* همه راه حلها این الگو را به یک شکل پیاده سازی نمی‌کنند و برخی از سرویسها شامل header‌های اضافی یا جایگزین می‌شوند. به عنوان مثال، Azure Resource Manager از یک نوع تغییر یافته از این الگو استفاده می‌کند. برای اطلاعات بیشتر، [Azure Resource Manager Async Operations](https://learn.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-async-operations). را ببینید.
 
-* کلاینت‌های قدیمی ممکن است از این الگو پشتیبانی نکنند. در این صورت، ممکن است لازم باشد یک [Facade](https://en.wikipedia.org/wiki/Facade_pattern "Facade pattern") (نما) روی asynchronous API قرار دهید تا پردازش ناهمزمان را از client اصلی پنهان کنید. به عنوان مثال، Azure Logic Apps که به صورت native از این الگو پشتیبانی می‌کند، می‌تواند به عنوان یک لایه یکپارچه‌سازی بین یک API ناهمزمان و یک کلاینت که تماس‌های همزمان برقرار می‌کند استفاده شود. به انجام کارهای طولانی مدت با الگوی اقدام webhook مراجعه کنید ([Perform long-running tasks with the webhook action pattern](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-create-api-app#perform-long-running-tasks-with-the-webhook-action-pattern)).
+* کلاینت‌‌های قدیمی ممکن است از این الگو پشتیبانی نکنند. در این صورت، ممکن است لازم باشد یک [Facade](https://en.wikipedia.org/wiki/Facade_pattern "Facade pattern") (نما) روی asynchronous API قرار دهید تا پردازش ناهمزمان را از client اصلی پنهان کنید. به عنوان مثال، Azure Logic Apps که به صورت native از این الگو پشتیبانی می‌کند، می‌تواند به عنوان یک لایه یکپارچه‌سازی بین یک API ناهمزمان و یک کلاینت که تماس‌‌های همزمان برقرار می‌کند استفاده شود. به انجام کار‌های طولانی مدت با الگوی اقدام webhook مراجعه کنید ([Perform long-running tasks with the webhook action pattern](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-create-api-app#perform-long-running-tasks-with-the-webhook-action-pattern)).
 
 * در برخی از سناریوها، ممکن است بخواهید راهی برای لغو درخواست طولانی مدت (long-running request) برای کلاینت‌ها فراهم کنید. در آن صورت، سرویس backend باید از نوعی دستورالعمل لغو پشتیبانی کند.
 
@@ -93,30 +93,30 @@
 
 **از این الگو برای موارد زیر استفاده کنید:**  
   
--‏ کدهای سمت کلاینت‌ (Client-side)، مانند برنامه‌های مورد استفاده در مرورگر، که در آن ارائه call-back endpointها برگشتی دشوار است یا استفاده از اتصالات طولانی مدت(long-running connections)، پیچیدگی بیشتری را اضافه می‌کند.  
+-‏ کد‌های سمت کلاینت‌ (Client-side)، مانند برنامه‌‌های مورد استفاده در مرورگر، که در آن ارائه call-back endpointها برگشتی دشوار است یا استفاده از اتصالات طولانی مدت(long-running connections)، پیچیدگی بیشتری را اضافه می‌کند.  
   
--‏ فراخوانیهای سرویس (Service calls) که فقط در پروتکل HTTP در دسترس است و سرویس برگشتی نمی‌تواند به دلیل محدودیت‌های firewall در سمت کلاینت، تماس‌ها و فراخوانی‌های برگشتی را برقرار کند.  
+-‏ فراخوانی‌های سرویس (Service calls) که فقط در پروتکل HTTP در دسترس است و سرویس برگشتی نمی‌تواند به دلیل محدودیت‌‌های firewall در سمت کلاینت، تماس‌ها و فراخوانی‌‌های برگشتی را برقرار کند.  
   
--‏ فراخوانی‌های سرویس (Service calls) که نیاز به ادغام با معماری‌های قدیمی دارند که از فن‌آوری‌های فراخوانی‌های مدرن مانند WebSockets یا webhooks پشتیبانی نمی‌کنند.  
+-‏ فراخوانی‌‌های سرویس (Service calls) که نیاز به ادغام با معماری‌‌های قدیمی دارند که از فن‌آوری‌‌های فراخوانی‌‌های مدرن مانند WebSockets یا webhooks پشتیبانی نمی‌کنند.  
   
 **این الگو ممکن است زمانی مناسب نباشد:**  
   
--‏ به جای آن می‌توانید از سرویسی استفاده کنید که برای اعلانهای ناهمزمان ساخته شده است، مانند Azure Event Grid.  
+-‏ به جای آن می‌توانید از سرویسی استفاده کنید که برای اعلان‌های ناهمزمان ساخته شده است، مانند Azure Event Grid.  
 -‏ پاسخها باید در لحظه (real time) و به سرعت برای client ارسال شوند.  
 -‏ client باید نتایج زیادی را جمع آوری کند و تأخیر دریافتی آن نتایج مهم است. به جای آن یک الگوی service bus را در نظر بگیرید.  
 -‏ می‌توانید از اتصالات شبکه پایدار سمت سرور مانند WebSockets یا SignalR استفاده کنید. از این سرویس‌ها می‌توان برای اطلاع فراخوان کننده از نتیجه استفاده کرد.  
--‏ طراحی مناسب network به شما این امکان را می‌دهد که پورت‌هایی را برای  asynchronous callback یا webhookها باز کنید.
+-‏ طراحی مناسب network به شما این امکان را می‌دهد که پورت‌‌هایی را برای  asynchronous callback یا webhookها باز کنید.
 
 
 ## مثال
 
-کد زیر گزیده هایی از برنامه ای را نشان می‌دهد که از توابع Azure برای پیاده سازی این الگو استفاده می‌کند. سه عملکرد در راه حل وجود دارد:
+کد زیر گزیده‌هایی از برنامه ‌ای را نشان می‌دهد که از توابع Azure برای پیاده سازی این الگو استفاده می‌کند. سه عملکرد در راه حل وجود دارد:
 
 -‏ یک asynchronous API endpoint.
 
 -‏ The status endpoint. 
 
--‏ یک function Backend که آیتمهای کاری و تسکها در صف را می‌گیرد و آنها را اجرا می‌کند.
+-‏ یک function Backend که آیتم‌های کاری و تسکها در صف را می‌گیرد و آنها را اجرا می‌کند.
 
 ![async-request-fn](../assets/messaging/async-request-fn.png)
 این نمونه در  [GitHub](https://github.com/mspnp/cloud-design-patterns/tree/master/async-request-reply) موجود است.
@@ -311,7 +311,7 @@ public enum OnPendingEnum
   
 -‏ [Azure Logic Apps -‏ Perform long-running tasks with the polling action pattern](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-create-api-app#perform-long-running-tasks-with-the-polling-action-pattern).
 
--‏  برای یافتن بهترین روش‌های اصولی در هنگام طراحی وب API، به [Web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design). مراجعه کنید.
+-‏  برای یافتن بهترین روش‌‌های اصولی در هنگام طراحی وب API، به [Web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design). مراجعه کنید.
 
 ##   موضوعات مرتبط
 
