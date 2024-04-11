@@ -162,7 +162,7 @@
 
 *‏ [Choreography](https://learn.microsoft.com/en-us/azure/architecture/patterns/choreography) به جای تکیه بر یک نقطه کنترل مرکزی، هر یک از اجزای سیستم را در فرآیند تصمیم گیری (decision-making) درباره جریان‌کار (workflow) یک تراکنش تجاری را شرکت می‌دهد.
 
-*‏ تراکنش‌های جبرانی([Compensating transactions](https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction)) کار انجام شده توسط یک سری مراحل را خنثی می‌کند و در ن‌هایت در صورت شکست یک یا چند مرحله یک عملیات ثابت را تعریف می‌کند. برنامه‌‌های میزبانی شده در محیط ابری که فرآیندها و گردش‌‌های کاری پیچیده را پیاده‌سازی می‌کنند، اغلب از این مدل سازگاری ن‌هایی(_eventual consistency_) پیروی می‌کنند.
+*‏ تراکنش‌های جبرانی([Compensating transactions](https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction)) کار انجام شده توسط یک سری مراحل را خنثی می‌کند و در نهایت در صورت شکست یک یا چند مرحله یک عملیات ثابت را تعریف می‌کند. برنامه‌‌های میزبانی شده در محیط ابری که فرآیندها و گردش‌‌های کاری پیچیده را پیاده‌سازی می‌کنند، اغلب از این مدل سازگاری ن‌هایی(_eventual consistency_) پیروی می‌کنند.
 
 *‏ الگوی [Retry](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry) به یک برنامه اجازه می‌دهد تا هنگام تلاش برای اتصال به یک سرویس یا شبکه، با تلاش مجدد(retry) کردن روی عملیات ناموفق، خرابی‌‌های گذرا را مدیریت کند. retry می‌تواند پایداری برنامه را بهبود بخشد.
 

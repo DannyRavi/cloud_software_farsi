@@ -17,7 +17,7 @@
 
 ![sequential-convoy-overall](../assets/messaging/sequential-convoy-overall.png)
 
-همانطور که در نمودار زیر نشان داده شده است، در صف، پیام‌‌های دسته‌‌های مختلف در ن‌هایت ممکن است به هم متصل شوند:
+همانطور که در نمودار زیر نشان داده شده است، در صف، پیام‌‌های دسته‌‌های مختلف در نهایت ممکن است به هم متصل شوند:
 
 ![sequential-convoy-queuemessages](../assets/messaging/sequential-convoy-queuemessages.png)
 
