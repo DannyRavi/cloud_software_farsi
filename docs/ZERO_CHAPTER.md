@@ -13,11 +13,11 @@ It is also one of the important aspects of the interview process for software en
 
 طراحی سیستم فرآیند تعریف عناصر یک سیستم و همچنین تعاملات و روابط آنها برای برآورده کردن مجموعه ای از الزامات خاص است.
 
-این شامل گرفتن یک صورت مسئله، شکستن آن به اجزای کوچکتر و طراحی هر جزء برای کارکرد موثر با هم برای دستیابی به هدف کلی سیستم است. این فرآیند به طور معمول شامل تجزیه و تحلیل سیستم فعلی (در صورت وجود) و تعیین هر گونه کمبود، ایجاد یک برنامه دقیق برای سیستم جدید و آزمایش طراحی برای اطمینان از مطابقت آن با الزامات است. این یک فرآیند تکرارشونده است که ممکن است شامل چندین دور طراحی، آزمایش و اصلاح باشد.
+این شامل گرفتن یک صورت مسئله، شکستن آن به اجزای کوچکتر و طراحی هر جزء برای کارکرد موثر با هم برای دستیابی به هدف کلی سیستم است. این فرآیند به طور معمول شامل تجزیه و تحلیل سیستم فعلی (در صورت وجود) و تعیین هر گونه نیازمندی و ایجاد یک برنامه دقیق برای سیستم جدید و آزمایش طراحی برای اطمینان از مطابقت آن با الزامات است. این یک فرآیند تکرارشونده است که ممکن است شامل چندین دور طراحی، آزمایش و اصلاح باشد.
 
-در مهندسی نرم افزار، طراحی سیستم مرحله ای در فرآیند توسعه نرم افزار است که بر روی طراحی سطح بالای یک سیستم نرم افزاری، از جمله معماری و اجزا، تمرکز می کند.
+در مهندسی نرم افزار، طراحی سیستم مرحله ای در فرآیند توسعه نرم افزار است که بر روی طراحی سطح بالای یک سیستم نرم افزاری از جمله معماری و اجزا، تمرکز می‌کند.
 
-این همچنین یکی از جنبه های مهم فرآیند مصاحبه برای مهندسان نرم افزار است. اکثر شرکت ها یک دور مصاحبه اختصاصی برای طراحی سیستم دارند، جایی که از نامزدها می خواهند سیستمی را برای یک صورت مسئله خاص طراحی کنند. از انتظار می رود که نامزدها با یک طراحی دقیق از سیستم، از جمله معماری، اجزا و تعاملات آنها ارائه شوند. همچنین انتظار می رود که آنها در مورد معاوضه های موجود در طراحی خود و گزینه های جایگزینی که در نظر گرفته اند بحث کنند.
+این همچنین یکی از جنبه‌های مهم فرآیند مصاحبه برای مهندسان نرم افزار است. اکثر شرکت‌ها یک دور مصاحبه اختصاصی برای طراحی سیستم دارند، جایی که از نامزدها می‌خواهند سیستمی را برای یک صورت مسئله خاص طراحی کنند. از انتظار می‌رود که نامزدها با یک طراحی دقیق از سیستم، از جمله معماری، اجزا و تعاملات آنها ارائه شوند. همچنین انتظار می‌رود که آنها در مورد معاوضه‌های موجود در طراحی خود و گزینه‌های جایگزینی که در نظر گرفته اند بحث کنند.
 
 -------------
 
@@ -38,9 +38,9 @@ It is also one of the important aspects of the interview process for software en
 
 این شامل گرفتن یک صورت مسئله، شکستن آن به اجزای کوچکتر و طراحی هر جزء برای کارکرد موثر با هم برای دستیابی به هدف کلی سیستم است. این فرآیند به طور معمول شامل تجزیه و تحلیل سیستم فعلی (در صورت وجود) و تعیین هر گونه کمبود، ایجاد یک برنامه دقیق برای سیستم جدید و آزمایش طراحی برای اطمینان از مطابقت آن با الزامات است. این یک فرآیند تکرارشونده است که ممکن است شامل چندین دور طراحی، آزمایش و اصلاح باشد.
 
-در مهندسی نرم افزار، طراحی سیستم مرحله ای در فرآیند توسعه نرم افزار است که بر روی طراحی سطح بالای یک سیستم نرم افزاری، از جمله معماری و اجزا، تمرکز می کند.
+در مهندسی نرم افزار، طراحی سیستم مرحله ای در فرآیند توسعه نرم افزار است که بر روی طراحی سطح بالای یک سیستم نرم افزاری، از جمله معماری و اجزا، تمرکز می‌کند.
 
-این همچنین یکی از جنبه های مهم فرآیند مصاحبه برای مهندسان نرم افزار است. اکثر شرکت ها یک دور مصاحبه اختصاصی برای طراحی سیستم دارند، جایی که از نامزدها می خواهند سیستمی را برای یک صورت مسئله خاص طراحی کنند. از انتظار می رود که نامزدها با یک طراحی دقیق از سیستم، از جمله معماری، اجزا و تعاملات آنها ارائه شوند. همچنین انتظار می رود که آنها در مورد معاوضه های موجود در طراحی خود و گزینه های جایگزینی که در نظر گرفته اند بحث کنند. 
+این همچنین یکی از جنبه‌های مهم فرآیند مصاحبه برای مهندسان نرم افزار است. اکثر شرکت‌ها یک دور مصاحبه اختصاصی برای طراحی سیستم دارند، جایی که از نامزدها می‌خواهند سیستمی را برای یک صورت مسئله خاص طراحی کنند. از انتظار می‌رود که نامزدها با یک طراحی دقیق از سیستم مورد نظر، از جمله معماری، اجزا و تعاملات آنها ارائه شوند. همچنین انتظار می‌رود که آنها در مورد معاوضه‌های موجود در طراحی خود و گزینه‌های جایگزینی که در نظر گرفته اند بحث کنند. 
 
 ------------------------
 
@@ -56,7 +56,7 @@ Another way to look at performance vs scalability:
 
 ## عملکرد در برابر قابلیت ارتقاء
 
-یک سرویس **قابل ارتقاء** است اگر منجر به افزایش **عملکرد** به صورت متناسب با منابع اضافه شده شود. به طور کلی، افزایش عملکرد به معنای ارائه واحدهای کاری بیشتر است، اما همچنین می تواند به معنای مدیریت واحدهای کاری بزرگتر، مانند زمانی که مجموعه داده ها افزایش می یابد، باشد.
+یک سرویس مقیاس‌پذیر (scalable) است که  افزایش منابع اضافه شده منجر به افزایش **کارایی برنامه** شده باشد. به طور کلی، افزایش کارایی به معنای ارائه واحدهای کاری و عملیاتی بیشتر است، اما همچنین می‌تواند به معنای مدیریت واحدهای کاری و عملیاتی بزرگتر، مانند زمانی که مجموعه داده‌ها افزایش می‌یابد، باشد.
 
 یک راه دیگر برای نگاه کردن به عملکرد در برابر مقیاس پذیری:
 
@@ -77,9 +77,9 @@ This pattern can be useful for offloading common client connectivity tasks such 
 
 
 
-سرویس واسطه، سرویس‌های کمکی‌ای هستند که به جای یک سرویس مصرف‌کننده یا برنامه، درخواست‌های شبکه را ارسال می‌کنند. این سرویس را می‌توان به عنوان یک پروکسی خارج از فرایند در نظر گرفت که در کنار سرویس گیرنده (کلاینت) قرار دارد.
+سرویس‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌های واسطه، سرویس‌های کمکی‌ای(helper services) هستند که به جای یک سرویس مصرف‌کننده یا برنامه، درخواست‌های شبکه را ارسال می‌کنند. این سرویس را می‌توان به عنوان یک پروکسی خارج از فرایند در نظر گرفت که در کنار سرویس گیرنده (کلاینت) قرار دارد.
 
-این الگو برای برون‌سپاری کارهای مشترک ارتباط با کلاینت، مانند مانیتورینگ، لاگ‌گیری، مسیریابی، امنیت (مانند TLS) و الگوهای مقاومت به خطا به روشی مستقل از زبان برنامه‌نویسی، مفید است. 
+این الگو برای برون‌سپاری کارهای مشترک ارتباط با کلاینت، مانند مانیتورینگ، لاگ‌گیری، مسیریابی، امنیت (مانند TLS) و الگوهای مقاومت به خطا به روشی مستقل از زبان برنامه‌نویسی، مناسب است. 
 
 از این الگو اغلب برای برنامه‌های  قدیمی یا سایر برنامه‌هایی که تغییر آن‌ها دشوار است، به منظور گسترش قابلیت‌های شبکه‌ای آن‌ها استفاده می‌شود. همچنین می‌تواند به یک تیم متخصص امکان پیاده‌سازی این ویژگی‌ها را بدهد.
 
@@ -106,7 +106,7 @@ Create separate backend services to be consumed by specific frontend application
 CQRS stands for Command and Query Responsibility Segregation, a pattern that separates read and update operations for a data store. Implementing CQRS in your application can maximize its performance, scalability, and security. The flexibility created by migrating to CQRS allows a system to better evolve over time and prevents update commands from causing merge conflicts at the domain level.
 
 
-CQRS مخفف عبارت **Command Query Responsibility Segregation** (جداسازی مسئولیت فرمان و پرس و جو) است، الگویی که عملیات خواندن و به‌روزرسانی را برای یک ذخیره‌گاه داده جدا می‌کند. پیاده‌سازی CQRS در برنامه شما می‌تواند عملکرد، قابلیت مقیاس‌پذیری و امنیت آن را به طور قابل توجهی افزایش دهد.
+CQRS مخفف عبارت **Command Query Responsibility Segregation** (جداسازی مسئولیت فرمان و پرس و جو) است، الگویی که عملیات خواندن و به‌روزرسانی را برای یک ذخیره‌گاه داده جدا می‌کند. پیاده‌سازی CQRS در برنامه شما می‌تواند عملکرد، قابلیت مقیاس‌پذیری و امنیت آن را به طور قابل توجه‌ای افزایش دهد.
 
 
 --------------------------------
@@ -170,14 +170,14 @@ Route requests to multiple services or multiple service instances using a single
 
 Coordinate the actions performed by a collection of collaborating instances in a distributed application by electing one instance as the leader that assumes responsibility for managing the others. This can help to ensure that instances don’t conflict with each other, cause contention for shared resources, or inadvertently interfere with the work that other instances are performing.
 
-در یک برنامه توزیع شده، با انتخاب یک نمونه به عنوان رهبر که مسئولیت مدیریت سایر نمونه ها را بر عهده می گیرد، اقدامات انجام شده توسط مجموعه ای از نمونه های همکاری کننده را هماهنگ کنید. این کار می تواند به اطمینان از عدم تداخل نمونه ها با یکدیگر، ایجاد رقابت برای منابع مشترک یا دخالت ناخواسته در کاری که سایر نمونه ها انجام می دهند، کمک کند.
+در یک برنامه توزیع شده، با انتخاب یک نمونه به عنوان رهبر که مسئولیت مدیریت سایر نمونه‌ها را بر عهده می‌گیرد، اقدامات انجام شده توسط مجموعه ای از نمونه‌های همکاری کننده را هماهنگ و کنترل کنید. این کار می‌تواند به اطمینان از عدم تداخل نمونه‌ها با یکدیگر، ایجاد رقابت نمونه‌ها برای استفاده از منابع مشترک یا دخالت ناخواسته در کاری که سایر نمونه‌ها انجام می‌دهند، کمک کند.
 
 
 # Pipes and Filters
 
 Decompose a task that performs complex processing into a series of separate elements that can be reused. This can improve performance, scalability, and reusability by allowing task elements that perform the processing to be deployed and scaled independently.
 
-یک وظیفه پردازش پیچیده را به مجموعه ای از عناصر جداگانه که قابل استفاده مجدد هستند تجزیه کنید. این کار با اجازه دادن به عناصر وظیفه که پردازش را انجام می دهند تا به طور مستقل مستقر و مقیاس شوند، می تواند عملکرد، قابلیت مقیاس پذیری و قابلیت استفاده مجدد را بهبود بخشد.
+یک وظیفه پردازش پیچیده را به مجموعه ای از عناصر جداگانه که قابل استفاده مجدد هستند تجزیه کنید. این کار با اجازه دادن به عناصر وظیفه که پردازش را انجام می‌دهند تا به طور مستقل مستقر و مقیاس‌پذیر شوند، می‌تواند کارایی، قابلیت مقیاس پذیری و قابلیت استفاده مجدد را بهبود بخشد.
 
 # Sidecar
 
@@ -186,68 +186,68 @@ Deploy components of an application into a separate process or container to prov
 This pattern is named Sidecar because it resembles a sidecar attached to a motorcycle. In the pattern, the sidecar is attached to a parent application and provides supporting features for the application. The sidecar also shares the same lifecycle as the parent application, being created and retired alongside the parent. The sidecar pattern is sometimes referred to as the sidekick pattern and is a decomposition pattern.
 
 
-اجزای یک برنامه را برای ایزوله سازی و کپسوله سازی در یک فرایند یا ظرف جداگانه مستقر کنید. این الگو همچنین می تواند به برنامه ها اجازه دهد تا از اجزا و فناوری های ناهمگون تشکیل شوند.
+اجزای یک برنامه را برای ایزوله سازی و کپسوله سازی در یک فرایند یا کانتینر (container) جداگانه مستقر کنید. این الگو همچنین می‌تواند به برنامه‌ها اجازه دهد تا از اجزا و فناوری‌های ناهمگون تشکیل شوند.
 
-این الگو به دلیل شباهت به سایدکار متصل به موتورسیکلت، سایدکار نامیده می شود. در این الگو، سایدکار به یک برنامه اصلی متصل است و ویژگی‌های حمایتی را برای برنامه فراهم می‌کند. سایدکار همچنین دارای چرخه عمر مشابه با برنامه اصلی است و در کنار برنامه اصلی ایجاد و حذف می شود. الگوی سایدکار گاهی اوقات به عنوان الگوی همکار (sidekick) شناخته می شود و یک الگوی تجزیه است. 
+این الگو به دلیل شباهت به سایدکار متصل به موتورسیکلت، سایدکار نامیده می‌شود. در این الگو، سایدکار به یک برنامه اصلی متصل است و ویژگی‌های حمایتی را برای برنامه فراهم می‌کند. سایدکار همچنین دارای چرخه عمر مشابه با برنامه اصلی است و در کنار برنامه اصلی ایجاد و حذف می‌شود. الگوی سایدکار گاهی اوقات به عنوان الگوی همکار (sidekick) شناخته می‌شود و یک الگوی از نوع تجزیه (decomposition) است. 
 
 
 # Static Content Hosting
 
 Deploy static content to a cloud-based storage service that can deliver them directly to the client. This can reduce the need for potentially expensive compute instances.
 
-محتوای ایستا را در یک سرویس ذخیره سازی ابری مستقر کنید که بتواند آنها را به طور مستقیم به کاربر تحویل دهد. این کار می تواند نیاز به نمونه های محاسباتی بالقوه گران قیمت را کاهش دهد.
+محتوای ایستا را در یک سرویس ذخیره سازی ابری مستقر کنید که بتواند آنها را به طور مستقیم به کاربر تحویل دهد. این کار می‌تواند نیاز به نمونه‌های محاسباتی بالقوه گران قیمت را کاهش دهد.
 
 # Cache Aside
 
 Load data on demand into a cache from a data store. This can improve performance and also helps to maintain consistency between data held in the cache and data in the underlying data store.
 
-داده ها را هنگام درخواست از یک مخزن داده در حافظه پنهان بارگذاری کنید. این کار می تواند عملکرد را بهبود بخشد و همچنین به حفظ consistency (سازگاری) بین داده های موجود در حافظه پنهان و داده های موجود در مخزن داده اصلی کمک کند. 
+داده‌ها را پس از درخواست و واکشی از یک ذخیره‌گاه داده در یک حافظه کَش بارگذاری کنید. این کار می‌تواند کارایی برنامه را بهبود بخشد و همچنین به حفظ سازگاری (consistency) بین داده‌های موجود در حافظه کَش و داده‌های موجود در ذخیره‌گاه داده اصلی کمک کند. 
 
 
 # Event Sourcing
 
 Instead of storing just the current state of the data in a domain, use an append-only store to record the full series of actions taken on that data. The store acts as the system of record and can be used to materialize the domain objects. This can simplify tasks in complex domains, by avoiding the need to synchronize the data model and the business domain, while improving performance, scalability, and responsiveness. It can also provide consistency for transactional data, and maintain full audit trails and history that can enable compensating actions.
 
-به جای اینکه فقط وضعیت فعلی داده را در یک دامنه ذخیره کنید، از یک مخزن append-only برای ثبت کل سری اقداماتی که روی آن داده انجام شده استفاده کنید. این مخزن به عنوان سیستم ثبت عمل می کند و می تواند برای مادی سازی اشیاء دامنه استفاده شود. این کار می تواند با اجتناب از نیاز به همگام سازی مدل داده و حوزه کسب و کار، عملکرد، قابلیت مقیاس پذیری و پاسخگویی را در دامنه های پیچیده ساده کند. همچنین می تواند سازگاری داده تراکنشی را فراهم کند و ردیابی و تاریخچه کامل را برای انجام اقدامات جبرانی حفظ کند.
+به جای اینکه فقط وضعیت فعلی داده را در یک حوزه ذخیره کنید، از یک ذخیره‌گاه append-only برای ثبت همه‌ی سری اقداماتی که روی آن داده انجام شده استفاده کنید. این ذخیره‌گاه به عنوان سیستم ثبت عمل می‌کند و می‌تواند برای مادی سازی اشیاء دامنه (materialize the domain objects) استفاده شود. این کار می‌تواند با اجتناب از نیاز به همگام سازی مدل داده و حوزه تجاری، کارایی، قابلیت مقیاس پذیری و پاسخگویی را در حوزه‌های پیچیده ساده کند. همچنین می‌تواند سازگاری داده تراکنشی را فراهم کند و ردیابی و تاریخچه کاملی را برای انجام اقدامات جبرانی حفظ کند.
 
 # Index Table
 
 Create indexes over the fields in data stores that are frequently referenced by queries. This pattern can improve query performance by allowing applications to more quickly locate the data to retrieve from a data store.
 
-برای بهبود عملکرد کوئری، فیلدهای پرکاربرد در مخزن داده را ایندکس کنید. این الگو به برنامه‌ها این امکان را می‌دهد تا داده‌های مورد نظر را سریع‌تر از مخزن داده بازیابی کنند.
+برای بهبود عملکرد کوئری، فیلدهای پرکاربرد در ذخیره‌گاه داده را ایندکس کنید. این الگو به برنامه‌ها این امکان را می‌دهد تا داده‌های مورد نظر را سریع‌تر از ذخیره‌گاه داده بازیابی کنند.
 
 # Materialized View
 
 Generate prepopulated views over the data in one or more data stores when the data isn’t ideally formatted for required query operations. This can help support efficient querying and data extraction, and improve application performance.
 
-داده های موجود در یک یا چند مخزن داده را به صورت پیش‌ساخته (prepopulated) نمایش دهید (view) زمانی که این داده ها به طور بهینه برای عملیات پرس و جو (query) فرمت بندی نشده اند. این کار می تواند از پرس و جوی کارآمد و استخراج داده پشتیبانی کند و عملکرد برنامه را بهبود بخشد. 
+داده‌های موجود در یک یا چند ذخیره‌گاه داده را به صورت پیش‌ساخته (prepopulated) نمایش دهید (view) به خصوص زمانی که این داده‌ها به طور بهینه برای عملیات پرس و جو (query) فرمت بندی نشده اند. این کار می‌تواند از کوئری کارآمد و استخراج داده پشتیبانی کند و عملکرد برنامه را بهبود بخشد. 
 
 
 # Sharding
 
 Sharding is a technique used to horizontally partition a large data set across multiple servers, in order to improve the performance, scalability, and availability of a system. This is done by breaking the data set into smaller chunks, called shards, and distributing the shards across multiple servers. Each shard is self-contained and can be managed and scaled independently of the other shards. Sharding can be used in scenarios like scalability, availability, and geo-distribution. Sharding can be implemented using several different algorithms such as range-based sharding, hash-based sharding, and directory-based sharding.
 
-شاردینگ (Shardding) تکنیکی است که برای پارتیشن بندی افقی (تقسیم بندی بر اساس ردیف های جدول) یک مجموعه داده بزرگ در چندین سرور استفاده می شود تا عملکرد، مقیاس پذیری و در دسترس بودن یک سیستم را بهبود بخشد. این کار با شکستن مجموعه داده به بخش های کوچکتر به نام shard و توزیع آنها در چندین سرور انجام می شود. هر shard مستقل است و می توان آن را به طور مستقل از shardهای دیگر مدیریت و مقیاس بندی کرد. شاردینگ را می توان در سناریوهایی مانند مقیاس پذیری، در دسترس بودن و توزیع جغرافیایی (ذخیره داده در سرورهای مختلف مناطق جغرافیایی) استفاده کرد. شاردینگ را می توان با استفاده از الگوریتم های مختلفی مانند شاردینگ مبتنی بر محدوده (range-based sharding)، شاردینگ مبتنی بر hash و شاردینگ مبتنی بر دایرکتوری اجرا کرد.
+شاردینگ (Shardding) تکنیکی است که برای پارتیشن بندی افقی (تقسیم بندی بر اساس ردیف‌های جدول) یک مجموعه داده بزرگ در چندین سرور استفاده می‌شود تا عملکرد، مقیاس پذیری و در دسترس بودن یک سیستم را بهبود بخشد. این کار با شکستن مجموعه داده به بخش‌های کوچکتر به نام shard و توزیع آنها در چندین سرور انجام می‌شود. هر shard مستقل است و می‌توان آن را به طور مستقل از shardهای دیگر مدیریت و مقیاس بندی کرد. شاردینگ را می‌توان در سناریوهایی مانند مقیاس پذیری، در دسترس بودن و توزیع جغرافیایی (ذخیره داده در سرورهای مختلف مناطق جغرافیایی) استفاده کرد. شاردینگ را می‌توان با استفاده از الگوریتم‌های مختلفی مانند شاردینگ مبتنی بر محدوده (range-based sharding)، شاردینگ مبتنی بر hash و شاردینگ مبتنی بر دایرکتوری اجرا کرد.
 
 
 # Valet Key
 
 Use a token that provides clients with restricted direct access to a specific resource, in order to offload data transfer from the application. This is particularly useful in applications that use cloud-hosted storage systems or queues, and can minimize cost and maximize scalability and performance.
 
-از یک توکن برای دسترسی مستقیم محدود به یک منبع خاص برای کلاینت ها استفاده کنید تا انتقال داده از برنامه را کاهش دهد. این امر به خصوص در برنامه هایی که از سیستم های ذخیره سازی ابری یا صف های ابری استفاده می کنند مفید است و می تواند هزینه را به حداقل برساند و قابلیت مقیاس پذیری و عملکرد را به حداکثر برساند. 
+از یک توکن برای دسترسی مستقیم و محدود به یک منبع خاص برای کلاینت‌ها استفاده کنید تا انتقال داده از برنامه را کاهش دهد. این امر به خصوص در برنامه هایی که از سیستم‌های ذخیره سازی ابری یا صف‌های ابری استفاده می‌کنند مفید است و می‌تواند هزینه را به حداقل برساند و قابلیت مقیاس پذیری و کارایی را به حداکثر برساند. 
 
-#######
+# الگوهای پیام‌رسانی
 
 # Asynchronous Request-Reply
 
 Decouple backend processing from a frontend host, where backend processing needs to be asynchronous, but the frontend still needs a clear response.
 
-چندین الگو برای جدا کردن پردازش بک‌اند از هاست فرانت‌اند در سناریویی که پردازش بک‌اند ناهمزمان است اما فرانت‌اند همچنان به پاسخ مشخصی نیاز دارد، وجود دارد. 
+چندین الگو برای جدا کردن بک‌اند از host فرانت‌اند در سناریویی که پردازش بک‌اند ناهمزمان است اما فرانت‌اند همچنان به پاسخ مشخصی نیاز دارد، وجود دارد. 
 # Claim Check
 
 Split a large message into a claim check and a payload. Send the claim check to the messaging platform and store the payload to an external service. This pattern allows large messages to be processed, while protecting the message bus and the client from being overwhelmed or slowed down. This pattern also helps to reduce costs, as storage is usually cheaper than resource units used by the messaging platform.
 
-پیام های حجیم را به یک رسید (claim check) و محموله (payload) تقسیم کنید. رسید را به پلتفرم پیام رسانی ارسال کرده و محموله را در یک سرویس خارجی ذخیره کنید. این الگو به پردازش پیام های حجیم کمک می کند و در عین حال از کند شدن یا تحت فشار قرار گرفتن پلتفرم پیام رسانی و کاربر جلوگیری می کند. همچنین این الگو به کاهش هزینه ها کمک می کند، زیرا ذخیره سازی معمولا ارزان تر از واحدهای منابع استفاده شده توسط پلتفرم پیام رسانی است. 
+پیام‌های حجیم را به یک رسید (claim check) و محموله (payload) تقسیم کنید. رسید را به پلتفرم پیام رسانی ارسال کرده و محموله را در یک سرویس خارجی ذخیره کنید. این الگو به پردازش پیام‌های حجیم کمک می‌کند و در عین حال از کند شدن یا تحت فشار قرار گرفتن پلتفرم پیام رسانی و  پلتفرم کلاینت جلوگیری می‌کند. همچنین این الگو به کاهش هزینه‌ها کمک می‌کند، زیرا ذخیره سازی معمولا ارزان‌تر از واحدهای منابع استفاده شده توسط پلتفرم پیام رسانی است. 
 
 # Choreography
 
@@ -259,31 +259,24 @@ Have each component of the system participate in the decision-making process abo
 
 Enable multiple concurrent consumers to process messages received on the same messaging channel. With multiple concurrent consumers, a system can process multiple messages concurrently to optimize throughput, to improve scalability and availability, and to balance the workload.
 
-
-چندین مصرف‌کننده همزمان (concurrent consumer) را قادر کنید تا پیام‌های دریافتی روی یک کانال پیام‌رسانی مشابه را پردازش کنند. با داشتن چندین مصرف‌کننده همزمان، یک سیستم می‌تواند به‌طور همزمان پیام‌های بیشتری را پردازش کند تا توان عملیاتی (throughput) را بهینه کند، قابلیت ارتقاء (scalability) و در دسترس بودن (availability) را بهبود بخشد و همچنین بار کاری را متعادل کند.
-
-# Competing Consumers
-
-Enable multiple concurrent consumers to process messages received on the same messaging channel. With multiple concurrent consumers, a system can process multiple messages concurrently to optimize throughput, to improve scalability and availability, and to balance the workload.
-
-چندین مصرف کننده همزمان را فعال کنید تا پیام های دریافت شده در یک کانال پیام رسانی را پردازش کنند. با چندین مصرف کننده همزمان، یک سیستم می تواند چندین پیام را به طور همزمان پردازش کند تا توان عملیاتی را بهینه کند، مقیاس پذیری(scalability) و در دسترس بودن (availability) را بهبود بخشد و بار کاری را متعادل کند.
+چندین مصرف کننده همزمان را فعال کنید تا پیام‌های دریافت شده در یک کانال پیام رسانی را پردازش کنند. با چندین مصرف کننده همزمان، یک سیستم می‌تواند چندین پیام را به طور همزمان پردازش کند تا توان عملیاتی را بهینه کند، مقیاس پذیری(scalability) و در دسترس بودن (availability) را بهبود بخشد و بار کاری را متعادل کند.
 # Priority Queue
 
 Prioritize requests sent to services so that requests with a higher priority are received and processed more quickly than those with a lower priority. This pattern is useful in applications that offer different service level guarantees to individual clients.
 
-درخواست‌های ارسال‌شده به سرویس‌ها را می‌توان اولویت‌بندی کرد تا درخواست‌های با اولویت بالاتر سریع‌تر از درخواست‌های با اولویت پایین‌تر دریافت و پردازش شوند. این الگو در برنامه‌های کاربردی که ضمانت‌های سطح خدمات (SLA) مختلفی را به مشتریان ارائه می‌دهند، مفید است. 
+درخواست‌های ارسال‌شده به سرویس‌ها را می‌توان اولویت‌بندی کرد تا درخواست‌های با اولویت بالاتر سریع‌تر از درخواست‌های با اولویت پایین‌تر دریافت و پردازش شوند. این الگو در برنامه‌ها و اپلیکیشن‌هایی که ضمانت‌های سطح خدمات (SLA) مختلفی را به مشتریان ارائه می‌دهند، مفید است. 
 
 # Publisher Subscriber
 
 Enable an application to announce events to multiple interested consumers asynchronously, without coupling the senders to the receivers.
 
-الگوی انتشار-اشتراک (Pub/Sub) این امکان را برای یک برنامه کاربردی فراهم می‌کند تا رویدادها را به صورت غیرهمزمان برای چندین مصرف‌کننده علاقه‌مند اعلام کند، بدون اینکه فرستنده‌ها با گیرنده‌ها وابستگی داشته باشند.
+الگوی انتشار-اشتراک (Pub/Sub) این امکان را برای یک اپلیکیشن فراهم می‌کند تا رویدادها را به صورت غیرهمزمان برای چندین مصرف‌کننده علاقه‌مند اعلام کند، بدون اینکه فرستنده‌ها با گیرنده‌ها وابستگی داشته باشند.
 
 # Queue Based Load Leveling
 
 Use a queue that acts as a buffer between a task and a service it invokes in order to smooth intermittent heavy loads that can cause the service to fail or the task to time out. This can help to minimize the impact of peaks in demand on availability and responsiveness for both the task and the service.
 
-با استفاده از یک صف (queue) به عنوان بافر بین یک وظیفه (task) و سرویسی که فراخوانی می‌کند، می‌توان نوسانات بار سنگین را که می‌تواند باعث خرابی سرویس یا زمان خروج وظیفه شود، تعدیل کرد. این کار به کم کردن تاثیر پیک‌های تقاضا روی در دسترس بودن و پاسخگویی هر دو، هم وظیفه و هم سرویس، کمک می‌کند.
+با استفاده از یک صف (queue) به عنوان بافر بین یک وظیفه (task) و سرویسی که فراخوانی می‌کند، می‌توان نوسانات بار سنگین را که می‌تواند باعث خرابی سرویس یا time out تسک(task) شود را تعدیل کرد. این کار به کم کردن تاثیر اوج‌های تقاضا روی هر دو موردِ در دسترس بودن (availability) و پاسخگویی (responsiveness) در حالت  تسک و  سرویس، کمک می‌کند.
 
 # Scheduling Agent Supervisor
 
@@ -295,7 +288,7 @@ Coordinate a set of distributed actions as a single operation. If any of the act
 
 Sequential Convoy is a pattern that allows for the execution of a series of tasks, or convoy, in a specific order. This pattern can be used to ensure that a set of dependent tasks are executed in the correct order and to handle errors or failures during the execution of the tasks. It can be used in scenarios like workflow and transaction. It can be implemented using a variety of technologies such as state machines, workflows, and transactions.
 
-مجموعه دنباله‌دار (Sequential Convoy) الگویی است که به اجرای مجموعه‌ای از وظایف (کاروان) به ترتیب خاص اجازه می‌دهد. این الگو را می‌توان برای اطمینان از اجرای صحیح مجموعه‌ای از وظایف وابسته و رسیدگی به خطاها یا خرابی‌ها در طول اجرای وظایف به کار برد. این الگو در سناریوهایی مانند گردش کار و تراکنش قابل استفاده است و می‌توان آن را با استفاده از فناوری‌های مختلفی مانند ماشین‌های حالت، گردش کار و تراکنش‌ها پیاده‌سازی کرد. 
+مجموعه دنباله‌دار (Sequential Convoy) الگویی است که اجرای مجموعه‌ای از تسک‌ها را به ترتیب خاصی اجازه می‌دهد. این الگو را می‌توان برای اطمینان از اجرای صحیح مجموعه‌ای از وظایف وابسته و رسیدگی به خطاها یا خرابی‌ها در طول اجرای وظایف به کار برد. این الگو در سناریوهایی مانند گردش کار(workflow) و تراکنش (transaction) قابل استفاده است و می‌توان آن را با استفاده از فناوری‌های مختلفی مانند ماشین‌های حالت (state machines)، گردش کار و تراکنش‌ها پیاده‌سازی کرد. 
 
 ### 
 deployment
@@ -307,25 +300,25 @@ deployment
 The deployment stamp pattern involves provisioning, managing, and monitoring a heterogeneous group of resources to host and operate multiple workloads or tenants. Each individual copy is called a stamp, or sometimes a service unit, scale unit, or cell. In a multi-tenant environment, every stamp or scale unit can serve a predefined number of tenants. Multiple stamps can be deployed to scale the solution almost linearly and serve an increasing number of tenants. This approach can improve the scalability of your solution, allow you to deploy instances across multiple regions, and separate your customer data.
 
 
-الگوی تمایز مستقر سازی (deployment stamp) شامل تهیه، مدیریت و نظارت بر گروهی ناهمگون از منابع برای میزبانی و اجرای چندین بار کاری یا مستاجر است. هر نسخه جداگانه تمایز، واحد سرویس، واحد مقیاس یا سلول نامیده می شود. در یک محیط چند مستاجری، هر تمایز یا واحد مقیاس می تواند به تعداد از پیش تعریف شده ای از مستاجران خدمات ارائه دهد. تمایزهای متعدد را می توان برای مقیاس بندی تقریباً خطی راه حل و خدمت رسانی به تعداد فزاینده ای از مستاجران مستقر کرد. این رویکرد می تواند مقیاس پذیری راه حل شما را بهبود بخشد، امکان استقرار نمونه ها را در چندین منطقه فراهم کند و داده های مشتری شما را جدا کند.
+الگوی deployment stamp شامل تهیه، مدیریت و نظارت بر گروهی ناهمگون از منابع برای میزبانی و اجرای چندین بار کاری (workloads) یا مستاجر(tenants) است. هر نسخه جداگانه تمایز، واحد سرویس، واحد مقیاس یا سلول نامیده می‌شود. در یک محیط چند مستاجری، هر تمایز یا واحد مقیاس می‌تواند به تعداد از پیش تعریف شده ای از مستاجران خدمات ارائه دهد. تمایزهای متعدد را می‌توان برای مقیاس بندی تقریباً خطی راه حل و خدمت رسانی به تعداد فزاینده ای از مستاجران مستقر کرد. این رویکرد می‌تواند مقیاس پذیری راه حل شما را بهبود بخشد، امکان استقرار نمونه‌ها را در چندین منطقه فراهم کند و داده‌های مشتری شما را جدا کند.
 
 # Geodes
 
 The Geode pattern involves deploying a collection of backend services into a set of geographical nodes, each of which can service any request for any client in any region. This pattern allows serving requests in an active-active style, improving latency and increasing availability by distributing request processing around the globe.
 
-الگوی ژئود (Geode) شامل استقرار مجموعه ای از سرویس های بک اند در مجموعه ای از گره های جغرافیایی است که هر کدام می توانند به هر درخواست از هر مشتری در هر منطقه سرویس دهند. این الگو به سرویس دهی درخواست ها به صورت فعال-فعال (active-active) اجازه می دهد، تأخیر را بهبود می بخشد و با توزیع پردازش درخواست در سراسر جهان، در دسترس بودن را افزایش می دهد.
+الگوی ژئود (Geode) شامل استقرار مجموعه ای از سرویس‌های backend در مجموعه ای از گره‌های جغرافیایی است که هر کدام می‌توانند به هر درخواست از هر مشتری در هر منطقه سرویس دهند. این الگو به سرویس دهی درخواست‌ها به صورت فعال-فعال (active-active) اجازه می‌دهد، تأخیر را بهبود می‌بخشد و با توزیع پردازش درخواست در سراسر جهان، در دسترس بودن را افزایش می‌دهد.
 
 # Health Endpoint Monitoring
 
 Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals. This can help to verify that applications and services are performing correctly.
 
-برای اطمینان از عملکرد صحیح برنامه ها و سرویس ها، می توانید بررسی های عملکردی را در برنامه ای که ابزارهای خارجی می توانند از طریق نقاط انتهایی در معرض دید در فواصل منظم به آنها دسترسی داشته باشند، پیاده کنید.
+برای اطمینان از عملکرد صحیح برنامه‌ها و سرویس ها، می‌توانید بررسی‌های عملکردی آن را در برنامه‌های که به کمک ابزارهای خارجی می‌توانند از طریق نقاط انتهایی (endpoints) در معرض دید قرار داده و در فواصل منظم زمانی به آنها دسترسی داشته باشند را پیاده سازی کنید.
 
 # Throttling
 
 Control the consumption of resources used by an instance of an application, an individual tenant, or an entire service. This can allow the system to continue to function and meet service level agreements, even when an increase in demand places an extreme load on resources.
 
-<mark style="background: #FFB86CA6;">مصرف منابع مورد استفاده توسط یک نمونه از یک برنامه کاربردی، یک مستاجر فردی یا یک سرویس کامل را کنترل کنید. این می تواند به سیستم اجازه دهد تا به عملکرد خود ادامه دهد و توافقات سطح خدمات را برآورده کند، حتی زمانی که افزایش تقاضا بار شدیدی را بر منابع وارد می کند.</mark>
+مصرف منابع مورد استفاده توسط یک نمونه از یک اپلیکیشن، یک مستاجر (tenant) مستقل یا یک سرویس کامل را کنترل کنید. این می‌تواند به سیستم اجازه دهد تا به عملکرد خود ادامه دهد و توافقات سطح خدمات (SLA) را برآورده کند، حتی زمانی که افزایش تقاضا بار شدیدی را بر منابع وارد می‌کند.
 
 # Bulkhead
 
@@ -337,28 +330,28 @@ The Bulkhead pattern is a type of application design that is tolerant of failure
 
 Handle faults that might take a variable amount of time to recover from, when connecting to a remote service or resource. This can improve the stability and resiliency of an application.
 
-<mark style="background: #FFB86CA6;">هنگام اتصال به یک سرویس یا منبع راه دور، خطاهایی را که ممکن است زمان متغیری برای بازیابی آنها طول بکشد، مدیریت کنید. این می تواند پایداری و انعطاف پذیری یک برنامه را بهبود بخشد.</mark>
+هنگام اتصال به یک سرویس یا منبع ریموت، خطاهایی را که ممکن است زمان متغیری برای بازیابی آنها طول بکشد، مدیریت کنید. این می‌تواند پایداری و انعطاف پذیری یک برنامه را بهبود بخشد.
 
 
 # Compensating Transaction
 
 Undo the work performed by a series of steps, which together define an eventually consistent operation, if one or more of the steps fail. Operations that follow the eventual consistency model are commonly found in cloud-hosted applications that implement complex business processes and workflows.
 
-اگر یک یا چند مرحله با شکست مواجه شوند، کار انجام شده توسط یک سری مراحل را لغو کنید، که با هم یک عملیات در نهایت سازگار را تعریف می کنند. عملیات‌هایی که از مدل سازگاری نهایی پیروی می‌کنند معمولاً در برنامه‌های میزبانی ابری یافت می‌شوند که فرآیندها و گردش‌های کاری پیچیده تجاری را پیاده‌سازی می‌کنند.
+اگر یک یا چند مرحله با شکست مواجه شوند، کار انجام شده توسط یک سری مراحل را لغو کنید، که با هم یک عملیات در  eventually consistent  را تعریف می‌کنند. عملیات‌هایی که از مدل  eventually consistent  پیروی می‌کنند معمولاً در برنامه‌های میزبانی ابری یافت می‌شوند که فرآیندها و گردش‌های کاری پیچیده تجاری را پیاده‌سازی می‌کنند.
 
-لغو کردن کار انجام شده توسط یک سری از مراحل، که در مجموع یک عملیات با ثبات نهایی را تعریف می کنند، در صورتی که یک یا چند مرحله با شکست مواجه شوند. عملیات‌هایی که از مدل ثبات نهایی پیروی می‌کنند، معمولاً در برنامه‌های کاربردی ابری که فرآیندهای تجاری و گردش کار پیچیده را اجرا می‌کنند، یافت می‌شوند.
+لغو کردن کار انجام شده توسط یک سری از مراحل، که در مجموع یک عملیات با  eventually consistent  را تعریف می‌کنند، در صورتی که یک یا چند مرحله با شکست مواجه شوند. عملیات‌هایی که از مدل  eventually consistent  پیروی می‌کنند، معمولاً در برنامه‌ها و اپلیکیشن‌های ابری که فرآیندهای تجاری و گردش کار پیچیده را اجرا می‌کنند، یافت می‌شوند.
 
 # Leader Election
 
 Coordinate the actions performed by a collection of collaborating instances in a distributed application by electing one instance as the leader that assumes responsibility for managing the others. This can help to ensure that instances don’t conflict with each other, cause contention for shared resources, or inadvertently interfere with the work that other instances are performing.
 
-برای هماهنگ سازی فعالیت‌های مجموعه ای از نمونه های همکاری کننده در یک برنامه توزیع شده، می توان از الگوی رهبر-پیرو (Leader-Follower) استفاده کرد. در این الگو، یک نمونه به عنوان رهبر انتخاب می شود و مسئولیت مدیریت سایر نمونه ها (پیروها) را بر عهده می گیرد. این روش به جلوگیری از تداخل نمونه ها با یکدیگر، رقابت برای منابع مشترک و اختلال ناخواسته در کار سایر نمونه ها کمک می کند.
+برای هماهنگ سازی فعالیت‌های مجموعه ای از نمونه‌های همکاری کننده در یک برنامه توزیع شده، می‌توان از الگوی رهبر-پیرو (Leader-Follower) استفاده کرد. در این الگو، یک نمونه به عنوان رهبر انتخاب می‌شود و مسئولیت مدیریت سایر نمونه‌ها (پیروها) را بر عهده می‌گیرد. این روش به جلوگیری از تداخل نمونه‌ها با یکدیگر، رقابت برای منابع مشترک و اختلال ناخواسته در کار سایر نمونه‌ها کمک می‌کند.
 
 # Retry
 
 Enable an application to handle transient failures when it tries to connect to a service or network resource, by transparently retrying a failed operation. This can improve the stability of the application.
 
-الگوی تلاش مجدد (Retry Pattern) به برنامه این امکان را می دهد تا در صورت برقراری ارتباط با یک سرویس یا منبع شبکه با خرابی های گذرا برخورد کند، با تلاش مجدد شفاف برای عملیات با شکست، ثبات برنامه را بهبود بخشد.
+الگوی تلاش مجدد (Retry Pattern) به برنامه این امکان را می‌دهد تا در صورت برقراری ارتباط با یک سرویس یا منبع شبکه با خرابی‌های گذرا برخورد کند، با تلاش مجدد شفاف برای عملیات با شکست، ثبات برنامه را بهبود بخشد.
 
 ### sec
 
@@ -366,7 +359,7 @@ Enable an application to handle transient failures when it tries to connect to a
 
 Delegate authentication to an external identity provider. This can simplify development, minimize the requirement for user administration, and improve the user experience of the application.
 
-احراز هویت را به یک ارائه دهنده هویت خارجی واگذار کنید. این می تواند توسعه را ساده کند، نیاز به مدیریت کاربر را به حداقل برساند و تجربه کاربری برنامه را بهبود بخشد.
+احراز هویت را به یک ارائه دهنده هویت خارجی واگذار کنید. این می‌تواند توسعه را ساده کند، نیاز به مدیریت کاربر را به حداقل برساند و تجربه کاربری برنامه را بهبود بخشد.
 
 
 
@@ -375,14 +368,14 @@ Delegate authentication to an external identity provider. This can simplify deve
 Protect applications and services using a dedicated host instance that acts as a broker between clients and the application or service, validates and sanitizes requests, and passes requests and data between them. This can provide an additional layer of security and limit the system’s attack surface.
 
 
-برای محافظت از برنامه ها و سرویس ها می توانید از یک نمونه میزبان اختصاصی به عنوان واسطه بین مشتریان و برنامه یا سرویس استفاده کنید، درخواست ها را اعتبارسنجی و پاکسازی می کند و درخواست ها و داده ها را بین آنها منتقل می کند. این می تواند یک لایه امنیتی اضافی ایجاد کند و سطح حمله سیستم را محدود کند.
+برای محافظت از برنامه‌ها و سرویس‌ها می‌توانید از یک نمونه میزبان اختصاصی به عنوان واسطه بین مشتریان و برنامه یا سرویس استفاده کنید، درخواست‌ها را اعتبارسنجی و پاکسازی می‌کند و درخواست‌ها و داده‌ها را بین آنها منتقل می‌کند. این می‌تواند یک لایه امنیتی اضافی ایجاد کند و سطح حمله سیستم را محدود کند.
 
 
 # Valet Key
 
 Use a token that provides clients with restricted direct access to a specific resource, in order to offload data transfer from the application. This is particularly useful in applications that use cloud-hosted storage systems or queues, and can minimize cost and maximize scalability and performance.
 
-برای کم کردن بار انتقال داده از روی برنامه، می توانید از توکنی استفاده کنید که به مشتریان دسترسی مستقیم محدود به یک منبع خاص بدهد. این روش به خصوص در برنامه هایی که از سیستم های ذخیره سازی ابری یا صف‌های ابری استفاده می کنند مفید است و می تواند هزینه را به حداقل برساند و قابلیت مقیاس‌پذیری و کارایی را به حداکثر برساند.
+برای کم کردن بار انتقال داده از روی برنامه، می‌توانید از توکنی استفاده کنید که به مشتریان دسترسی مستقیم محدود به یک منبع خاص بدهد. این روش به خصوص در برنامه هایی که از سیستم‌های ذخیره سازی ابری یا صف‌های ابری استفاده می‌کنند مفید است و می‌تواند هزینه را به حداقل برساند و قابلیت مقیاس‌پذیری و کارایی را به حداکثر برساند.
 
 
 ------------------------
@@ -405,7 +398,7 @@ Some of the examples of performance antipatterns include:
 
 برخی از نمونه‌های ضدالگوهای عملکرد عبارتند از:
 
-* **پرس‌وجوهای N+1**: این اتفاق زمانی می‌افتد که یک سیستم برای بازیابی داده‌های مرتبط، چندین پرس‌وجو به پایگاه داده ارسال می‌کند، به جای اینکه از یک پرس‌وجوی واحد برای بازیابی تمام داده‌های مورد نیاز استفاده کند.
+* **کوئر‌های N+1**: این اتفاق زمانی می‌افتد که یک سیستم برای بازیابی داده‌های مرتبط، چندین کوئری به پایگاه داده ارسال می‌کند، به جای اینکه از یک کوئری واحد برای بازیابی تمام داده‌های مورد نیاز استفاده کند.
 
 * **رابط‌های پرحرف (Chatty interfaces)**: این اتفاق زمانی می‌افتد که یک سیستم درخواست‌های کوچک و مکرر زیادی به یک سرویس یا API خارجی ارسال کند، به جای اینکه درخواست‌های کمتر و بزرگ‌تر ارسال کند.
 
@@ -421,12 +414,8 @@ A busy database in system design refers to a database that is handling a high vo
 
 ## پایگاه داده شلوغ (Busy Database)
 
-در طراحی سیستم، پایگاه داده شلوغ به پایگاه داده‌ای اشاره دارد که حجم بالایی از درخواست‌ها یا تراکنش‌ها را مدیریت می‌کند. این اتفاق می‌تواند زمانی رخ دهد که یک سیستم با ترافیک بالا مواجه شود یا زمانی که پایگاه داده برای حجم کاری که مدیریت می‌کند به درستی بهینه نشده باشد. این وضعیت می‌تواند منجر به موارد زیر شود:
 
-
-)))))
-
-پایگاه داده شلوغ در طراحی سیستم به پایگاه داده ای اطلاق می شود که حجم بالایی از درخواست ها یا تراکنش ها را مدیریت می کند، این می تواند زمانی اتفاق بیفتد که یک سیستم ترافیک بالایی را تجربه می کند یا زمانی که پایگاه داده به درستی برای حجم کاری که مدیریت می کند بهینه سازی نشده باشد. این می تواند منجر به کاهش عملکرد، افزایش استفاده از منابع، بن بست و مشاجره، ناسازگاری داده ها شود. برای پرداختن به یک پایگاه داده شلوغ، تعدادی از رویکردها مانند Scaling out، Optimizing the schema، Caching و Indexing را می توان در نظر گرفت.
+پایگاه داده شلوغ در طراحی سیستم به پایگاه داده ای اطلاق می‌شود که حجم بالایی از درخواست‌ها یا تراکنش‌ها را مدیریت می‌کند، این می‌تواند زمانی اتفاق بیفتد که یک سیستم ترافیک بالایی را تجربه می‌کند یا زمانی که پایگاه داده به درستی برای حجم کاری که مدیریت می‌کند بهینه سازی نشده باشد. این می‌تواند منجر به کاهش عملکرد، افزایش استفاده از منابع، بن بست و مشاجره، ناسازگاری داده‌ها شود. برای پرداختن به یک پایگاه داده شلوغ، تعدادی از رویکردها مانند Scaling out، Optimizing the schema، Caching و Indexing را می‌توان در نظر گرفت.
 
 ---------------
 
@@ -465,10 +454,10 @@ Network calls and other I/O operations are inherently slow compared to compute t
 
   تاثیر تجمعی تعداد زیادی از درخواست‌های I/O می‌تواند تأثیر قابل توجهی بر عملکرد و پاسخگویی سیستم داشته باشد.
 
-   در مقایسه با وظایف محاسباتی، فراخوانی‌های شبکه و سایر عملیات I/O ذاتاً کند هستند. هر درخواست I/O معمولاً دارای سربار قابل توجهی است و اثر تجمعی چندین عملیات I/O می تواند سیستم را کند کند. در اینجا برخی از دلایل رایج I/O پرحرف آورده شده است:
+   در مقایسه با وظایف محاسباتی، فراخوانی‌های شبکه و سایر عملیات I/O ذاتاً کند هستند. هر درخواست I/O معمولاً دارای سربار قابل توجهی است و اثر تجمعی چندین عملیات I/O می‌تواند سیستم را آهسته کند. در اینجا برخی از دلایل رایج I/O پرحرف آورده شده است:
 
-  * خواندن و نوشتن تک تک رکوردها در پایگاه داده به عنوان درخواست های مجزا
-  * اجرای یک عملیات منطقی واحد به عنوان یک سری درخواست های HTTP
+  * خواندن و نوشتن تک تک رکوردها در پایگاه داده به عنوان درخواست‌های مجزا
+  * اجرای یک عملیات منطقی واحد به عنوان یک سری درخواست‌های HTTP
   * خواندن و نوشتن روی یک فایل روی دیسک
 
 ------------------------------------
@@ -812,7 +801,7 @@ Federation (or functional partitioning) splits up databases by function. For exa
 
 ## فدراسیون (Federation)
 
-فدراسیون (یا پارتیشن بندی عملکردی) پایگاه داده ها را بر اساس تابع تقسیم می کند. به عنوان مثال، به جای یک پایگاه داده واحد و یکپارچه، می توانید سه پایگاه داده داشته باشید: انجمن ها، کاربران و محصولات، در نتیجه ترافیک خواندن و نوشتن کمتری برای هر پایگاه داده و در نتیجه تاخیر کمتری در تکرار وجود دارد. پایگاه داده‌های کوچکتر منجر به داده‌های بیشتری می‌شوند که می‌توانند در حافظه قرار بگیرند، که به نوبه خود به دلیل بهبود موقعیت حافظه نهان، بازدیدهای کش بیشتری را به همراه دارد. بدون نوشتن سریال اصلی مرکزی واحد، می توانید به صورت موازی بنویسید و توان عملیاتی را افزایش دهید.
+فدراسیون (یا پارتیشن بندی عملکردی) پایگاه داده‌ها را بر اساس تابع تقسیم می‌کند. به عنوان مثال، به جای یک پایگاه داده واحد و یکپارچه، می‌توانید سه پایگاه داده داشته باشید: انجمن ها، کاربران و محصولات، در نتیجه ترافیک خواندن و نوشتن کمتری برای هر پایگاه داده و در نتیجه تاخیر کمتری در تکرار وجود دارد. پایگاه داده‌های کوچکتر منجر به داده‌های بیشتری می‌شوند که می‌توانند در حافظه قرار بگیرند، که به نوبه خود به دلیل بهبود موقعیت حافظه نهان، بازدیدهای کش بیشتری را به همراه دارد. بدون نوشتن سریال اصلی مرکزی واحد، می‌توانید به صورت موازی بنویسید و توان عملیاتی را افزایش دهید.
 
 --------------
 
@@ -839,7 +828,7 @@ Asynchronous workflows help reduce request times for expensive operations that w
 
 ## ناهمزمانی (Asynchronism)
 
-گردش کارهای ناهمزمان (آсинکرون) به کاهش زمان پاسخگویی برای عملیات پرهزینه که در غیر این صورت به صورت درون خطی (همزمان) انجام می شوند، کمک می کنند. همچنین می توانند با انجام کارهای زمان بر به صورت مقدم، مانند تجمیع دوره ای داده ها، به بهبود عملکرد سیستم کمک کنند.
+گردش کارهای ناهمزمان (آсинکرون) به کاهش زمان پاسخگویی برای عملیات پرهزینه که در غیر این صورت به صورت درون خطی (همزمان) انجام می‌شوند، کمک می‌کنند. همچنین می‌توانند با انجام کارهای زمان بر به صورت مقدم، مانند تجمیع دوره ای داده ها، به بهبود عملکرد سیستم کمک کنند.
 
 ---------------
 
@@ -851,9 +840,9 @@ It is also important to understand the benefits of [idempotent](https://en.wiki
 
 ## عملیات ایدمپوتنت (Idempotent Operations)
 
-عملیات ایدمپوتنت، عملیاتی هستند که می توان آن ها را چندین بار اجرا کرد بدون اینکه نتیجه نهایی فراتر از اولین اجرا تغییر کند. به عبارتی دیگر، اگر یک عملیات ایدمپوتنت باشد، فرقی نمی کند که یکبار یا چندین بار آن را اجرا کنید، نتیجه نهایی یکسان خواهد بود.
+عملیات ایدمپوتنت، عملیاتی هستند که می‌توان آن‌ها را چندین بار اجرا کرد بدون اینکه نتیجه نهایی فراتر از اولین اجرا تغییر کند. به عبارتی دیگر، اگر یک عملیات ایدمپوتنت باشد، فرقی نمی کند که یکبار یا چندین بار آن را اجرا کنید، نتیجه نهایی یکسان خواهد بود.
 
-درک مزایای عملیات ایدمپوتنت، به خصوص هنگام استفاده از صف های پیام یا کار که پردازش دقیقاً یکبار را تضمین نمی کنند، بسیار مهم است. بسیاری از سیستم های صف، تحویل یا پردازش پیام "حداقل یکبار" را تضمین می کنند. این سیستم ها به طور کامل همزمان سازی نشده اند، به عنوان مثال در سراسر مناطق جغرافیایی، که برخی از جنبه های پیاده سازی یا طراحی آنها را ساده می کند. طراحی عملیات اجرا شده توسط یک صف وظیفه برای اینکه ایدمپوتنت باشند، به فرد اجازه می دهد تا از سیستم صف بندی استفاده کند که این مصالحه طراحی را پذیرفته است.
+درک مزایای عملیات ایدمپوتنت، به خصوص هنگام استفاده از صف‌های پیام یا کار که پردازش دقیقاً یکبار را تضمین نمی کنند، بسیار مهم است. بسیاری از سیستم‌های صف، تحویل یا پردازش پیام "حداقل یکبار" را تضمین می‌کنند. این سیستم‌ها به طور کامل همزمان سازی نشده اند، به عنوان مثال در سراسر مناطق جغرافیایی، که برخی از جنبه‌های پیاده سازی یا طراحی آنها را ساده می‌کند. طراحی عملیات اجرا شده توسط یک صف وظیفه برای اینکه ایدمپوتنت باشند، به فرد اجازه می‌دهد تا از سیستم صف بندی استفاده کند که این مصالحه طراحی را پذیرفته است.
 
 
 ----------------
@@ -867,7 +856,7 @@ If queues start to grow significantly, the queue size can become larger than mem
 
 زمانی که صف‌ها (queue) به طور قابل توجهی رشد می‌کنند، اندازه صف می‌تواند از حافظه فراتر رود و در نتیجه منجر به خطاهای حافظه پنهان (cache miss)، خواندن از دیسک و در نهایت عملکرد پایین‌تر شود. «فشار معکوس» با محدود کردن اندازه صف به حفظ نرخ خروجی بالا و زمان پاسخگویی مناسب برای کارهایی که قبلاً در صف قرار دارند، کمک می‌کند.
 
-هنگامی که صف پر می شود، سرور به کلاینت ها (clients) سیگنال "سرور مشغول است" یا کد وضعیت HTTP 503 ارسال می کند تا بعداً دوباره تلاش کنند. کلاینت‌ها می‌توانند درخواست را در زمان دیگری، احتمالاً با تأخیر تصاعدی (exponential backoff)، دوباره امتحان کنند.
+هنگامی که صف پر می‌شود، سرور به کلاینت‌ها (clients) سیگنال "سرور مشغول است" یا کد وضعیت HTTP 503 ارسال می‌کند تا بعداً دوباره تلاش کنند. کلاینت‌ها می‌توانند درخواست را در زمان دیگری، احتمالاً با تأخیر تصاعدی (exponential backoff)، دوباره امتحان کنند.
 
 
 ----------
@@ -878,7 +867,7 @@ Tasks queues receive tasks and their related data, runs them, then delivers thei
 
 [Celery](https://docs.celeryproject.org/en/stable/) has support for scheduling and primarily has python support.
 
-## صف های وظیفه (Task Queues)
+## صف‌های وظیفه (Task Queues)
 
 صف‌های وظیفه، وظایف (task) و داده‌های مرتبط با آن‌ها را دریافت می‌کنند، آن‌ها را اجرا کرده و سپس نتایج را تحویل می‌دهند. این صف‌ها می‌توانند زمان‌بندی را پشتیبانی کنند و برای اجرای کارهای محاسباتی سنگین در پس‌زمینه مورد استفاده قرار گیرند.
 
@@ -902,19 +891,19 @@ The user is not blocked and the job is processed in the background. During this 
 - [Apache Kafka](https://kafka.apache.org/) is a distributed event store and stream-processing platform.
 
 
-## صف های پیام (Message Queues)
+## صف‌های پیام (Message Queues)
 
-صف های پیام، پیام ها را دریافت، نگهداری و تحویل می دهند.  اگر انجام یک عملیات به صورت درون‌خطی (inline)  بسیار زمانبر است، می توانید با استفاده از یک صف پیام و با گردش کار زیر، آن را بهبود بخشید:
+صف‌های پیام، پیام‌ها را دریافت، نگهداری و تحویل می‌دهند.  اگر انجام یک عملیات به صورت درون‌خطی (inline)  بسیار زمانبر است، می‌توانید با استفاده از یک صف پیام و با گردش کار زیر، آن را بهبود بخشید:
 
-* یک برنامه، یک کار (job) را در صف منتشر و سپس  وضعیت کار  را به کاربر اطلاع می دهد.
-* یک پردازشگر (worker)، کار را از صف برداشته، آن را پردازش کرده و سپس تکمیل کار را اعلام می کند.
-* کاربر مسدود نشده و کار در پس زمینه پردازش می شود. در این مدت، کاربر (اختیاری) می تواند کارهای کوچک دیگری را برای نمایش پیشرفت کار انجام دهد. به عنوان مثال، هنگام ارسال یک توییت، ممکن است بلافاصله در تایم‌لاین شما ارسال شود، اما ممکن است مدتی طول بکشد تا واقعاً برای همه دنبال کنندگان شما ارسال شود.
+* یک برنامه، یک کار (job) را در صف منتشر و سپس  وضعیت کار  را به کاربر اطلاع می‌دهد.
+* یک پردازشگر (worker)، کار را از صف برداشته، آن را پردازش کرده و سپس تکمیل کار را اعلام می‌کند.
+* کاربر مسدود نشده و کار در پس زمینه پردازش می‌شود. در این مدت، کاربر (اختیاری) می‌تواند کارهای کوچک دیگری را برای نمایش پیشرفت کار انجام دهد. به عنوان مثال، هنگام ارسال یک توییت، ممکن است بلافاصله در تایم‌لاین شما ارسال شود، اما ممکن است مدتی طول بکشد تا واقعاً برای همه دنبال کنندگان شما ارسال شود.
 
-برخی از صف های پیام محبوب به شرح زیر هستند:
+برخی از صف‌های پیام محبوب به شرح زیر هستند:
 
-* **Redis:** به عنوان یک کارگزار ساده پیام (message broker) مفید است، اما پیام ها ممکن است از بین بروند.
-* **RabbitMQ:** محبوب است، اما نیازمند سازگاری با پروتکل AMQP و مدیریت گره های خود (nodes) است.
-* **AWS SQS:** میزبانی شده است، اما می تواند تأخیر زیادی داشته باشد و احتمال ارسال دو باره پیام ها وجود دارد.
+* **Redis:** به عنوان یک کارگزار ساده پیام (message broker) مفید است، اما پیام‌ها ممکن است از بین بروند.
+* **RabbitMQ:** محبوب است، اما نیازمند سازگاری با پروتکل AMQP و مدیریت گره‌های خود (nodes) است.
+* **AWS SQS:** میزبانی شده است، اما می‌تواند تأخیر زیادی داشته باشد و احتمال ارسال دو باره پیام‌ها وجود دارد.
 * **Apache Kafka:** یک پلتفرم توزیع شده برای ذخیره رویدادها (event store) و پردازش جریان (stream-processing) است.
 
 
@@ -943,7 +932,7 @@ Also, you can have the cache in several places, examples include:
 
 ## ذخیره سازی میانگیر (Caching)
 
-ذخیره سازی میانگیر (Caching) فرآیندی است که در آن داده های پرکاربرد به صورت موقت در مکانی به نام حافظه میانگیر (cache) ذخیره می شوند تا بازیابی سریع آنها بدون نیاز به مراجعه مستقیم به منبع اصلی داده انجام شود. این کار با کاهش تعداد دفعات دسترسی به منبع اصلی داده، باعث بهبود عملکرد برنامه می شود.
+ذخیره سازی میانگیر (Caching) فرآیندی است که در آن داده‌های پرکاربرد به صورت موقت در مکانی به نام حافظه میانگیر (cache) ذخیره می‌شوند تا بازیابی سریع آنها بدون نیاز به مراجعه مستقیم به منبع اصلی داده انجام شود. این کار با کاهش تعداد دفعات دسترسی به منبع اصلی داده، باعث بهبود عملکرد برنامه می‌شود.
 
 چندین استراتژی برای ذخیره سازی میانگیر وجود دارد، از جمله:
 
@@ -1100,23 +1089,23 @@ Load balancers can be implemented with hardware (expensive) or with software suc
 A load balancer is a software or hardware device that keeps any one server from becoming overloaded. A load balancing algorithm is the logic that a load balancer uses to distribute network traffic between servers (an algorithm is a set of predefined rules).
 
 There are two primary approaches to load balancing. Dynamic load balancing uses algorithms that take into account the current state of each server and distribute traffic accordingly. Static load balancing distributes traffic without making these adjustments. Some static algorithms send an equal amount of traffic to each server in a group, either in a specified order or at random.
-## الگوریتم های توزیع بار (Load Balancing Algorithms)
+## الگوریتم‌های توزیع بار (Load Balancing Algorithms)
 
-توزیع کننده بار (load balancer) یک دستگاه نرم افزاری یا سخت افزاری است که از اضافه بارگذاری روی هر یک از سرورها جلوگیری می کند. الگوریتم توزیع بار منطقی است که توزیع کننده بار از آن برای توزیع ترافیک شبکه بین سرورها استفاده می کند (الگوریتم مجموعه ای از قوانین از پیش تعریف شده است).
+توزیع کننده بار (load balancer) یک دستگاه نرم افزاری یا سخت افزاری است که از اضافه بارگذاری روی هر یک از سرورها جلوگیری می‌کند. الگوریتم توزیع بار منطقی است که توزیع کننده بار از آن برای توزیع ترافیک شبکه بین سرورها استفاده می‌کند (الگوریتم مجموعه ای از قوانین از پیش تعریف شده است).
 
 دو رویکرد اصلی برای توزیع بار وجود دارد:
 
-* **توزیع بار پویا (Dynamic load balancing):** در این روش، الگوریتم ها با در نظر گرفتن وضعیت فعلی هر سرور، ترافیک را توزیع می کنند. به عنوان مثال، ممکن است سروری شلوغ باشد در حالی که سرور دیگری بیکار باشد. الگوریتم توزیع بار پویا، ترافیک را به سمت سرور کم کار هدایت می کند تا بار به طور مساوی توزیع شود.
-* **توزیع بار ایستا (Static load balancing):** در این روش، ترافیک بدون در نظر گرفتن وضعیت سرورها توزیع می شود.  برخی از الگوریتم های ایستا، ترافیک را به طور مساوی بین سرورها توزیع می کنند، این توزیع می تواند به صورت گردشی (round robin) یا تصادفی (random) باشد.
+* **توزیع بار پویا (Dynamic load balancing):** در این روش، الگوریتم‌ها با در نظر گرفتن وضعیت فعلی هر سرور، ترافیک را توزیع می‌کنند. به عنوان مثال، ممکن است سروری شلوغ باشد در حالی که سرور دیگری بیکار باشد. الگوریتم توزیع بار پویا، ترافیک را به سمت سرور کم کار هدایت می‌کند تا بار به طور مساوی توزیع شود.
+* **توزیع بار ایستا (Static load balancing):** در این روش، ترافیک بدون در نظر گرفتن وضعیت سرورها توزیع می‌شود.  برخی از الگوریتم‌های ایستا، ترافیک را به طور مساوی بین سرورها توزیع می‌کنند، این توزیع می‌تواند به صورت گردشی (round robin) یا تصادفی (random) باشد.
 
-در اینجا برخی از رایج ترین الگوریتم های توزیع بار آورده شده است:
+در اینجا برخی از رایج ترین الگوریتم‌های توزیع بار آورده شده است:
 
-* **Round Robin (گردشی):** این الگوریتم ساده، درخواست ها را به صورت نوبت به سرورهای موجود ارسال می کند. 
-* **Least Connections (کمترین اتصال):** در این روش، سروری که در حال حاضر کمترین تعداد اتصال را دارد، برای درخواست بعدی انتخاب می شود. 
-* **Weighted Round Robin (گردشی با وزن):** این الگوریتم مشابه گردشی (round robin) است، اما به هر سرور وزنی اختصاص داده می شود. سرورهای با وزن بالاتر، درخواست های بیشتری را دریافت می کنند. این روش برای سرورهایی با توانایی پردازش متفاوت مناسب است.
-* **Least Response Time (کمترین زمان پاسخ):** در این روش، سروری که کمترین زمان پاسخگویی را در آخرین بررسی ها داشته، برای درخواست بعدی انتخاب می شود.
+* **Round Robin (گردشی):** این الگوریتم ساده، درخواست‌ها را به صورت نوبت به سرورهای موجود ارسال می‌کند. 
+* **Least Connections (کمترین اتصال):** در این روش، سروری که در حال حاضر کمترین تعداد اتصال را دارد، برای درخواست بعدی انتخاب می‌شود. 
+* **Weighted Round Robin (گردشی با وزن):** این الگوریتم مشابه گردشی (round robin) است، اما به هر سرور وزنی اختصاص داده می‌شود. سرورهای با وزن بالاتر، درخواست‌های بیشتری را دریافت می‌کنند. این روش برای سرورهایی با توانایی پردازش متفاوت مناسب است.
+* **Least Response Time (کمترین زمان پاسخ):** در این روش، سروری که کمترین زمان پاسخگویی را در آخرین بررسی‌ها داشته، برای درخواست بعدی انتخاب می‌شود.
 
-انتخاب الگوریتم مناسب به عوامل مختلفی از جمله تعداد سرورها، نوع ترافیک و نیازمندی های برنامه بستگی دارد.
+انتخاب الگوریتم مناسب به عوامل مختلفی از جمله تعداد سرورها، نوع ترافیک و نیازمندی‌های برنامه بستگی دارد.
 
 
 
@@ -1131,7 +1120,7 @@ At the cost of flexibility, layer 4 load balancing requires less time and comput
 
 ## توزیع بار لایه 7 (Layer 7 Load Balancing)
 
-توزیع کننده بار لایه 7 با بررسی لایه کاربرد (application layer) تصمیم می گیرد که درخواست ها را چگونه توزیع کند. این بررسی می تواند شامل محتویات هدر (header)، پیام و کوکی ها (cookies) باشد. توزیع کننده بار لایه 7 ترافیک شبکه را خاتمه می دهد، پیام را می خواند، تصمیم توزیع بار را می گیرد و سپس اتصالی را به سرور انتخاب شده باز می کند. به عنوان مثال، یک توزیع کننده بار لایه 7 می تواند ترافیک ویدیو را به سرورهایی که میزبان ویدیوها هستند هدایت کند و در عین حال ترافیک حساس‌تر صورتحساب کاربران را به سرورهایی با امنیت بالا هدایت کند.
+توزیع کننده بار لایه 7 با بررسی لایه کاربرد (application layer) تصمیم می‌گیرد که درخواست‌ها را چگونه توزیع کند. این بررسی می‌تواند شامل محتویات هدر (header)، پیام و کوکی‌ها (cookies) باشد. توزیع کننده بار لایه 7 ترافیک شبکه را خاتمه می‌دهد، پیام را می‌خواند، تصمیم توزیع بار را می‌گیرد و سپس اتصالی را به سرور انتخاب شده باز می‌کند. به عنوان مثال، یک توزیع کننده بار لایه 7 می‌تواند ترافیک ویدیو را به سرورهایی که میزبان ویدیوها هستند هدایت کند و در عین حال ترافیک حساس‌تر صورتحساب کاربران را به سرورهایی با امنیت بالا هدایت کند.
 
 --------------------
 
@@ -1143,7 +1132,7 @@ Layer 4 load balancers look at info at the transport layer to decide how to dist
 
 ## توزیع بار لایه 4 (Layer 4 Load Balancing)
 
-توزیع کننده بار لایه 4 با بررسی اطلاعات موجود در لایه حمل و نقل (transport layer) شبکه، در مورد توزیع درخواست ها تصمیم گیری می کند. به طور کلی، این اطلاعات شامل آدرس های IP منبع و مقصد و پورت ها در هدر بسته (packet header) می شود، اما محتوای داخل بسته در نظر گرفته نمی شود. توزیع کننده بار لایه 4 بسته های شبکه را به سرورهای بالادستی (upstream servers) ارسال و از آنها دریافت می کند و در عین حال ترجمه آدرس شبکه (NAT) را انجام می دهد.
+توزیع کننده بار لایه 4 با بررسی اطلاعات موجود در لایه حمل و نقل (transport layer) شبکه، در مورد توزیع درخواست‌ها تصمیم گیری می‌کند. به طور کلی، این اطلاعات شامل آدرس‌های IP منبع و مقصد و پورت‌ها در هدر بسته (packet header) می‌شود، اما محتوای داخل بسته در نظر گرفته نمی شود. توزیع کننده بار لایه 4 بسته‌های شبکه را به سرورهای بالادستی (upstream servers) ارسال و از آنها دریافت می‌کند و در عین حال ترجمه آدرس شبکه (NAT) را انجام می‌دهد.
 
 ---------------------
 
@@ -1171,7 +1160,7 @@ Load balancers can also help with horizontal scaling, improving performance and 
 
 مقیاس‌بندی افقی باعث افزایش پیچیدگی شده و شامل کلون کردن سرورها می‌شود.
 سرورها باید بدون‌حالت (stateless) باشند: یعنی نباید هیچ داده مرتبط با کاربر مانند جلسات یا تصاویر پروفایل را در خود ذخیره کنند.
-جلسات را می‌توان در یک مخزن داده مرکزی مانند پایگاه داده (SQL، NoSQL) یا یک حافظه نهان دائمی (Redis، Memcached) ذخیره کرد.
+جلسات را می‌توان در یک ذخیره‌گاه داده مرکزی مانند پایگاه داده (SQL، NoSQL) یا یک حافظه نهان دائمی (Redis، Memcached) ذخیره کرد.
 سرورهای پایین‌دستی مانند حافظه‌های کش و پایگاه‌های داده با افزایش سرورهای بالادستی نیاز به مدیریت اتصالات همزمان بیشتری دارند.
 
 
@@ -1241,32 +1230,32 @@ Active-active failover can also be referred to as master-master failover.
 
 ## ا failover (فِیْل‌اُوِر)
 
-فِیْل‌اُوِر (Failover) یک الگوی در دسترس بودن است که برای اطمینان از ادامه کارکرد یک سیستم در صورت بروز خرابی استفاده می شود. این شامل داشتن یک مؤلفه یا سیستم پشتیبان است که می تواند در صورت خرابی، مسئولیت را بر عهده گیرد.
+فِیْل‌اُوِر (Failover) یک الگوی در دسترس بودن است که برای اطمینان از ادامه کارکرد یک سیستم در صورت بروز خرابی استفاده می‌شود. این شامل داشتن یک مؤلفه یا سیستم پشتیبان است که می‌تواند در صورت خرابی، مسئولیت را بر عهده گیرد.
 
-در یک سیستم فِیْل‌اُوِر، یک مؤلفه اصلی وجود دارد که وظیفه رسیدگی به درخواست ها را بر عهده دارد و یک مؤلفه ثانویه (یا پشتیبان) به صورت آماده به کار (standby) وجود دارد. مؤلفه اصلی برای خرابی ها مانیتور می شود و در صورت خرابی، مؤلفه ثانویه برای انجام وظایف آن فعال می شود. این امر به سیستم اجازه می دهد تا با حداقل اختلال به کار خود ادامه دهد.
+در یک سیستم فِیْل‌اُوِر، یک مؤلفه اصلی وجود دارد که وظیفه رسیدگی به درخواست‌ها را بر عهده دارد و یک مؤلفه ثانویه (یا پشتیبان) به صورت آماده به کار (standby) وجود دارد. مؤلفه اصلی برای خرابی‌ها مانیتور می‌شود و در صورت خرابی، مؤلفه ثانویه برای انجام وظایف آن فعال می‌شود. این امر به سیستم اجازه می‌دهد تا با حداقل اختلال به کار خود ادامه دهد.
 
-فِیْل‌اُوِر را می توان به روش های مختلفی مانند فعال-پссив، فعال-فعال و آماده به کار گرم (hot-standby) اجرا کرد.
+فِیْل‌اُوِر را می‌توان به روش‌های مختلفی مانند فعال-پссив، فعال-فعال و آماده به کار گرم (hot-standby) اجرا کرد.
 
 ### فعال-پسیو (Active-Passive)
 
-با فِیْل‌اُوِر فعال-پسیو، سیگنال‌هایی (heartbeats) بین سرور فعال و سرور آماده به کار رد و بدل می شود. اگر این سیگنال قطع شود، سرور آماده به کار، آدرس IP سرور فعال را به عهده گرفته و سرویس دهی را از سر می گیرد.
+با فِیْل‌اُوِر فعال-پسیو، سیگنال‌هایی (heartbeats) بین سرور فعال و سرور آماده به کار رد و بدل می‌شود. اگر این سیگنال قطع شود، سرور آماده به کار، آدرس IP سرور فعال را به عهده گرفته و سرویس دهی را از سر می‌گیرد.
 
-مدت زمان خرابی بستگی به این دارد که آیا سرور آماده به کار از قبل در حالت "گرم" (hot) اجرا شده باشد یا اینکه نیاز به راه اندازی از حالت "سرد" (cold) داشته باشد. فقط سرور فعال ترافیک را مدیریت می کند.
+مدت زمان خرابی بستگی به این دارد که آیا سرور آماده به کار از قبل در حالت "گرم" (hot) اجرا شده باشد یا اینکه نیاز به راه اندازی از حالت "سرد" (cold) داشته باشد. فقط سرور فعال ترافیک را مدیریت می‌کند.
 
-فِیْل‌اُوِر فعال-پسیو را همچنین می توان فِیْل‌اُوِر اصلی-فرعی (master-slave) نامید.
+فِیْل‌اُوِر فعال-پسیو را همچنین می‌توان فِیْل‌اُوِر اصلی-فرعی (master-slave) نامید.
 
 ### فعال-فعال (Active-Active)
 
-در حالت فعال-فعال، هر دو سرور ترافیک را مدیریت می کنند و بار را بین خود تقسیم می کنند.
+در حالت فعال-فعال، هر دو سرور ترافیک را مدیریت می‌کنند و بار را بین خود تقسیم می‌کنند.
 
-اگر سرورها رو به بیرون (public-facing) باشند، DNS باید از IP های عمومی هر دو سرور مطلع باشد. اگر سرورها رو به داخل (internal-facing) باشند، منطق برنامه باید از هر دو سرور مطلع باشد.
+اگر سرورها رو به بیرون (public-facing) باشند، DNS باید از IP‌های عمومی هر دو سرور مطلع باشد. اگر سرورها رو به داخل (internal-facing) باشند، منطق برنامه باید از هر دو سرور مطلع باشد.
 
-فِیْل‌اُوِر فعال-فعال را همچنین می توان فِیْل‌اُوِر اصلی-اصلی (master-master) نامید.
+فِیْل‌اُوِر فعال-فعال را همچنین می‌توان فِیْل‌اُوِر اصلی-اصلی (master-master) نامید.
 
 ## معایب فِیْل‌اُوِر
 
 فِیْل‌اُوِر سخت افزار بیشتر و پیچیدگی بیشتری را به همراه دارد.
-در صورتی که سیستم فعال قبل از تکرار داده های تازه نوشته شده به سیستم غیرفعال، با مشکل مواجه شود، احتمال از دست رفتن داده ها وجود دارد.
+در صورتی که سیستم فعال قبل از تکرار داده‌های تازه نوشته شده به سیستم غیرفعال، با مشکل مواجه شود، احتمال از دست رفتن داده‌ها وجود دارد.
 
 -------------
 
@@ -1280,15 +1269,15 @@ Replication is an availability pattern that involves having multiple copies of t
 
 ## تکثیر داده (Replication)
 
-تکثیر داده یک الگوی در دسترس بودن است که شامل داشتن چندین کپی از داده های یکسان در مکان های مختلف است. در صورت خرابی، داده ها را می توان از مکان دیگری بازیابی کرد. دو نوع اصلی تکثیر وجود دارد: تکثیر اصلی-اصلی (Master-Master) و تکثیر اصلی-فرعی (Master-Slave).
+تکثیر داده یک الگوی در دسترس بودن است که شامل داشتن چندین کپی از داده‌های یکسان در مکان‌های مختلف است. در صورت خرابی، داده‌ها را می‌توان از مکان دیگری بازیابی کرد. دو نوع اصلی تکثیر وجود دارد: تکثیر اصلی-اصلی (Master-Master) و تکثیر اصلی-فرعی (Master-Slave).
 
 ### تکثیر اصلی-اصلی (Master-Master):
 
-در این نوع تکثیر، چندین سرور به عنوان "اصلی" پیکربندی می شوند و هر کدام می توانند عملیات خواندن و نوشتن را انجام دهند. این امر به در دسترس بودن بالا و امکان جانشینی هر یک از سرورها در صورت خرابی یکی از آنها کمک می کند. با این حال، این نوع تکثیر در صورت به‌روزرسانی همزمان داده‌های یکسان توسط چندین سرور در یک زمان، می‌تواند منجر به تضاد شود، بنابراین برای رسیدگی به این موضوع به یک مکانیزم حل تضاد نیاز است.
+در این نوع تکثیر، چندین سرور به عنوان "اصلی" پیکربندی می‌شوند و هر کدام می‌توانند عملیات خواندن و نوشتن را انجام دهند. این امر به در دسترس بودن بالا و امکان جانشینی هر یک از سرورها در صورت خرابی یکی از آنها کمک می‌کند. با این حال، این نوع تکثیر در صورت به‌روزرسانی همزمان داده‌های یکسان توسط چندین سرور در یک زمان، می‌تواند منجر به تضاد شود، بنابراین برای رسیدگی به این موضوع به یک مکانیزم حل تضاد نیاز است.
 
 ### تکثیر اصلی-فرعی (Master-Slave):‏
 
-در این نوع تکثیر، یک سرور به عنوان "اصلی" تعیین می شود و تمام عملیات نوشتن را کنترل می کند، در حالی که چندین سرور "فرعی" عملیات خواندن را انجام می دهند. اگر سرور اصلی با مشکل مواجه شود، یکی از سرورهای فرعی می تواند ارتقا پیدا کند و جایگزین آن شود. راه اندازی و نگهداری این نوع تکثیر نسبت به تکثیر اصلی-اصلی ساده تر است.
+در این نوع تکثیر، یک سرور به عنوان "اصلی" تعیین می‌شود و تمام عملیات نوشتن را کنترل می‌کند، در حالی که چندین سرور "فرعی" عملیات خواندن را انجام می‌دهند. اگر سرور اصلی با مشکل مواجه شود، یکی از سرورهای فرعی می‌تواند ارتقا پیدا کند و جایگزین آن شود. راه اندازی و نگهداری این نوع تکثیر نسبت به تکثیر اصلی-اصلی ساده تر است.
 
 
 ----------
@@ -1353,7 +1342,7 @@ Generally, you should aim for maximal throughput with acceptable latency.
 
 تأخیر (Latency) و توان عملیاتی (Throughput) دو معیار مهم برای سنجش عملکرد یک سیستم هستند.
 
-* **تأخیر (Latency):** مدت زمانی است که طول می کشد تا یک سیستم به یک درخواست پاسخ دهد. تأخیر کم نشان دهنده پاسخگویی سریع سیستم است. برای مثال، تأخیر کم در هنگام بارگذاری یک صفحه وب به معنای نمایش سریعتر صفحه برای کاربر است.
+* **تأخیر (Latency):** مدت زمانی است که طول می‌کشد تا یک سیستم به یک درخواست پاسخ دهد. تأخیر کم نشان دهنده پاسخگویی سریع سیستم است. برای مثال، تأخیر کم در هنگام بارگذاری یک صفحه وب به معنای نمایش سریعتر صفحه برای کاربر است.
 * **توان عملیاتی (Throughput):** تعداد درخواست‌هایی است که یک سیستم می‌تواند در یک دوره زمانی مشخص مدیریت کند. توان عملیاتی بالا نشان می‌دهد که سیستم ظرفیت پاسخگویی به حجم زیادی از درخواست‌ها را دارد. برای مثال، توان عملیاتی بالای یک سرور وب به این معنی است که می‌تواند به طور همزمان به درخواست‌های کاربران زیادی پاسخ دهد.
 
 به طور کلی، شما باید به دنبال حداکثر توان عملیاتی با تأخیر قابل قبول باشید. در حالت ایده‌آل، می‌خواهید سیستم شما بتواند درخواست‌های زیادی را به طور همزمان مدیریت کند (توان عملیاتی بالا) در حالی که همچنان پاسخگویی سریعی برای هر درخواست (تأخیر کم) داشته باشد. 
@@ -1439,7 +1428,7 @@ Background jobs execute asynchronously in a separate process, or even in a separ
 
 ## بازگرداندن نتایج (Returning Results)
 
-کارهای پس‌زمینه به صورت ناهمزمان در یک فرآیند جداگانه یا حتی در یک مکان جداگانه از رابط کاربری (UI) یا فرآیندی که کار پس‌زمینه را فراخوانی کرده است، اجرا می‌شوند. در حالت ایده‌آل، کارهای پس‌زمینه عملیات «اجرا کن و فراموش کن» هستند و روند اجرای آنها تأثیری روی رابط کاربری یا فرآیند فراخوانی ندارد. این بدان معنی است که فرآیند فراخوانی منتظر تکمیل کارها نمی‌ماند. بنابراین، نمی تواند به طور خودکار تشخیص دهد که چه زمانی کار به پایان می رسد.
+کارهای پس‌زمینه به صورت ناهمزمان در یک فرآیند جداگانه یا حتی در یک مکان جداگانه از رابط کاربری (UI) یا فرآیندی که کار پس‌زمینه را فراخوانی کرده است، اجرا می‌شوند. در حالت ایده‌آل، کارهای پس‌زمینه عملیات «اجرا کن و فراموش کن» هستند و روند اجرای آنها تأثیری روی رابط کاربری یا فرآیند فراخوانی ندارد. این بدان معنی است که فرآیند فراخوانی منتظر تکمیل کارها نمی‌ماند. بنابراین، نمی تواند به طور خودکار تشخیص دهد که چه زمانی کار به پایان می‌رسد.
 
 برای اطلاع از وضعیت یا خروجی کارهای پس‌زمینه، چندین استراتژی رایج وجود دارد:
 
@@ -1499,3 +1488,29 @@ AP is a good choice if the business needs to allow for [eventual consistency](h
 
 -------------
 
+
+
+## tenants
+
+در مهندسی رایانه، **tenants** (در لغت به معنای مستاجر یا ساکن) به واحدهای جداگانه ای از یک سیستم یا برنامه اطلاق می شود که به طور مستقل عمل می کنند و منابع را به اشتراک می گذارند. این مفهوم شبیه به آپارتمان های یک ساختمان است که هر کدام واحد مجزا با حریم خصوصی و منابع مختص به خود هستند، اما همگی در یک ساختمان مشترک و زیر یک سقف قرار دارند.
+
+در زمینه مهندسی رایانه، tenants می توانند به روش های مختلفی پیاده سازی شوند، از جمله:
+
+* **مجازی سازی:** در این روش، از نرم افزار یا سخت افزار برای ایجاد چندین محیط مجازی جداگانه در یک سیستم واحد استفاده می شود. هر tenant مجازی می تواند سیستم عامل، برنامه ها و داده های خود را داشته باشد و به طور مستقل از tenants دیگر عمل کند.
+* **چند مستاجری:** در این روش، یک برنامه یا سیستم به گونه ای طراحی می شود که بتواند توسط چندین کاربر یا سازمان به طور همزمان استفاده شود. هر tenant می تواند فضای ذخیره سازی، پردازش و سایر منابع خود را داشته باشد و به طور مستقل از tenants دیگر عمل کند.
+* **محاسبات ابری:** در این روش، منابع محاسباتی، مانند سرورها، ذخیره سازی و شبکه، از طریق اینترنت به کاربران ارائه می شود. هر tenant می تواند فضای ذخیره سازی، پردازش و سایر منابع خود را در ابر داشته باشد و به طور مستقل از tenants دیگر عمل کند.
+
+استفاده از tenants در مهندسی رایانه مزایای متعددی دارد، از جمله:
+
+* **افزایش امنیت:** tenants می توانند به طور جداگانه ای ایمن شوند، که به این معنی است که یک tenant آسیب دیده نمی تواند به tenants دیگر دسترسی داشته باشد.
+* **افزایش مقیاس پذیری:** tenants می توانند به طور مستقل از یکدیگر مقیاس بندی شوند، که به این معنی است که می توان منابع را به tenants خاص در صورت نیاز اختصاص داد.
+* **کاهش هزینه:** tenants می توانند به طور کارآمدتر از منابع استفاده کنند، که به نوبه خود می تواند منجر به کاهش هزینه ها شود.
+* **افزایش انعطاف پذیری:** tenants می توانند به طور مستقل از یکدیگر پیکربندی و مدیریت شوند، که به این معنی است که می توان آنها را به طور خاص برای نیازهای هر tenant سفارشی کرد.
+
+در اینجا چند نمونه از tenants در مهندسی رایانه آورده شده است:
+
+* **مستاجران SaaS:** در مدل SaaS، نرم افزار به عنوان یک سرویس از طریق اینترنت ارائه می شود. هر tenant می تواند به نسخه خود از نرم افزار دسترسی داشته باشد و بدون نیاز به نصب یا مدیریت نرم افزار، از آن استفاده کند.
+* **مستاجران PaaS:** در مدل PaaS، پلتفرم به عنوان یک سرویس از طریق اینترنت ارائه می شود. هر tenant می تواند از پلتفرم برای توسعه و استقرار برنامه های خود استفاده کند.
+* **مستاجران IaaS:** در مدل IaaS، زیرساخت به عنوان یک سرویس از طریق اینترنت ارائه می شود. هر tenant می تواند از سرورها، ذخیره سازی و شبکه خود در ابر استفاده کند.
+
+استفاده از tenants در مهندسی رایانه در حال افزایش است، زیرا سازمان ها به دنبال راه هایی برای افزایش امنیت، مقیاس پذیری، انعطاف پذیری و کاهش هزینه های خود هستند.
