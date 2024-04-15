@@ -11,18 +11,15 @@ In software engineering, system design is a phase in the software development pr
 It is also one of the important aspects of the interview process for software engineers. Most of the companies have a dedicated system design interview round, where they ask the candidates to design a system for a given problem statement. The candidates are expected to come up with a detailed design of the system, including the architecture, components, and their interactions. They are also expected to discuss the trade-offs involved in their design and the alternatives that they considered.
 
 
+طراحی سیستم فرآیند تعریف عناصر یک سیستم و همچنین تعاملات و روابط آنها برای برآورده کردن مجموعه ای از الزامات خاص است.
+
+این شامل گرفتن یک صورت مسئله، شکستن آن به اجزای کوچکتر و طراحی هر جزء برای کارکرد موثر با هم برای دستیابی به هدف کلی سیستم است. این فرآیند به طور معمول شامل تجزیه و تحلیل سیستم فعلی (در صورت وجود) و تعیین هر گونه کمبود، ایجاد یک برنامه دقیق برای سیستم جدید و آزمایش طراحی برای اطمینان از مطابقت آن با الزامات است. این یک فرآیند تکرارشونده است که ممکن است شامل چندین دور طراحی، آزمایش و اصلاح باشد.
+
+در مهندسی نرم افزار، طراحی سیستم مرحله ای در فرآیند توسعه نرم افزار است که بر روی طراحی سطح بالای یک سیستم نرم افزاری، از جمله معماری و اجزا، تمرکز می کند.
+
+این همچنین یکی از جنبه های مهم فرآیند مصاحبه برای مهندسان نرم افزار است. اکثر شرکت ها یک دور مصاحبه اختصاصی برای طراحی سیستم دارند، جایی که از نامزدها می خواهند سیستمی را برای یک صورت مسئله خاص طراحی کنند. از انتظار می رود که نامزدها با یک طراحی دقیق از سیستم، از جمله معماری، اجزا و تعاملات آنها ارائه شوند. همچنین انتظار می رود که آنها در مورد معاوضه های موجود در طراحی خود و گزینه های جایگزینی که در نظر گرفته اند بحث کنند.
+
 -------------
-
-# What is System Design?
-
-System design is the process of defining the elements of a system, as well as their interactions and relationships, in order to satisfy a set of specified requirements.
-
-It involves taking a problem statement, breaking it down into smaller components and designing each component to work together effectively to achieve the overall goal of the system. This process typically includes analyzing the current system (if any) and determining any deficiencies, creating a detailed plan for the new system, and testing the design to ensure that it meets the requirements. It is an iterative process that may involve multiple rounds of design, testing, and refinement.
-
-In software engineering, system design is a phase in the software development process that focuses on the high-level design of a software system, including the architecture and components.
-
-It is also one of the important aspects of the interview process for software engineers. Most of the companies have a dedicated system design interview round, where they ask the candidates to design a system for a given problem statement. The candidates are expected to come up with a detailed design of the system, including the architecture, components, and their interactions. They are also expected to discuss the trade-offs involved in their design and the alternatives that they considered.
-
 
 ---------------
 # Introduction
@@ -35,7 +32,15 @@ In software engineering, system design is a phase in the software development pr
 
 It is also one of the important aspects of the interview process for software engineers. Most of the companies have a dedicated system design interview round, where they ask the candidates to design a system for a given problem statement. The candidates are expected to come up with a detailed design of the system, including the architecture, components, and their interactions. They are also expected to discuss the trade-offs involved in their design and the alternatives that they considered.
 
+# مقدمه
 
+طراحی سیستم فرآیند تعریف عناصر یک سیستم و همچنین تعاملات و روابط آنها برای برآورده کردن مجموعه ای از الزامات خاص است.
+
+این شامل گرفتن یک صورت مسئله، شکستن آن به اجزای کوچکتر و طراحی هر جزء برای کارکرد موثر با هم برای دستیابی به هدف کلی سیستم است. این فرآیند به طور معمول شامل تجزیه و تحلیل سیستم فعلی (در صورت وجود) و تعیین هر گونه کمبود، ایجاد یک برنامه دقیق برای سیستم جدید و آزمایش طراحی برای اطمینان از مطابقت آن با الزامات است. این یک فرآیند تکرارشونده است که ممکن است شامل چندین دور طراحی، آزمایش و اصلاح باشد.
+
+در مهندسی نرم افزار، طراحی سیستم مرحله ای در فرآیند توسعه نرم افزار است که بر روی طراحی سطح بالای یک سیستم نرم افزاری، از جمله معماری و اجزا، تمرکز می کند.
+
+این همچنین یکی از جنبه های مهم فرآیند مصاحبه برای مهندسان نرم افزار است. اکثر شرکت ها یک دور مصاحبه اختصاصی برای طراحی سیستم دارند، جایی که از نامزدها می خواهند سیستمی را برای یک صورت مسئله خاص طراحی کنند. از انتظار می رود که نامزدها با یک طراحی دقیق از سیستم، از جمله معماری، اجزا و تعاملات آنها ارائه شوند. همچنین انتظار می رود که آنها در مورد معاوضه های موجود در طراحی خود و گزینه های جایگزینی که در نظر گرفته اند بحث کنند. 
 
 ------------------------
 
@@ -47,6 +52,17 @@ Another way to look at performance vs scalability:
 
 - If you have a **performance** problem, your system is slow for a single user.
 - If you have a **scalability** problem, your system is fast for a single user but slow under heavy load.
+
+
+## عملکرد در برابر قابلیت ارتقاء
+
+یک سرویس **قابل ارتقاء** است اگر منجر به افزایش **عملکرد** به صورت متناسب با منابع اضافه شده شود. به طور کلی، افزایش عملکرد به معنای ارائه واحدهای کاری بیشتر است، اما همچنین می تواند به معنای مدیریت واحدهای کاری بزرگتر، مانند زمانی که مجموعه داده ها افزایش می یابد، باشد.
+
+یک راه دیگر برای نگاه کردن به عملکرد در برابر مقیاس پذیری:
+
+- اگر مشکل **عملکرد** دارید، سیستم شما برای یک کاربر کند است.
+- اگر مشکل **مقیاس پذیری** دارید، سیستم شما برای یک کاربر سریع است اما تحت بار سنگین کند است.
+
 
 
 --------------------
