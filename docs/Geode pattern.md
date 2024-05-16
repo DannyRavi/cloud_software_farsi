@@ -20,7 +20,7 @@
 
 ## راه حل
 
-این سرویس را در تعدادی از استقرار‌های ماهواره‌ای (satellite deployments) که در سرتاسر جهان پخش شده‌اند، مستقر کنید که هر کدام از آن‌ها یک Geode نامیده می‌شوند. الگوی Geode از ویژگی‌‌های کلیدی Azure برای هدایت ترافیک از طریق کوتاه‌ترین مسیر به Geode نزدیک استفاده می‌کند که تأخیر زمانی و کارایی را بهبود می‌بخشد. هر Geode پشت یک متعادل‌ساز بار سرتاسری (global load balancer) قرار دارد و از یک سرویس خواندن-نوشتن تکثیر شونده جغرافیایی(geo-replicated) مانند [Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/introduction) برای میزبانی و host  کردن داده‌ها استفاده می‌کند و از سازگاری داده‌های geode متقابل (cross-geode data consistency) اطمینان حاصل می‌کند. سرویس‌‌های تکرار کننده داده‌ها (Data replication) تضمین می‌کنند که ذخیره‌‌های داده در سراسر Geodeها یکسان هستند، بنابراین همه درخواست‌ها می‌توانند از همه Geodeها ارائه شوند.  
+این سرویس را در تعدادی از استقرار‌های ماهواره‌ای (satellite deployments) که در سرتاسر جهان پخش شده‌اند، مستقر کنید که هر کدام از آن‌ها یک Geode نامیده می‌شوند. الگوی Geode از ویژگی‌‌های کلیدی Azure برای هدایت ترافیک از طریق کوتاه‌ترین مسیر به Geode نزدیک استفاده می‌کند که تأخیر زمانی و کارایی را بهبود می‌بخشد. هر Geode پشت یک متعادل‌ساز بار سرتاسری (global load balancer) قرار دارد و از یک سرویس خواندن-نوشتن تکثیر شونده جغرافیایی(geo-replicated) مانند [Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/introduction) برای میزبانی و host  کردن داده‌ها استفاده می‌کند و از یکپارچگی داده‌های geode متقابل (cross-geode data consistency) اطمینان حاصل می‌کند. سرویس‌‌های تکرار کننده داده‌ها (Data replication) تضمین می‌کنند که ذخیره‌‌های داده در سراسر Geodeها یکسان هستند، بنابراین همه درخواست‌ها می‌توانند از همه Geodeها ارائه شوند.  
   
 تفاوت اصلی بین [deployment stamp](./Deployment%20Stamps%20pattern.md) و Geode در این است که Geodeها هرگز به صورت مجزا وجود ندارند. همیشه باید بیش از یک Geode در یک  پروداکشن پلتفرم وجود داشته باشد.
 
@@ -50,7 +50,7 @@ Geodeها دارای مشخصات زیر هستند:
 
 *‏ یک سرویس front-end مانند Azure Front Door که  فرآیند شتاب دهی به محتوای پویا (dynamic content acceleration) و [split TCP](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-traffic-acceleration?pivots=front-door-standard-premium) و [Anycast routing](https://en.wikipedia.org/wiki/Anycast) را انجام می‌دهد.  
 
-*‏ یک ذخیره‌سازی داده در حالت تکراری (replicating) مانند Azure Cosmos DB برای کنترل سازگاری داده‌ها.  
+*‏ یک ذخیره‌سازی داده در حالت تکراری (replicating) مانند Azure Cosmos DB برای کنترل یکپارچگی داده‌ها.  
 
 *‏ فناوری‌‌های [Serverless](https://en.wikipedia.org/wiki/Serverless_computing) در صورت امکان، برای کاهش هزینه‌‌های deployment، به‌ویژه زمانی که load در سرتاسر جهان مرتباً متعادل (rebalanced) می‌شود. این استراتژی به بسیاری از Geodeها اجازه می‌دهد تا با حداقل سرمایه گذاری اضافی deploy شوند. فناوری‌‌های پرداخت صورت‌حساب Serverless و مبتنی بر مصرف([pay as you go](https://en.wikipedia.org/wiki/Pay_as_you_go))،  هزینه‌‌های ناشی از deployment‌های تکراری شونده و توزیع‌شده جغرافیایی(geo-distributed) را کاهش می‌دهند.  
 

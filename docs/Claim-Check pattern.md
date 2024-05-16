@@ -90,13 +90,13 @@ var message = new Message(payloadAsBytes);
 await sender.SendAsync(message);
 ```
 
- یک Azure Blob Storage به عنوان یک صف اعلانات (notification queue) عمل می‌کند که client  می‌تواند در آن مشترک (subscribe) شود. هنگامی که مصرف کننده (consumer) پیام را دریافت می‌کند، این افزونه امکان خواندن مستقیم داده‌های پیام را از Blob Storage فراهم می‌کند. سپس می‌توانید نحوه پردازش بقیه پیام را انتخاب کنید. مزیت این رویکرد این است که workflow مربوط به claim-check  را از فرستنده و گیرنده، انتزاع (abstracts) می‌کند.  
+ یک Azure Blob Storage به عنوان یک صف اعلانات (notification queue) عمل می‌کند که client  می‌تواند در آن مشترک (subscribe) شود. هنگامی که مصرف‌کننده (consumer) پیام را دریافت می‌کند، این افزونه امکان خواندن مستقیم داده‌های پیام را از Blob Storage فراهم می‌کند. سپس می‌توانید نحوه پردازش بقیه پیام را انتخاب کنید. مزیت این رویکرد این است که workflow مربوط به claim-check  را از فرستنده و گیرنده، انتزاع (abstracts) می‌کند.  
   
 شما می‌توانید کد نمونه برای این رویکرد را در  [اینجا](https://github.com/mspnp/cloud-design-patterns/tree/master/claim-check/code-samples/sample-3) بیابید.
 
 ### تولید  claim-check دستی با Kafka
 
-در این مثال، یک Kafka client که payload را در Azure Blob Storage نوشته شده و سپس یک notification message را با استفاده از [Kafka-enabled Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-kafka-enabled-event-hubs) را ارسال می‌کند. مصرف کننده (consumer)  پیام را دریافت می‌کند و می‌تواند از Blob Storage به payload دسترسی پیدا کند. این مثال نشان می‌دهد که چگونه می‌توان از یک پروتکل پیام رسانی متفاوت برای پیاده سازی الگوی claim-check در Azure استفاده کرد. به عنوان مثال، ممکن است لازم باشد از client کنونی Kafka حمایت کنید.  
+در این مثال، یک Kafka client که payload را در Azure Blob Storage نوشته شده و سپس یک notification message را با استفاده از [Kafka-enabled Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-kafka-enabled-event-hubs) را ارسال می‌کند. مصرف‌کننده (consumer)  پیام را دریافت می‌کند و می‌تواند از Blob Storage به payload دسترسی پیدا کند. این مثال نشان می‌دهد که چگونه می‌توان از یک پروتکل پیام رسانی متفاوت برای پیاده سازی الگوی claim-check در Azure استفاده کرد. به عنوان مثال، ممکن است لازم باشد از client کنونی Kafka حمایت کنید.  
   
 شما می‌توانید کد نمونه برای این رویکرد را در [اینجا](https://github.com/mspnp/cloud-design-patterns/tree/master/claim-check/code-samples/sample-4) بیابید.
 ## قدم بعدی

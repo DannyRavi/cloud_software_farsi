@@ -122,33 +122,33 @@ tenant
 
 ---------------------------------------------
 
-پایداری ن‌هایی (eventual consistency) 
+یکپارچگی تدریجی (eventual consistency) 
 
-@@@ سازگاری شرطی به پایداری ن‌هایی تبدیل شود
-
-
-برای اطلاعات در مورد سازگاری شرطی (eventual consistency) به [Data Consistency Primer](https://learn.microsoft.com/en-us/previous-versions/msp-n-p/dn589800(v=pandp.10)) یا فصل مقدمه مراجعه کنید.
+@@@ یکپارچگی تدریجی به یکپارچگی تدریجی تبدیل شود
 
 
+برای اطلاعات در مورد یکپارچگی تدریجی (eventual consistency) به [Data Consistency Primer](https://learn.microsoft.com/en-us/previous-versions/msp-n-p/dn589800(v=pandp.10)) یا فصل مقدمه مراجعه کنید.
 
-[پایداری ن‌هایی یک مدل سازگاری است که در محاسبات توزیع شده برای دستیابی به در دسترس بودن بالا استفاده می‌شود و به طور غیررسمی تضمین می‌کند که اگر به یک مورد داده‌ای تغییری اعمال نشود، در نهایت همه دسترسی‌ها به آن مورد، آخرین مقدار به‌روز شده را برمی‌گردانند](https://en.wikipedia.org/wiki/Eventual_consistency)[1](https://en.wikipedia.org/wiki/Eventual_consistency)[2](https://www.scylladb.com/glossary/eventual-consistency/)
 
-به عبارت ساده‌تر، پایداری ن‌هایی به این معنی است که یک درخواست خواندن باید نتیجه آخرین نوشتن موفق را برگرداند. [این به نظر ساده می‌رسد، اما چنین تضمینی در یک توپولوژی پایگاه داده توزیع شده جهانی که شامل چندین خوشه هر کدام شامل تعداد زیادی گره است، بسیار دشوار است](https://www.scylladb.com/glossary/eventual-consistency/)[2](https://www.scylladb.com/glossary/eventual-consistency/)
+
+[یکپارچگی تدریجی یک مدل یکپارچگی است که در محاسبات توزیع شده برای دستیابی به در دسترس بودن بالا استفاده می‌شود و به طور غیررسمی تضمین می‌کند که اگر به یک مورد داده‌ای تغییری اعمال نشود، در نهایت همه دسترسی‌ها به آن مورد، آخرین مقدار به‌روز شده را برمی‌گردانند](https://en.wikipedia.org/wiki/Eventual_consistency)[1](https://en.wikipedia.org/wiki/Eventual_consistency)[2](https://www.scylladb.com/glossary/eventual-consistency/)
+
+به عبارت ساده‌تر، یکپارچگی تدریجی به این معنی است که یک درخواست خواندن باید نتیجه آخرین نوشتن موفق را برگرداند. [این به نظر ساده می‌رسد، اما چنین تضمینی در یک توپولوژی پایگاه داده توزیع شده جهانی که شامل چندین خوشه هر کدام شامل تعداد زیادی گره است، بسیار دشوار است](https://www.scylladb.com/glossary/eventual-consistency/)[2](https://www.scylladb.com/glossary/eventual-consistency/)
 
 پایگاه داده‌‌های رابطه‌ای که از پایداری قوی پشتیبانی می‌کنند، معمولاً تضمین‌‌های ACID را ارائه می‌دهند. ACID یک مخفف است که برای درک عناصر اساسی یک پایگاه داده با پایداری قوی طراحی شده است. اجزای ACID به شرح زیر است:
 
 - اتمیته: اگر معامله در هر نقطه شکست بخورد، عملیات کلی برگشت می‌خورد
-- سازگاری: پایگاه داده با هر معامله، ساختاری سالم را حفظ می‌کند
+- یکپارچگی: پایگاه داده با هر معامله، ساختاری سالم را حفظ می‌کند
 - جدایی: هر معامله به طور مستقل از معاملات دیگر اجرا می‌شود
 - دوام: هر معامله موفق به طور دائمی در پایگاه داده ذخیره می‌شود
 
-[پایگاه داده‌‌هایی که از پایداری ن‌هایی پشتیبانی می‌کنند، معمولاً به عنوان دارای معنای BASE شناخته می‌شوند (در دسترس بودن اساسی، حالت نرم، پایداری ن‌هایی)](https://en.wikipedia.org/wiki/Eventual_consistency)[1](https://en.wikipedia.org/wiki/Eventual_consistency)[2](https://www.scylladb.com/glossary/eventual-consistency/)[3](https://www.voltactivedata.com/blog/2022/09/what-is-eventual-consistency/) [در شیمی، باز برعکس اسید است که در یادآوری مخفف کمک می‌کند](https://en.wikipedia.org/wiki/Eventual_consistency)[4](https://serverlessland.com/event-driven-architecture/visuals/eventual-consistency)
+[پایگاه داده‌‌هایی که از یکپارچگی تدریجی پشتیبانی می‌کنند، معمولاً به عنوان دارای معنای BASE شناخته می‌شوند (در دسترس بودن اساسی، حالت نرم، یکپارچگی تدریجی)](https://en.wikipedia.org/wiki/Eventual_consistency)[1](https://en.wikipedia.org/wiki/Eventual_consistency)[2](https://www.scylladb.com/glossary/eventual-consistency/)[3](https://www.voltactivedata.com/blog/2022/09/what-is-eventual-consistency/) [در شیمی، باز برعکس اسید است که در یادآوری مخفف کمک می‌کند](https://en.wikipedia.org/wiki/Eventual_consistency)[4](https://serverlessland.com/event-driven-architecture/visuals/eventual-consistency)
 
 به گفته همان منبع، اینها تعاریف تقریبی هر عبارت در BASE هستند:
 
 - در دسترس بودن اساسی: عملیات خواندن و نوشتن تا حد امکان (با استفاده از تمام گره‌‌های یک خوشه پایگاه داده) در دسترس هستند، اما ممکن است سازگار نباشند (نوشتن ممکن است پس از رفع تضادها ماندگار نشود و خواندن ممکن است آخرین نوشتن را دریافت نکند)
-- حالت نرم: بدون تضمین‌‌های سازگاری، پس از مقداری زمان، فقط احتمالی از دانستن وضعیت داریم، زیرا ممکن است هنوز همگرا نشده باشد
-- پایداری ن‌هایی: اگر ما چند نوشتن را انجام دهیم و سپس سیستم به مدت کافی عمل کند، می‌توانیم وضعیت داده‌ها را بدانیم؛ هر خواندن بعدی از آن مورد داده‌ای، همان مقدار را برمی‌گرداند
+- حالت نرم: بدون تضمین‌‌های یکپارچگی، پس از مقداری زمان، فقط احتمالی از دانستن وضعیت داریم، زیرا ممکن است هنوز همگرا نشده باشد
+- یکپارچگی تدریجی: اگر ما چند نوشتن را انجام دهیم و سپس سیستم به مدت کافی عمل کند، می‌توانیم وضعیت داده‌ها را بدانیم؛ هر خواندن بعدی از آن مورد داده‌ای، همان مقدار را برمی‌گرداند
 
 [](https://en.wikipedia.org/wiki/Eventual_consistency)[1](https://en.wikipedia.org/wiki/Eventual_consistency): [](https://en.wikipedia.org/wiki/Eventual_consistency)[2](https://www.scylladb.com/glossary/eventual-consistency/): [](https://en.wikipedia.org/wiki/Eventual_consistency)[3](https://www.voltactivedata.com/blog/2022/09/what-is-eventual-consistency/): [](https://en.wikipedia.org/wiki/Eventual_consistency)[4](https://serverlessland.com/event-driven-architecture/visuals/eventual-consistency):
 
@@ -403,7 +403,7 @@ request - درخواست
 shards - قطعه
 expose
 endpoint
-سازگاری(eventual consistency)؟
+یکپارچگی(eventual consistency)؟
 تراکنش جبرانی (Compensating Transaction)
 granular
 journal
