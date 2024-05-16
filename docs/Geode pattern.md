@@ -46,7 +46,7 @@ Geodeها دارای مشخصات زیر هستند:
 
 *‏ استفاده از روش‌ها و ابزار‌های مدرن DevOps  برای تولید و deploy سریع Geode‌های یکسان در تعداد زیادی از مناطق یا نمونه‌‌های مختلف.  
 
-*‏ مقیاس دهی خودکار(Autoscaling) برای ارتقای منابع محاسباتی و توان عملیاتی پایگاه داده در یک Geode. هر Geode به طور جداگانه با در نظر گرفتن محدودیت های پشتیبان مشترک، مقیاس بندی می‌شود.
+*‏ مقیاس دهی خودکار(Autoscaling) برای ارتقای منابع محاسباتی و توان عملیاتی پایگاه داده در یک Geode. هر Geode به طور جداگانه با در نظر گرفتن محدودیت‌های پشتیبان مشترک، مقیاس بندی می‌شود.
 
 *‏ یک سرویس front-end مانند Azure Front Door که  فرآیند شتاب دهی به محتوای پویا (dynamic content acceleration) و [split TCP](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-traffic-acceleration?pivots=front-door-standard-premium) و [Anycast routing](https://en.wikipedia.org/wiki/Anycast) را انجام می‌دهد.  
 

@@ -119,7 +119,7 @@ ORDER BY soh.[TotalDue] DESC, sod.[SalesOrderDetailID]
 
 
 
-سپس برنامه از API های System.Xml.Linq  فریم‌ورک دات نت برای فرمت‌دهی نتایج به صورت XML استفاده می‌کند.
+سپس برنامه از API‌های System.Xml.Linq  فریم‌ورک دات نت برای فرمت‌دهی نتایج به صورت XML استفاده می‌کند.
 
 ```csharp
 // Create a new SqlCommand to run the Transact-SQL query
