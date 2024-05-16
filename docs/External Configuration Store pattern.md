@@ -63,11 +63,11 @@
 
 تنظیمات پیکربندی که بین چندین برنامه و نمونه برنامه به اشتراک گذاشته شده است یا در جایی که یک پیکربندی استاندارد باید در چندین برنامه و نمونه برنامه اعمال شود.
 
-* یک سیستم پیکربندی استاندارد که از همه تنظیمات پیکربندی مورد نیاز، مانند ذخیره تصاویر یا انواع داده‌‌های پیچیده، پشتیبانی نمی‌کند.
+*‏ یک سیستم پیکربندی استاندارد که از همه تنظیمات پیکربندی مورد نیاز، مانند ذخیره تصاویر یا انواع داده‌‌های پیچیده، پشتیبانی نمی‌کند.
 
-* به عنوان یک ذخیره‌ساز مکمل برای برخی از تنظیمات برنامه‌ها، شاید به برنامه‌ها اجازه می‌دهد تا برخی یا همه تنظیمات ذخیره‌شده در مرکز را لغو کنند.
+*‏ به عنوان یک ذخیره‌ساز مکمل برای برخی از تنظیمات برنامه‌ها، شاید به برنامه‌ها اجازه می‌دهد تا برخی یا همه تنظیمات ذخیره‌شده در مرکز را لغو کنند.
 
-* به عنوان راهی برای ساده‌سازی مدیریت چندین برنامه و به صورت اختیاری برای نظارت بر استفاده از تنظیمات پیکربندی با ثبت برخی یا همه انواع دسترسی به ذخیره‌ساز پیکربندی.
+*‏ به عنوان راهی برای ساده‌سازی مدیریت چندین برنامه و به صورت اختیاری برای نظارت بر استفاده از تنظیمات پیکربندی با ثبت برخی یا همه انواع دسترسی به ذخیره‌ساز پیکربندی.
 
 ### مثالی از ذخیره پشتیبان
 
@@ -77,7 +77,7 @@
 
 هنگام پیاده‌سازی این الگو، شما مسئول حذف فضای ذخیره‌سازی Azure Blob و نمایش تنظیمات خود در برنامه‌‌هایتان هستید، از جمله بررسی به‌روزرسانی‌ها در زمان اجرا و رسیدگی به نحوه پاسخگویی به آن‌ها.
 
-مثال زیر نشان می‌دهد که چگونه می‌توان یک ذخیره‌سازی پیکربندی ساده را روی ذخیره‌سازی Blob برای ذخیره و دسترسی به اطلاعات پیکربندی پیش‌بینی کرد. یک کلاس `BlobSettingsStore` می‌تواند ذخیره سازی Blob را برای نگهداری اطلاعات پیکربندی انتزاعی کند و یک رابط ساده `ISettingsStore` را پیاده سازی کند. (نکته: ذخیره ساز حباب یا **Blob Storage** یک سرویس ذخیره‌سازی ابری است که به کاربران امکان ذخیره‌سازی و مدیریت داده‌‌های بزرگ را ارائه می‌دهد. این سرویس به صورت مقیاس‌پذیر عمل می‌کند و می‌تواند با توجه به نیاز‌های کاربران تنظیم شود.)
+مثال زیر نشان می‌دهد که چگونه می‌توان یک ذخیره‌سازی پیکربندی ساده را روی ذخیره‌سازی Blob برای ذخیره و دسترسی به اطلاعات پیکربندی پیش‌بینی کرد. یک کلاس `BlobSettingsStore` می‌تواند ذخیره سازی Blob را برای نگهداری اطلاعات پیکربندی انتزاعی کند و یک رابط ساده `ISettingsStore` را پیاده سازی کند. (نکته: ذخیره ساز حباب یا **Blob Storage** یک سرویس ذخیره‌سازی ابری است که به کاربران امکان ذخیره‌سازی و مدیریت داده‌‌های بزرگ را ارائه می‌دهد. این سرویس به صورت مقیاس‌پذیر عمل می‌کند و می‌تواند با توجه به نیاز‌های کاربران تنظیم شود.
 
 
 ```csharp
@@ -126,15 +126,15 @@ static void Main(string[] args)
 
 بسیاری از این ویژگی‌ها از طریق کتابخانه‌‌های سرویس گیرنده که با زمان اجرای برنامه یکپارچه می‌شوند، برای تسهیل واکشی و ذخیره مقادیر یا تازه‌سازی مقادیر در هنگام تغییر و حتی مدیریت قطعی‌‌های گذرا در سرویس پیکربندی برنامه، ادغام می‌شوند.
 
-|Runtime|Client Library|Notes|Quickstart|
-|---|---|---|---|
-|.NET|[Microsoft.Extensions.Configuration.AzureAppConfiguration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.AzureAppConfiguration/)|Provider for `Microsoft.Extensions.Configuration`|[Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-aspnet-core-app)|
-|ASP.NET|[Microsoft.Azure.AppConfiguration.AspNetCore](https://www.nuget.org/packages/Microsoft.Azure.AppConfiguration.AspNetCore)|Provider for `Microsoft.Extensions.Configuration`|[Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-dotnet-core-app)|
-|Azure Functions in .NET|[Microsoft.Extensions.Configuration.AzureAppConfiguration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.AzureAppConfiguration/)|Used with Azure Function extensions to support configuration in _Startup.cs_|[Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-azure-functions-csharp?tabs=in-process)|
-|.NET Framework|[Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration](https://www.nuget.org/packages/Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration)|Configuration builder for `System.Configuration`|[Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-dotnet-app)|
-|Java Spring|[com.azure.spring > azure-spring-cloud-appconfiguration-config](https://mvnrepository.com/artifact/com.azure.spring/azure-spring-cloud-appconfiguration-config)|Supports Spring Framework access via `ConfigurationProperties`|[Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-java-spring-app)|
-|Python|[azure.appconfiguration](https://pypi.org/project/azure-appconfiguration/)|Provides an `AzureAppConfigurationClient`|[Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-python)|
-|JavaScript/Node.js|[@azure/app-configuration](https://www.npmjs.com/package/@azure/app-configuration)|Provides an `AppConfigurationClient`|[Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-javascript)|
+| Runtime                 | Client Library                                                                                                                                                            | Notes                                                                        | Quickstart                                                                                                                      |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| .NET                    | [Microsoft.Extensions.Configuration.AzureAppConfiguration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.AzureAppConfiguration/)                      | Provider for `Microsoft.Extensions.Configuration`                            | [Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-aspnet-core-app)                        |
+| ASP.NET                 | [Microsoft.Azure.AppConfiguration.AspNetCore](https://www.nuget.org/packages/Microsoft.Azure.AppConfiguration.AspNetCore)                                                 | Provider for `Microsoft.Extensions.Configuration`                            | [Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-dotnet-core-app)                        |
+| Azure Functions in .NET | [Microsoft.Extensions.Configuration.AzureAppConfiguration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.AzureAppConfiguration/)                      | Used with Azure Function extensions to support configuration in _Startup.cs_ | [Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-azure-functions-csharp?tabs=in-process) |
+| .NET Framework          | [Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration](https://www.nuget.org/packages/Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration) | Configuration builder for `System.Configuration`                             | [Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-dotnet-app)                             |
+| Java Spring             | [com.azure.spring > azure-spring-cloud-appconfiguration-config](https://mvnrepository.com/artifact/com.azure.spring/azure-spring-cloud-appconfiguration-config)           | Supports Spring Framework access via `ConfigurationProperties`               | [Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-java-spring-app)                        |
+| Python                  | [azure.appconfiguration](https://pypi.org/project/azure-appconfiguration/)                                                                                                | Provides an `AzureAppConfigurationClient`                                    | [Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-python)                                 |
+| JavaScript/Node.js      | [@azure/app-configuration](https://www.npmjs.com/package/@azure/app-configuration)                                                                                        | Provides an `AppConfigurationClient`                                         | [Quickstart](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-javascript)                             |
 
 علاوه بر کتابخانه‌‌های سرویس گیرنده،  [Azure App Configuration Sync](https://github.com/marketplace/actions/azure-app-configuration-sync) و  [Azure App Configuration Pull](https://marketplace.visualstudio.com/items?itemName=AzureAppConfiguration.azure-app-configuration-task) و [Azure App Configuration Push](https://marketplace.visualstudio.com/items?itemName=AzureAppConfiguration.azure-app-configuration-task-push) نیز برای ادغام مراحل پیکربندی در فرآیند ساخت شما وجود دارد.
 

@@ -41,7 +41,7 @@
 
 	*‏ احراز هویت کاربر (authentication)، زیرا به یک سرویس ابری مانند Microsoft Entra ID وابسته  است.  
 
-	*‏ تضاد و تداخل پس از اتصال مجدد(reconnection) ، اگر workloadها تنظیمات غیر منتظره‌ای را  که نیاز به دستکاری دارند را دریافت می‌کنند.    
+	*‏ تضاد و تداخل پس از اتصال مجدد(reconnection) ، اگر workloadها تنظیمات غیر منتظره‌ای را  که نیاز به دستکاری دارند را دریافت ‌کنند.    
 
 *‏ اگر توپولوژی مطابق با الزامات [ISA-95](https://en.wikipedia.org/wiki/ANSI/ISA-95) باشد، محیط لبه می‌تواند محدودیت‌های مرتبط با شبکه داشته باشد. شما می‌توانید با انتخاب فناوری ‌ای که اتصال به لایه‌ها را ارائه می‌دهد، مانند [device hierarchies](https://learn.microsoft.com/en-us/azure/iot-edge/tutorial-nested-iot-edge) در [Azure IoT Edge](https://azure.microsoft.com/services/iot-edge) ، بر چنین محدودیت‌هایی غلبه کنید.  
 

@@ -217,7 +217,7 @@ private static async Task MyLeaderCoordinatorTask(CancellationToken token)
 
 -‏ این الگو دارای نمونه کاربردی قابل [دانلود](https://github.com/mspnp/cloud-design-patterns/tree/master/leader-election) می باشد.
 
--‏ راهنمای [Autoscaling Guidance](https://learn.microsoft.com/en-us/previous-versions/msp-n-p/dn589774(v=pandp.10)). با تغییر load روی برنامه، می‌توان نمونه‌‌های task host را شروع و متوقف کرد. Autoscaling می‌تواند به حفظ توان و عملکرد در زمان اوج پردازش کمک کند.ری را توضیح می‌دهد به
+-‏ راهنمای [Autoscaling Guidance](https://learn.microsoft.com/en-us/previous-versions/msp-n-p/dn589774(v=pandp.10)). با تغییر load روی برنامه، می‌توان نمونه‌‌های task host را شروع و متوقف کرد. Autoscaling می‌تواند به حفظ توان و عملکرد در زمان اوج پردازش کمک کند. 
 
 -‏ راهنمای پارتیشن بندی([Compute Partitioning Guidance](https://learn.microsoft.com/en-us/previous-versions/msp-n-p/dn589773(v=pandp.10)) را محاسبه کنید. این راهنما نحوهallocate task به hostها در یک سرویس اب گونه ‌ای که به حداقل رساندن هزینه‌های جاری و حفظ scalability، performance، در availability و امنیت سرویس کمک می‌کند.
 
