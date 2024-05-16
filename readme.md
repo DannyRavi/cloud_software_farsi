@@ -99,7 +99,7 @@
 | [Deployment Stamp Traffic Routing](./docs/Deployment%20Stamps%20pattern.md)   | <div dir="rtl"> مسیریابی ترافیک به نسخه های مختلف یک برنامه و آزمایش و استقرار تدریجی   تغییرات آن.                                                                                       |</div>
 | [Circuit Breaker](./docs/Circuit%20Breaker%20pattern.md)                         | <div dir="rtl">متوقف کردن موقت عملیات در صورت بروز خطای مکرر و جلوگیری از خطاهای سریالی و حفظ پایداری. |</div>
 | [Bulkhead](./docs/Bulkhead%20pattern.md) | <div dir="rtl"> جداسازی اجزای سیستم برای محدود کردن خطا و افزایش انعطاف پذیری و قابلیت اطمینان آن.                                                                                        </div></div>                         |
-| [Compensating Transaction Pattern](./docs/Compensating%20Transaction%20pattern.md)                   | <div dir="rtl"> لغو یا جبران تراکنش های ناقص و حفظ انسجام داده ها و صحت سیستم.                                                                                     </div>                       |
+| [Compensating Transaction Pattern](./docs/Compensating%20Transaction%20pattern.md)                   | <div dir="rtl"> لغو یا جبران تراکنش های ناقص و حفظ انسجام داده‌ها و صحت سیستم.                                                                                     </div>                       |
 | [Health Endpoint Monitoring Pattern](./docs/Health%20Endpoint%20Monitoring%20pattern.md)                   | <div dir="rtl"> نظارت بر سلامت یک سرویس از طریق یک نقطه پایانی و تشخیص و رفع سریع مشکلات.                                                                                    </div>                        |
 
 </div>

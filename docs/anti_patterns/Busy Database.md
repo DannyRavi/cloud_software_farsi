@@ -239,7 +239,7 @@ using (var command = new SqlCommand(...))
 ![busy_processingindatabaseloadtest1](../../assets/anti_patterns/busy_processingindatabaseloadtest1.jpg)
 
 
-نمودار بعدی میزان استفاده از CPU و DTU را به عنوان درصدی از سهمیه سرویس نشان می‌دهد. DTU ها معیاری از میزان پردازشی که پایگاه داده انجام می‌دهد را ارائه می‌دهند. نمودار نشان می‌دهد که استفاده از CPU و DTU هر دو به سرعت به ۱۰۰% رسیده‌اند.
+نمودار بعدی میزان استفاده از CPU و DTU را به عنوان درصدی از سهمیه سرویس نشان می‌دهد. DTU‌ها معیاری از میزان پردازشی که پایگاه داده انجام می‌دهد را ارائه می‌دهند. نمودار نشان می‌دهد که استفاده از CPU و DTU هر دو به سرعت به ۱۰۰% رسیده‌اند.
 
 
 ![busy_processingindatabasemonitor2](../../assets/anti_patterns/busy_processingindatabasemonitor2.jpg)

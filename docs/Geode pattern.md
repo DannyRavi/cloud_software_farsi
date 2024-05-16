@@ -31,7 +31,7 @@ Geodeها دارای مشخصات زیر هستند:
 
 *‏ شامل مجموعه ‌ای از انواع منابع متفاوت است که اغلب در یک قالب تعریف می‌شوند. 
 
-*‏ هیچ وابستگی خارج از محدوده Geode ندارند و مستقل هستند. هیچ Geode ای برای کار کردن به دیگری وابسته نیست و اگر یکی از بین برود بقیه آنها به کار خود ادامه می‌دهند.  
+*‏ هیچ وابستگی خارج از محدوده Geode ندارند و مستقل هستند. هیچ Geode‌ای برای کار کردن به دیگری وابسته نیست و اگر یکی از بین برود بقیه آنها به کار خود ادامه می‌دهند.  
 
 *‏ از طریق یک شبکه لبه (edge network) و صفحه پشتی تکرار شونده (replication backplane) به صورت ضعیف متصل می‌شوند. به عنوان مثال، می‌توانید از [Azure Traffic Manager](https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview) یا [Azure Front Door](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview) برای قسمت جلویی Geodeها استفاده کنید، در حالی که Azure Cosmos DB می‌تواند به عنوان replication backplane عمل کند. البته Geodeها به گروه‌ یا دسته‌‌های یکسان شبیه نیستند، زیرا آنها یک replication backplane را به اشتراک می‌گذارند، بنابراین پلتفرم از مسائل حداقلی رسیدگی می‌کند.
 
@@ -46,7 +46,7 @@ Geodeها دارای مشخصات زیر هستند:
 
 *‏ استفاده از روش‌ها و ابزار‌های مدرن DevOps  برای تولید و deploy سریع Geode‌های یکسان در تعداد زیادی از مناطق یا نمونه‌‌های مختلف.  
 
-*‏ مقیاس دهی خودکار(Autoscaling) برای ارتقای منابع محاسباتی و توان عملیاتی پایگاه داده در یک Geode. هر Geode به طور جداگانه با در نظر گرفتن محدودیت های پشتیبان مشترک، مقیاس بندی می شود.
+*‏ مقیاس دهی خودکار(Autoscaling) برای ارتقای منابع محاسباتی و توان عملیاتی پایگاه داده در یک Geode. هر Geode به طور جداگانه با در نظر گرفتن محدودیت های پشتیبان مشترک، مقیاس بندی می‌شود.
 
 *‏ یک سرویس front-end مانند Azure Front Door که  فرآیند شتاب دهی به محتوای پویا (dynamic content acceleration) و [split TCP](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-traffic-acceleration?pivots=front-door-standard-premium) و [Anycast routing](https://en.wikipedia.org/wiki/Anycast) را انجام می‌دهد.  
 
@@ -54,7 +54,7 @@ Geodeها دارای مشخصات زیر هستند:
 
 *‏ فناوری‌‌های [Serverless](https://en.wikipedia.org/wiki/Serverless_computing) در صورت امکان، برای کاهش هزینه‌‌های deployment، به‌ویژه زمانی که load در سرتاسر جهان مرتباً متعادل (rebalanced) می‌شود. این استراتژی به بسیاری از Geodeها اجازه می‌دهد تا با حداقل سرمایه گذاری اضافی deploy شوند. فناوری‌‌های پرداخت صورت‌حساب Serverless و مبتنی بر مصرف([pay as you go](https://en.wikipedia.org/wiki/Pay_as_you_go))،  هزینه‌‌های ناشی از deployment‌های تکراری شونده و توزیع‌شده جغرافیایی(geo-distributed) را کاهش می‌دهند.  
 
-*‏ ‏API Management برای پیاده‌سازی در این الگوی طراحی لازم نیست، اما می‌توان آن را به هر Geode ای که در جلوی Azure Function App در یک ناحیه قرار می‌گیرد اضافه کرد تا یک لایه API قوی‌تر ارائه کند، به‌عنوان مثال، اجرای عملکرد‌های اضافی مانند محدودیت نرخ یا rate limit را ممکن می‌سازد.  
+*‏ ‏API Management برای پیاده‌سازی در این الگوی طراحی لازم نیست، اما می‌توان آن را به هر Geode‌ای که در جلوی Azure Function App در یک ناحیه قرار می‌گیرد اضافه کرد تا یک لایه API قوی‌تر ارائه کند، به‌عنوان مثال، اجرای عملکرد‌های اضافی مانند محدودیت نرخ یا rate limit را ممکن می‌سازد.  
 
 
 
