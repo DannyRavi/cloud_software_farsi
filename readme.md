@@ -117,3 +117,6 @@
   [![HitCount](https://hits.dwyl.com/DannyRavi/cloud_software_farsi.svg?style=flat-square)](http://hits.dwyl.com/DannyRavi/cloud_software_farsi)
 
   [![HitCount](https://hits.dwyl.com/DannyRavi/cloud_software_farsi.svg?style=flat-square&show=unique)](http://hits.dwyl.com/DannyRavi/cloud_software_farsi)
+
+
+  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDannyRavi%2Fcloud_software_farsi&count_bg=%231D26B4&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
