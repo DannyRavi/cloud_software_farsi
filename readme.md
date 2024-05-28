@@ -112,3 +112,8 @@
 | [Health Endpoint Monitoring Pattern](./docs/Health%20Endpoint%20Monitoring%20pattern.md)                   | <div dir="rtl"> نظارت بر سلامت یک سرویس از طریق یک نقطه پایانی و تشخیص و رفع سریع مشکلات.                                                                                    </div>                        |
 
 </div>
+
+
+  [![HitCount](https://hits.dwyl.com/DannyRavi/cloud_software_farsi.svg?style=flat-square)](http://hits.dwyl.com/DannyRavi/cloud_software_farsi)
+
+  [![HitCount](https://hits.dwyl.com/DannyRavi/cloud_software_farsi.svg?style=flat-square&show=unique)](http://hits.dwyl.com/DannyRavi/cloud_software_farsi)
