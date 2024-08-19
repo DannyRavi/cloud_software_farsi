@@ -5,7 +5,7 @@
 <div dir="rtl">
 
 در اینجا نسخه پیش از انتشار کتاب  معماری‌های میکروسرویس  ( دیزاین پترین‌های ابری) آورده شده است.
- بزودی نسخه چاپی کتاب به صورت در همین جا در اختیار علاقه‌مندان قرار خواهد گرفت.
+ بزودی نسخه چاپی کتاب به صورت pdf در همین جا در اختیار علاقه‌مندان قرار خواهد گرفت.
 
 ![microservics architect](https://github.com/systemDesignFarsi/systemDesignFarsi.github.io/blob/main/img/cover-cloud-designPaterns.jpg "cloud design patterns") 
 
