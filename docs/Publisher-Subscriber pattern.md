@@ -67,11 +67,11 @@
 
 راهنمایی زیر ممکن است هنگام اجرای این الگو نیز مرتبط باشد:  
 
-* [Asynchronous Messaging Primer](https://learn.microsoft.com/en-us/previous-versions/msp-n-p/dn589781(v=pandp.10)). صف‌های پیام(Message queues) ذاتاً ناهم‌زمان هستند. در نتیجه ممکن است نیاز به طراحی مجدد منطق برنامه در یک سری از تسک‌ها باشد به‌خصوص زمان که برقراری ارتباط مستقیم با یک سرویس به استفاده از Message queues تطبیق داده شده باشد. به طور مشابه، ممکن است لازم باشد یک سرویس برای پذیرش درخواست‌‌های یک Message queues مجدداً بازسازی شود. از طرف دیگر، ممکن است بتوان یک سرویس پروکسی را همان‌طور که در مثال توضیح داد، پیاده‌سازی کرد.  
+*‏ [Asynchronous Messaging Primer](https://learn.microsoft.com/en-us/previous-versions/msp-n-p/dn589781(v=pandp.10)). صف‌های پیام(Message queues) ذاتاً ناهم‌زمان هستند. در نتیجه ممکن است نیاز به طراحی مجدد منطق برنامه در یک سری از تسک‌ها باشد به‌خصوص زمان که برقراری ارتباط مستقیم با یک سرویس به استفاده از Message queues تطبیق داده شده باشد. به طور مشابه، ممکن است لازم باشد یک سرویس برای پذیرش درخواست‌‌های یک Message queues مجدداً بازسازی شود. از طرف دیگر، ممکن است بتوان یک سرویس پروکسی را همان‌طور که در مثال توضیح داد، پیاده‌سازی کرد.  
 
-* ا[Choose between Azure messaging services](https://learn.microsoft.com/en-us/azure/event-grid/compare-messaging-services). که اطلاعاتی در مورد انتخاب مکانیزم پیام‌رسانی و صف‌بندی در برنامه‌های Azure. است  
+*‏ [Choose between Azure messaging services](https://learn.microsoft.com/en-us/azure/event-grid/compare-messaging-services). که اطلاعاتی در مورد انتخاب مکانیزم پیام‌رسانی و صف‌بندی در برنامه‌های Azure  است  
 
-* [Asynchronous message-based communication](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication)
+*‏ [Asynchronous message-based communication](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication)
 
 ## منابع مرتبط
 
