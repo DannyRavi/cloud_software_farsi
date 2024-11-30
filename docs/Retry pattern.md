@@ -268,12 +268,11 @@ return false;
 ## قدم بعدی
 
   
-
-*‏ قبل از نوشتن منطق retry برای برنامه، از یک فریم‌ورک کلی مانند  [Polly](https://github.com/App-vNext/Polly) برای دات نت یا [Resilience4j](https://github.com/resilience4j/resilience4j) برای جاوا استفاده کنید.
+*‏ قبل از نوشتن منطق retry برای برنامه، از یک فریم‌ورک کلی مانند  [Polly](https://github.com/App-vNext/Polly) برای دات‌نت یا [Resilience4j](https://github.com/resilience4j/resilience4j) برای جاوا استفاده کنید.
 
   
 
-*‏ هنگام پردازش فرمان‌‌هایی که داده‌‌های کسب‌وکار را تغییر می‌‌دهند، توجه داشته باشید که retry می‌‌تواند منجر به دوبار انجام این عمل شود، که اگر آن عمل چیزی شبیه شارژ کردن کارت اعتباری مشتری باشد، می‌‌تواند بسیار مشکل‌ساز باشد. استفاده از الگوی Idempotence شرح داده شده در این [پست](https://particular.net/blog/what-does-idempotent-mean) وبلاگ می‌ تواند به مقابله با این موقعیتها کمک کند.
+*‏ هنگام پردازش فرمان‌‌هایی که داده‌‌های کسب‌وکار را تغییر می‌‌دهند، توجه داشته باشید که retry می‌‌تواند منجر به دو بار انجام این عمل شود که اگر آن عمل چیزی شبیه شارژکردن کارت اعتباری مشتری باشد، می‌‌تواند بسیار مشکل‌ساز باشد. استفاده از الگوی Idempotence شرح داده شده در این [پست](https://particular.net/blog/what-does-idempotent-mean) وبلاگ می‌تواند به مقابله با این موقعیت‌ها کمک کند.
 
   
 
@@ -289,4 +288,4 @@ return false;
 
   
 
-*‏ الگوی [Circuit Breaker](./Circuit%20Breaker%20pattern.md). اگر انتظار می‌رود که خرابی طولانی تر باشد، ممکن است اجرای الگوی [Circuit Breaker](./Circuit%20Breaker%20pattern.md) مناسب تر باشد. ترکیب الگو‌های Retry و Circuit Breaker یک رویکرد جامع برای رسیدگی به عیوب ارائه می‌دهد.
+*‏ الگوی [Circuit Breaker](./Circuit%20Breaker%20pattern.md). اگر انتظار می‌رود که خرابی طولانی‌تر باشد، ممکن است اجرای الگوی [Circuit Breaker](./Circuit%20Breaker%20pattern.md) مناسب‌تر باشد. ترکیب الگو‌های Retry و Circuit Breaker یک رویکرد جامع برای رسیدگی به عیوب ارائه می‌دهد.
