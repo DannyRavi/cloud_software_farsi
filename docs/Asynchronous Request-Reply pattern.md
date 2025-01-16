@@ -122,6 +122,7 @@
 -‏ یک function Backend که آیتم‌های کاری و تسک‌ها در صف را می‌گیرد و آنها را اجرا می‌کند.
 
 ![async-request-fn](../assets/messaging/async-request-fn.png)
+
 این نمونه در  [GitHub](https://github.com/mspnp/cloud-design-patterns/tree/master/async-request-reply) موجود است.
 
 ### AsyncProcessingWorkAcceptor function
