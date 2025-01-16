@@ -1,6 +1,6 @@
   
 
-‏Ambassador pattern
+# ‏Ambassador pattern
 
 سرویس‌های helper ایجاد کنیم که درخواست‌های (requests) شبکه را از طرف یک سرویس مصرف‌کننده consumer service یا اپلیکیشن ارسال کند.
 
