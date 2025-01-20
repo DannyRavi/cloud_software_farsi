@@ -45,7 +45,7 @@
 
 دو رویکرد رایج اجرای Saga وجود دارد، choreography و orchestration. هر رویکرد مجموعه‌ای از چالش‌ها و فناوری‌های خاص خود را برای هماهنگ‌کردن workflow دارد.
 
-‏### Choreography
+### ‏‏Choreography‏ 
 
 ‏ Choreography برای هماهنگ‌کردن Saga هاست که در آن مشارکت‌کنندگان در رویدادها(participants exchange) را بدون یک نقطه کنترل متمرکز مبادله می‌کنند. با choreography، هر تراکنش محلی(local transaction، رویدادهایی را منتشر می‌کند که تراکنش‌های محلی را در سایر سرویس‌های دیگر تحریک می‌کند.
 ![choreography-pattern](../assets/messaging/choreography-pattern.png)
@@ -65,7 +65,7 @@
 
 *‏ تست یکپارچه‌سازی (Integration testing) دشوار است؛ زیرا همه سرویس‌ها باید برای در حال شبیه‌سازی یک تراکنش در حال اجرا باشند.
 
-‏### Orchestration
+### ‏‏Choreography‏ 
 
 ‏ Orchestration راهی برای هماهنگ‌کردن الگو Saga است که در آن یک کنترل کننده متمرکز به مشارکت‌کنندگان Saga می‌گوید که چه تراکنش‌های محلی را باید اجرا کنند. saga orchestrator تمام تراکنش‌ها را مدیریت می‌کند و به شرکت‌کنندگان می‌گوید که کدام عملیات را بر اساس رویدادها انجام دهند. orchestrator درخواست‌های Saga را اجرا می‌کند، حالات هر تسک را ذخیره و تفسیر می‌کند و بازیابی شکست را با تراکنش‌های جبران‌کننده مدیریت می‌کند.
 ![orchestrator](../assets/messaging/orchestrator.png)
