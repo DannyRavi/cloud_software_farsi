@@ -34,6 +34,7 @@ Command and Query Responsibility Segregation است، الگویی که عملی
 -‏ کوئری‌ها هرگز پایگاه‌داده را تغییر نمی‌دهند. یک کوئری یک [DTO](https://en.wikipedia.org/wiki/Data_transfer_object) را برمی‌گرداند که هیچ [domain knowledge](https://en.wikipedia.org/wiki/Domain_knowledge) را کپسوله نمی‌کند.
  
 سپس می‌توان مدل‌ها را جدا کرد، همان‌طور که در نمودار زیر نشان‌داده‌شده است.
+
 ------
  
 ![cqrs-basic](../assets/design_implementation/command-and-query-responsibility-segregation-cqrs-basic.png)
