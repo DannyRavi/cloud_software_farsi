@@ -15,9 +15,9 @@
 
 ![claim-check](../assets/messaging/claim-check.png)
 
-1- پیام فرستادن  
+۱- پیام فرستادن  
 ۲- ذخیره پیام در  data store  
-3- مرجع پیام را در صف قرار دهید  
+۳- مرجع پیام را در صف قرار دهید  
 ۴- مرجع پیام را بخوانید  
 ۵- پیام را بازیابی کنید  
 ۶- پیام را پردازش کنید
@@ -44,7 +44,7 @@
   
 * **تولید Claim-Check  دستی**. در این رویکرد فرستنده مسئولیت مدیریت payload را بر عهده دارد. فرستنده payload را با استفاده از سرویس مناسب ذخیره می‌کند، Claim-Check را دریافت یا تولید می‌کند و Claim-Check را به message bus ارسال می‌کند.  
   
-Event Grid یک سرویس مسیریابی رویداد(رویداد routing) است و سعی می‌کند رویدادها را در مدت‌زمان قابل‌تنظیم تا ۲۴ ساعت ارائه دهد. پس از آن، رویدادها یا کنار گذاشته می‌شوند یا با حروف مرده(dead lettered) نوشته می‌شوند. اگر نیاز دارید payloadهای مربوط به رویداد را بایگانی کنید یا جریان رویداد(event stream) را دوباره اجرا کنید، می‌توانید اشتراک Event Grid را به Event Hubs یا Queue Storage اضافه کنید، جایی که پیام‌ها را می‌توان برای مدت طولانی‌تری حفظ کرد و بایگانی کردن پیام‌ها پشتیبانی می‌شود. برای اطلاعات در مورد تنظیم دقیق Event Grid message delivery و retry، و پیکربندی حروف مرده(dead letter configuration)، به [Dead letter and retry policies](https://learn.microsoft.com/en-us/azure/event-grid/manage-event-delivery) مراجعه کنید.
+‏Event Grid یک سرویس مسیریابی رویداد(رویداد routing) است و سعی می‌کند رویدادها را در مدت‌زمان قابل‌تنظیم تا ۲۴ ساعت ارائه دهد. پس از آن، رویدادها یا کنار گذاشته می‌شوند یا با حروف مرده(dead lettered) نوشته می‌شوند. اگر نیاز دارید payloadهای مربوط به رویداد را بایگانی کنید یا جریان رویداد(event stream) را دوباره اجرا کنید، می‌توانید اشتراک Event Grid را به Event Hubs یا Queue Storage اضافه کنید، جایی که پیام‌ها را می‌توان برای مدت طولانی‌تری حفظ کرد و بایگانی کردن پیام‌ها پشتیبانی می‌شود. برای اطلاعات در مورد تنظیم دقیق Event Grid message delivery و retry، و پیکربندی حروف مرده(dead letter configuration)، به [Dead letter and retry policies](https://learn.microsoft.com/en-us/azure/event-grid/manage-event-delivery) مراجعه کنید.
 
 ### تولید خودکار claim-check  با Blob Storage و Event Grid
 
