@@ -60,7 +60,7 @@
 
 **این الگو ممکن است مناسب نباشد:**
 
--‏ زمانی که ارتباطات بین فرایندی (interprocess) باید بهینه شود. ارتباط بین یک برنامه والد و سرویس sidecar شامل مقداری سربار است، به‌ویژه تأخیر زمانی در فراخوانی‌ها و این ممکن است یک trade-off مناسب برای [chatty interfaces] (https://l.vrgl.ir/r?ad=1&l=https%3A%2F%2Fwww.narendranaidu.com%2F2005%2F07%2Fchatty-interfaces-vs-chunky-interfaces.html&si=tamz0nilpyqb&st=post&k=D0IteyVK0OsTVVLSepofGzpq%2BlAwrTwL8U%2BsZqErtrs%3D) نباشد.
+-‏ زمانی که ارتباطات بین فرایندی (interprocess) باید بهینه شود. ارتباط بین یک برنامه والد و سرویس sidecar شامل مقداری سربار است، به‌ویژه تأخیر زمانی در فراخوانی‌ها و این ممکن است یک trade-off مناسب برای [chatty interfaces](https://l.vrgl.ir/r?ad=1&l=https%3A%2F%2Fwww.narendranaidu.com%2F2005%2F07%2Fchatty-interfaces-vs-chunky-interfaces.html&si=tamz0nilpyqb&st=post&k=D0IteyVK0OsTVVLSepofGzpq%2BlAwrTwL8U%2BsZqErtrs%3D) نباشد.
 
 -‏ برای اپلیکیشن‌‌های کوچک که در آن هزینه منابع برای deploy یک سرویس sidecar برای هر نمونه آن ارزش استفاده از مزایای ایزوله شدن را ندارد.
 
