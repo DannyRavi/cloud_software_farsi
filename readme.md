@@ -7,7 +7,14 @@
 در اینجا نسخه پیش از انتشار کتاب  معماری‌های میکروسرویس  ( دیزاین پترین‌های ابری) آورده شده است.
  بزودی نسخه چاپی کتاب به صورت pdf در همین جا در اختیار علاقه‌مندان قرار خواهد گرفت.
 
-![microservics architect](https://github.com/systemDesignFarsi/systemDesignFarsi.github.io/blob/main/img/cover-cloud-designPaterns.jpg "cloud design patterns") 
+
+![cover](./assets/cover/cover.png)
+
+برای دانلود نسخه pdf کتاب روی لینک زیر کلیک کنید:
+
+[دانلود](https://github.com/DannyRavi/cloud_software_farsi/releases/download/1.0.2/cloud-microservice.pdf)
+
+
 
 به طور کلی الگو‌های طراحی در محیط ابری به سه دسته زیر تقسیم می‌شوند:
 
