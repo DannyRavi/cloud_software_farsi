@@ -4,9 +4,8 @@
 
 <div dir="rtl">
 
-در اینجا نسخه پیش از انتشار کتاب  معماری‌های میکروسرویس  ( دیزاین پترین‌های ابری) آورده شده است.
- بزودی نسخه چاپی کتاب به صورت pdf در همین جا در اختیار علاقه‌مندان قرار خواهد گرفت.
 
+در اینجا نسخه نهایی  کتاب  معماری‌های مایکروسرویس  ( دیزاین پترین‌های ابری) آورده شده است. ممکن است در آینده فصل‌ها و مباحث بیشتری به این کتاب اضافه شود.
 
 ![cover](./assets/cover/cover.png)
 
@@ -34,9 +33,7 @@
 
 ## راهنمای مطالعه
 
-برای افرادی که با این طراحی‌های ابری و سیستم‌های توضیح شده آشنايی مقدماتی دارند، پیشنهاد می‌شود که  در ابتدا متن [مقدماتی](./docs/cloud-intro.md) را مطالعه کرده و سپس الگوهای بیان شده در زیر را مطالعه کنند.
-توجه شود که ممکن است متن‌ها در نسخه اپلیکیشن گیتهاب در گوشی‌های هوشمند به طور مناسب نشان داده نشده باشد و پیشنهاد می‌شود از نسخه مرورگر به مطالعه متن‌ها پرداخته شود.
-
+برای افرادی که با این طراحی‌های ابری و سیستم‌های توضیح شده 
 
 در زیر الگو‌های کاربردی جهت مدیریت داده در فضای ابری به طور خلاصه معرفی شده است.
 
@@ -125,10 +122,3 @@
 
 </div>
 
-
-  [![HitCount](https://hits.dwyl.com/DannyRavi/cloud_software_farsi.svg?style=flat-square)](http://hits.dwyl.com/DannyRavi/cloud_software_farsi)
-
-  [![HitCount](https://hits.dwyl.com/DannyRavi/cloud_software_farsi.svg?style=flat-square&show=unique)](http://hits.dwyl.com/DannyRavi/cloud_software_farsi)
-
-
-  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDannyRavi%2Fcloud_software_farsi&count_bg=%231D26B4&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
